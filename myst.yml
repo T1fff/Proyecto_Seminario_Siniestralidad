@@ -1,0 +1,21 @@
+version: 1
+project:
+  title: Modelación Predictiva de la Siniestralidad en Seguros de Automóviles
+  description: >-
+    Seminario investigativo de Ciencia de Datos aplicado al sector asegurador.
+    Análisis exploratorio y univariado de la cartera francesa de seguros de
+    responsabilidad civil de automóviles (freMTPL2), como primera etapa de una
+    investigación comparativa entre GLM, Machine Learning y redes neuronales
+    para la modelación de frecuencia, severidad y prima pura.
+  keywords:
+    - ciencia-de-datos
+    - actuaria
+    - seguros
+    - siniestralidad
+    - jupyter-book
+  toc:
+    - file: docs/index.md
+    - file: notebooks/01_Analisis_Exploratorio_Datos.ipynb
+    - file: notebooks/02_Analisis_Univariado.ipynb
+site:
+  template: book-theme

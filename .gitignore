@@ -1,0 +1,33 @@
+# Entornos y cachés de Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+
+# Datos procesados (se regeneran a partir de data/raw/ en etapas futuras)
+data/processed/*
+!data/processed/.gitkeep
+
+# Sistema operativo / editores
+.DS_Store
+.vscode/
+.idea/
+
+# Salidas de construcción de MyST / Jupyter Book
+_build/
+docs/_build/
+
+
+docs/_build/
+_build/
+.myst-cache/
+
+.ipynb_checkpoints/
+
+node_modules/
+
+.DS_Store
+.vscode/
+EOF

@@ -160,7 +160,7 @@ def hist_box(
         nrows=2, ncols=1, figsize=FIGSIZE_SINGLE,
         gridspec_kw={"height_ratios": [4, 1]}, sharex=True,
     )
-    sns.histplot(serie, bins=bins, kde=True, ax=ax_hist, color=color)
+    sns.histplot(serie, bins=bins, kde=False, ax=ax_hist, color=color)
     ax_hist.set_title(titulo)
     ax_hist.set_ylabel("Frecuencia")
 

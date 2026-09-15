@@ -16,5 +16,8 @@ project:
     - file: notebooks/02_Analisis_Univariado.ipynb
       title: "02. Análisis Univariado"
 
+    - file: notebooks/03_Analisis_Bivariado.ipynb
+      title: "03. Análisis Bivariado"
+
 site:
   template: book-theme

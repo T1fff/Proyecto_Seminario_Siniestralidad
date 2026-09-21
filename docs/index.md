@@ -12,3 +12,4 @@ Esta primera entrega contiene:
    — inspección estructural, calidad de datos y caracterización general de la cartera.
 2. **[Análisis Univariado](../notebooks/02_Analisis_Univariado.ipynb)** — distribución,
    dispersión e interpretación actuarial variable por variable.
+3. **[Análisis Bivariado](../notebooks/03_Analisis_Bivariado.ipynb)** — estudio de la relación entre la frecuencia y severidad de los siniestros y las características de los asegurados y vehículos.

@@ -1,4 +1,6 @@
-# Modelación Predictiva de la Siniestralidad en Seguros de Automóviles
+# Modelación predictiva de la siniestralidad en seguros de automóviles
+
+**Elaborado por: TIffany Mendoza y Sergio Rada**
 
 Un análisis comparativo entre modelos lineales generalizados (GLM), algoritmos de
 machine learning y redes neuronales

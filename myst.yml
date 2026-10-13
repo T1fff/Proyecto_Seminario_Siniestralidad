@@ -4,7 +4,7 @@ project:
   title: "Proyecto_Seminario_Siniestralidad"
   description: "Modelación Predictiva de la Siniestralidad en Seguros de Automóviles"
   authors:
-    - name: "Proyecto Seminario de Ciencia de Datos"
+    - name: "Modelación predictiva de la siniestralidad en seguros de automóviles"
 
   toc:
     - file: docs/index.md

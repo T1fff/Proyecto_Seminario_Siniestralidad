@@ -1,0 +1,601 @@
+{
+  "meta": {
+    "actualizado": "2026-10-26T23:45:37",
+    "random_state": 42,
+    "python": "3.10.21",
+    "sklearn": "1.7.1",
+    "xgboost": "3.2.0",
+    "lightgbm": "4.7.0"
+  },
+  "resultados": {
+    "freq|GLM|sin_balanceo": {
+      "best_params": {
+        "estimator__alpha": 0.0004042872735027335
+      },
+      "cv": {
+        "deviance": 0.24229890751801092,
+        "deviance_std": 0.0012988480605503417,
+        "mae": 0.0730511945517555,
+        "rmse": 0.20264075610780372,
+        "gini": 0.2841544063361502,
+        "bias": 0.9991853398210427
+      },
+      "test": {
+        "deviance": 0.24167653117657875,
+        "mae": 0.07292892004810222,
+        "rmse": 0.20269544583012514,
+        "gini": 0.2705554601980803,
+        "bias": 0.9973375252845678
+      },
+      "train_deviance": 0.24209781950744688,
+      "tiempos_s": {
+        "busqueda": 88.6,
+        "refit": 1.4,
+        "fit_medio_cv": 1.1
+      },
+      "n_iter": 15,
+      "cv_folds": 5,
+      "modelo_path": "models\\freq__GLM__sin_balanceo.joblib",
+      "timestamp": "2026-10-26T22:28:32"
+    },
+    "freq|GLM|weights": {
+      "best_params": {
+        "estimator__alpha": 0.00035849855803404753,
+        "pos_weight": 1.7239498950332115
+      },
+      "cv": {
+        "deviance": 0.2539771624749595,
+        "deviance_std": 0.001160903183241026,
+        "mae": 0.09537432429043045,
+        "rmse": 0.2059420764482316,
+        "gini": 0.28420592659566485,
+        "bias": 1.6510551851266986
+      },
+      "test": {
+        "deviance": 0.25324693108702345,
+        "mae": 0.09521068902556064,
+        "rmse": 0.20593488054867345,
+        "gini": 0.27084769673514375,
+        "bias": 1.6488016005878627
+      },
+      "train_deviance": 0.2537690144929836,
+      "tiempos_s": {
+        "busqueda": 132.4,
+        "refit": 1.4,
+        "fit_medio_cv": 1.2
+      },
+      "n_iter": 15,
+      "cv_folds": 5,
+      "modelo_path": "models\\freq__GLM__weights.joblib",
+      "timestamp": "2026-10-26T22:33:20"
+    },
+    "freq|GLM|smote": {
+      "best_params": {
+        "estimator__alpha": 2.2310108018679224e-07
+      },
+      "cv": {
+        "deviance": 0.37972886650063487,
+        "deviance_std": 0.001054084206216527,
+        "mae": 0.18271810828697393,
+        "rmse": 0.2604831013144415,
+        "gini": 0.27153463163056574,
+        "bias": 4.181748970238384
+      },
+      "test": {
+        "deviance": 0.37827178274982487,
+        "mae": 0.18218962755780843,
+        "rmse": 0.25995024169940306,
+        "gini": 0.2588061513234574,
+        "bias": 4.173939239276411
+      },
+      "train_deviance": 0.37943536476497897,
+      "tiempos_s": {
+        "busqueda": 211.2,
+        "refit": 4.1,
+        "fit_medio_cv": 3.3
+      },
+      "n_iter": 15,
+      "cv_folds": 5,
+      "modelo_path": "models\\freq__GLM__smote.joblib",
+      "timestamp": "2026-10-26T22:36:52"
+    },
+    "freq|GLM|adasyn": {
+      "best_params": {
+        "estimator__alpha": 8.62913219007186e-07
+      },
+      "cv": {
+        "deviance": 0.3955763898114072,
+        "deviance_std": 0.001001760807886969,
+        "mae": 0.19194806179923732,
+        "rmse": 0.26809324632743875,
+        "gini": 0.27168414582129263,
+        "bias": 4.4449712631787515
+      },
+      "test": {
+        "deviance": 0.3937643373866994,
+        "mae": 0.19120793176819506,
+        "rmse": 0.2672952889333328,
+        "gini": 0.2574838657066305,
+        "bias": 4.430123665917491
+      },
+      "train_deviance": 0.39495574033486786,
+      "tiempos_s": {
+        "busqueda": 635.0,
+        "refit": 12.5,
+        "fit_medio_cv": 8.8
+      },
+      "n_iter": 15,
+      "cv_folds": 5,
+      "modelo_path": "models\\freq__GLM__adasyn.joblib",
+      "timestamp": "2026-10-26T22:47:28"
+    },
+    "freq|XGBoost|sin_balanceo": {
+      "best_params": {
+        "estimator__colsample_bytree": 0.5290418060840998,
+        "estimator__learning_rate": 0.13394334706750485,
+        "estimator__max_depth": 5,
+        "estimator__min_child_weight": 0.19307837536547137,
+        "estimator__n_estimators": 230,
+        "estimator__reg_lambda": 0.11364672700011173,
+        "estimator__subsample": 0.9879639408647978
+      },
+      "cv": {
+        "deviance": 0.23619453878761903,
+        "deviance_std": 0.0015539603230944026,
+        "mae": 0.07185039499765067,
+        "rmse": 0.2009478970290266,
+        "gini": 0.33084004872032663,
+        "bias": 0.9992891019892556
+      },
+      "test": {
+        "deviance": 0.23588507212016147,
+        "mae": 0.07177700707012878,
+        "rmse": 0.20108951064675076,
+        "gini": 0.315661642021726,
+        "bias": 0.9984405708687296
+      },
+      "train_deviance": 0.23088604878936253,
+      "tiempos_s": {
+        "busqueda": 303.2,
+        "refit": 3.2,
+        "fit_medio_cv": 2.6
+      },
+      "n_iter": 15,
+      "cv_folds": 5,
+      "modelo_path": "models\\freq__XGBoost__sin_balanceo.joblib",
+      "timestamp": "2026-10-26T22:52:32"
+    },
+    "freq|XGBoost|weights": {
+      "best_params": {
+        "estimator__colsample_bytree": 0.9330880728874675,
+        "estimator__learning_rate": 0.06054365855469246,
+        "estimator__max_depth": 4,
+        "estimator__min_child_weight": 0.10994335574766201,
+        "estimator__n_estimators": 357,
+        "estimator__reg_lambda": 8.884909929476537,
+        "estimator__subsample": 0.9754210836063001,
+        "pos_weight": 1.5035035461971489
+      },
+      "cv": {
+        "deviance": 0.24271478344690203,
+        "deviance_std": 0.0013679763178809819,
+        "mae": 0.08714520837601372,
+        "rmse": 0.2026609352782541,
+        "gini": 0.32866939718540217,
+        "bias": 1.448551588496416
+      },
+      "test": {
+        "deviance": 0.24255083870888586,
+        "mae": 0.08710312345964362,
+        "rmse": 0.20293059882643236,
+        "gini": 0.31053781645781353,
+        "bias": 1.4492449581973663
+      },
+      "train_deviance": 0.24047103527523983,
+      "tiempos_s": {
+        "busqueda": 292.6,
+        "refit": 4.5,
+        "fit_medio_cv": 3.7
+      },
+      "n_iter": 15,
+      "cv_folds": 5,
+      "modelo_path": "models\\freq__XGBoost__weights.joblib",
+      "timestamp": "2026-10-26T22:57:26"
+    },
+    "freq|XGBoost|smote": {
+      "best_params": {
+        "estimator__colsample_bytree": 0.5290418060840998,
+        "estimator__learning_rate": 0.13394334706750485,
+        "estimator__max_depth": 5,
+        "estimator__min_child_weight": 0.19307837536547137,
+        "estimator__n_estimators": 230,
+        "estimator__reg_lambda": 0.11364672700011173,
+        "estimator__subsample": 0.9879639408647978
+      },
+      "cv": {
+        "deviance": 0.24942967683949333,
+        "deviance_std": 0.0014095444268435206,
+        "mae": 0.09200235995154853,
+        "rmse": 0.20417327246627873,
+        "gini": 0.29967157594072114,
+        "bias": 1.5529160872993453
+      },
+      "test": {
+        "deviance": 0.24976497800469583,
+        "mae": 0.09296999916689276,
+        "rmse": 0.20455743930159073,
+        "gini": 0.28392675295538217,
+        "bias": 1.5821673787837436
+      },
+      "train_deviance": 0.24794619775209897,
+      "tiempos_s": {
+        "busqueda": 510.9,
+        "refit": 6.9,
+        "fit_medio_cv": 4.5
+      },
+      "n_iter": 15,
+      "cv_folds": 5,
+      "modelo_path": "models\\freq__XGBoost__smote.joblib",
+      "timestamp": "2026-10-26T23:05:58"
+    },
+    "freq|XGBoost|adasyn": {
+      "best_params": {
+        "estimator__colsample_bytree": 0.5290418060840998,
+        "estimator__learning_rate": 0.13394334706750485,
+        "estimator__max_depth": 5,
+        "estimator__min_child_weight": 0.19307837536547137,
+        "estimator__n_estimators": 230,
+        "estimator__reg_lambda": 0.11364672700011173,
+        "estimator__subsample": 0.9879639408647978
+      },
+      "cv": {
+        "deviance": 0.2482564256433728,
+        "deviance_std": 0.0014081585640851543,
+        "mae": 0.09066282420746215,
+        "rmse": 0.20387260090978776,
+        "gini": 0.3020005627468067,
+        "bias": 1.5141063544280957
+      },
+      "test": {
+        "deviance": 0.24808882858682527,
+        "mae": 0.09117172272865134,
+        "rmse": 0.20412814541607632,
+        "gini": 0.28941621232144854,
+        "bias": 1.5299921632027313
+      },
+      "train_deviance": 0.2461949134944633,
+      "tiempos_s": {
+        "busqueda": 904.0,
+        "refit": 16.6,
+        "fit_medio_cv": 9.6
+      },
+      "n_iter": 15,
+      "cv_folds": 5,
+      "modelo_path": "models\\freq__XGBoost__adasyn.joblib",
+      "timestamp": "2026-10-26T23:21:02"
+    },
+    "freq|LightGBM|sin_balanceo": {
+      "best_params": {
+        "estimator__colsample_bytree": 0.9165974558680822,
+        "estimator__learning_rate": 0.016809415579919437,
+        "estimator__min_child_samples": 100,
+        "estimator__n_estimators": 519,
+        "estimator__num_leaves": 57,
+        "estimator__reg_lambda": 6.139426050898151,
+        "estimator__subsample": 0.7246844304357644
+      },
+      "cv": {
+        "deviance": 0.2359984459355821,
+        "deviance_std": 0.0014599864117542378,
+        "mae": 0.07189059361819986,
+        "rmse": 0.2008390901394627,
+        "gini": 0.33278829974607893,
+        "bias": 0.9980994114491353
+      },
+      "test": {
+        "deviance": 0.2356821975630274,
+        "mae": 0.07184090700140223,
+        "rmse": 0.201038018462288,
+        "gini": 0.3170820812068147,
+        "bias": 0.9982470910562096
+      },
+      "train_deviance": 0.23112026561420926,
+      "tiempos_s": {
+        "busqueda": 170.2,
+        "refit": 3.6,
+        "fit_medio_cv": 3.0
+      },
+      "n_iter": 15,
+      "cv_folds": 5,
+      "modelo_path": "models\\freq__LightGBM__sin_balanceo.joblib",
+      "timestamp": "2026-10-26T23:23:57"
+    },
+    "freq|LightGBM|weights": {
+      "best_params": {
+        "estimator__colsample_bytree": 0.7571172192068059,
+        "estimator__learning_rate": 0.05898602410432694,
+        "estimator__min_child_samples": 150,
+        "estimator__n_estimators": 584,
+        "estimator__num_leaves": 58,
+        "estimator__reg_lambda": 6.856928807080306,
+        "estimator__subsample": 0.7801997007878172,
+        "pos_weight": 1.560807601169843
+      },
+      "cv": {
+        "deviance": 0.24347635831268652,
+        "deviance_std": 0.0015026683959460455,
+        "mae": 0.08794547723463533,
+        "rmse": 0.20331111527546417,
+        "gini": 0.3278076417096049,
+        "bias": 1.4830501203723663
+      },
+      "test": {
+        "deviance": 0.2432289819873045,
+        "mae": 0.08797325189375914,
+        "rmse": 0.20349217262061597,
+        "gini": 0.3127782868594622,
+        "bias": 1.4853397590387303
+      },
+      "train_deviance": 0.22956079664096352,
+      "tiempos_s": {
+        "busqueda": 177.6,
+        "refit": 4.1,
+        "fit_medio_cv": 2.8
+      },
+      "n_iter": 15,
+      "cv_folds": 5,
+      "modelo_path": "models\\freq__LightGBM__weights.joblib",
+      "timestamp": "2026-10-26T23:26:59"
+    },
+    "freq|LightGBM|smote": {
+      "best_params": {
+        "estimator__colsample_bytree": 0.9805860121746746,
+        "estimator__learning_rate": 0.1255347232502377,
+        "estimator__min_child_samples": 256,
+        "estimator__n_estimators": 437,
+        "estimator__num_leaves": 54,
+        "estimator__reg_lambda": 17.247957710046016,
+        "estimator__subsample": 0.7427013306774357
+      },
+      "cv": {
+        "deviance": 0.24002086076108425,
+        "deviance_std": 0.0015583958630608344,
+        "mae": 0.07990659965532265,
+        "rmse": 0.2021046512035166,
+        "gini": 0.3129559830710595,
+        "bias": 1.2253893775835405
+      },
+      "test": {
+        "deviance": 0.23969475428327527,
+        "mae": 0.08012424232710497,
+        "rmse": 0.20227755528076605,
+        "gini": 0.2979866173540141,
+        "bias": 1.2321423263975362
+      },
+      "train_deviance": 0.22924739128512986,
+      "tiempos_s": {
+        "busqueda": 294.8,
+        "refit": 4.8,
+        "fit_medio_cv": 4.0
+      },
+      "n_iter": 15,
+      "cv_folds": 5,
+      "modelo_path": "models\\freq__LightGBM__smote.joblib",
+      "timestamp": "2026-10-26T23:31:57"
+    },
+    "freq|LightGBM|adasyn": {
+      "best_params": {
+        "estimator__colsample_bytree": 0.9805860121746746,
+        "estimator__learning_rate": 0.1255347232502377,
+        "estimator__min_child_samples": 256,
+        "estimator__n_estimators": 437,
+        "estimator__num_leaves": 54,
+        "estimator__reg_lambda": 17.247957710046016,
+        "estimator__subsample": 0.7427013306774357
+      },
+      "cv": {
+        "deviance": 0.23976329384450284,
+        "deviance_std": 0.0015790423463468764,
+        "mae": 0.07950305301341659,
+        "rmse": 0.20204663136673937,
+        "gini": 0.31372534159468535,
+        "bias": 1.2137458876564016
+      },
+      "test": {
+        "deviance": 0.23947990905292327,
+        "mae": 0.0796909485394927,
+        "rmse": 0.20227267284324116,
+        "gini": 0.2999511995013042,
+        "bias": 1.2204404471475472
+      },
+      "train_deviance": 0.22879195773710678,
+      "tiempos_s": {
+        "busqueda": 679.4,
+        "refit": 12.8,
+        "fit_medio_cv": 9.1
+      },
+      "n_iter": 15,
+      "cv_folds": 5,
+      "modelo_path": "models\\freq__LightGBM__adasyn.joblib",
+      "timestamp": "2026-10-26T23:43:20"
+    },
+    "sev|GLM|sin_balanceo": {
+      "best_params": {
+        "estimator__alpha": 0.06598711072054077
+      },
+      "cv": {
+        "deviance": 1.6843499583076214,
+        "deviance_std": 0.24665665996956948,
+        "mae": 2245.7680511192534,
+        "rmse": 23650.152411544354,
+        "gini": 0.12180247961252177,
+        "bias": 0.9795857945091946
+      },
+      "test": {
+        "deviance": 1.6040284982235227,
+        "mae": 2037.4485708510833,
+        "rmse": 9014.672489345907,
+        "gini": 0.024316804021701888,
+        "bias": 1.0317707010643802
+      },
+      "train_deviance": 1.5584397461907518,
+      "tiempos_s": {
+        "busqueda": 7.4,
+        "refit": 0.1,
+        "fit_medio_cv": 0.3
+      },
+      "n_iter": 15,
+      "cv_folds": 5,
+      "modelo_path": "models\\sev__GLM__sin_balanceo.joblib",
+      "timestamp": "2026-10-26T23:45:45"
+    },
+    "sev|XGBoost|sin_balanceo": {
+      "best_params": {
+        "estimator__colsample_bytree": 0.5442462510259598,
+        "estimator__learning_rate": 0.017987863473362915,
+        "estimator__max_depth": 2,
+        "estimator__min_child_weight": 8.362652463906244,
+        "estimator__n_estimators": 312,
+        "estimator__reg_lambda": 1.1195109511439834,
+        "estimator__subsample": 0.7085396127095583
+      },
+      "cv": {
+        "deviance": 1.6226050755192911,
+        "deviance_std": 0.22650271495576432,
+        "mae": 2079.330878172811,
+        "rmse": 23635.609327953556,
+        "gini": 0.1023942305855545,
+        "bias": 0.8827878310870041
+      },
+      "test": {
+        "deviance": 1.5458072451692588,
+        "mae": 1883.7154687999948,
+        "rmse": 9002.474567849464,
+        "gini": 0.10889350503347461,
+        "bias": 0.9386102949667781
+      },
+      "train_deviance": 1.4173153171297104,
+      "tiempos_s": {
+        "busqueda": 6.4,
+        "refit": 0.5,
+        "fit_medio_cv": 0.7
+      },
+      "n_iter": 15,
+      "cv_folds": 5,
+      "modelo_path": "models\\sev__XGBoost__sin_balanceo.joblib",
+      "timestamp": "2026-10-26T23:45:51"
+    },
+    "sev|LightGBM|sin_balanceo": {
+      "best_params": {
+        "estimator__colsample_bytree": 0.692708251269958,
+        "estimator__learning_rate": 0.010489929587681027,
+        "estimator__min_child_samples": 359,
+        "estimator__n_estimators": 191,
+        "estimator__num_leaves": 54,
+        "estimator__reg_lambda": 6.984056472278156,
+        "estimator__subsample": 0.8439986631130484
+      },
+      "cv": {
+        "deviance": 1.6629886621778855,
+        "deviance_std": 0.2465281842212661,
+        "mae": 2052.888779186188,
+        "rmse": 23640.22119336144,
+        "gini": 0.09574141002611211,
+        "bias": 0.8648956301070087
+      },
+      "test": {
+        "deviance": 1.582601591726741,
+        "mae": 1847.534700891571,
+        "rmse": 9008.622588540038,
+        "gini": 0.06535465277451502,
+        "bias": 0.9131145950638467
+      },
+      "train_deviance": 1.3397497508920428,
+      "tiempos_s": {
+        "busqueda": 4.2,
+        "refit": 0.3,
+        "fit_medio_cv": 0.3
+      },
+      "n_iter": 15,
+      "cv_folds": 5,
+      "modelo_path": "models\\sev__LightGBM__sin_balanceo.joblib",
+      "timestamp": "2026-10-26T23:45:56"
+    }
+  },
+  "mejor_por_tarea": {
+    "freq": {
+      "clave": "freq|LightGBM|sin_balanceo",
+      "best_params": {
+        "estimator__colsample_bytree": 0.9165974558680822,
+        "estimator__learning_rate": 0.016809415579919437,
+        "estimator__min_child_samples": 100,
+        "estimator__n_estimators": 519,
+        "estimator__num_leaves": 57,
+        "estimator__reg_lambda": 6.139426050898151,
+        "estimator__subsample": 0.7246844304357644
+      },
+      "cv": {
+        "deviance": 0.2359984459355821,
+        "deviance_std": 0.0014599864117542378,
+        "mae": 0.07189059361819986,
+        "rmse": 0.2008390901394627,
+        "gini": 0.33278829974607893,
+        "bias": 0.9980994114491353
+      },
+      "test": {
+        "deviance": 0.2356821975630274,
+        "mae": 0.07184090700140223,
+        "rmse": 0.201038018462288,
+        "gini": 0.3170820812068147,
+        "bias": 0.9982470910562096
+      },
+      "train_deviance": 0.23112026561420926,
+      "tiempos_s": {
+        "busqueda": 170.2,
+        "refit": 3.6,
+        "fit_medio_cv": 3.0
+      },
+      "n_iter": 15,
+      "cv_folds": 5,
+      "modelo_path": "models\\freq__LightGBM__sin_balanceo.joblib",
+      "timestamp": "2026-10-26T23:23:57"
+    },
+    "sev": {
+      "clave": "sev|XGBoost|sin_balanceo",
+      "best_params": {
+        "estimator__colsample_bytree": 0.5442462510259598,
+        "estimator__learning_rate": 0.017987863473362915,
+        "estimator__max_depth": 2,
+        "estimator__min_child_weight": 8.362652463906244,
+        "estimator__n_estimators": 312,
+        "estimator__reg_lambda": 1.1195109511439834,
+        "estimator__subsample": 0.7085396127095583
+      },
+      "cv": {
+        "deviance": 1.6226050755192911,
+        "deviance_std": 0.22650271495576432,
+        "mae": 2079.330878172811,
+        "rmse": 23635.609327953556,
+        "gini": 0.1023942305855545,
+        "bias": 0.8827878310870041
+      },
+      "test": {
+        "deviance": 1.5458072451692588,
+        "mae": 1883.7154687999948,
+        "rmse": 9002.474567849464,
+        "gini": 0.10889350503347461,
+        "bias": 0.9386102949667781
+      },
+      "train_deviance": 1.4173153171297104,
+      "tiempos_s": {
+        "busqueda": 6.4,
+        "refit": 0.5,
+        "fit_medio_cv": 0.7
+      },
+      "n_iter": 15,
+      "cv_folds": 5,
+      "modelo_path": "models\\sev__XGBoost__sin_balanceo.joblib",
+      "timestamp": "2026-10-26T23:45:51"
+    }
+  }
+}

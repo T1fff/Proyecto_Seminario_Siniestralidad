@@ -1,0 +1,98 @@
+{
+  "pliegue": 5,
+  "modelos": {
+    "GLM|freq": {
+      "deviance": 0.2769469058460481,
+      "mae": 0.10975339924640054,
+      "rmse": 0.21095585004617423
+    },
+    "FFNN|freq": {
+      "deviance": 0.24154673516750336,
+      "mae": 0.07746007293462753,
+      "rmse": 0.2024088670091123,
+      "cv_deviance": 0.2413502186536789,
+      "config": {
+        "batch": 21142,
+        "activacion": "relu",
+        "capas_nodos": [
+          34,
+          34,
+          34
+        ],
+        "dropout": [
+          0.0795,
+          0.0795,
+          0.0795
+        ]
+      },
+      "repeticiones": 1,
+      "segundos": 163.1
+    },
+    "CANN|freq": {
+      "deviance": 0.24076269567012787,
+      "mae": 0.0732588842511177,
+      "rmse": 0.20212852453663344,
+      "cv_deviance": 0.24121800065040588,
+      "config": {
+        "batch": 46451,
+        "activacion": "relu",
+        "capas_nodos": [
+          34
+        ],
+        "dropout": [
+          0.0684
+        ]
+      },
+      "repeticiones": 1,
+      "segundos": 125.0
+    },
+    "GLM|sev": {
+      "deviance": 1.5361213144180603,
+      "mae": 2047.271555933351,
+      "rmse": 9524.59922779362
+    },
+    "FFNN|sev": {
+      "deviance": 429.8280334472656,
+      "mae": 1930.7608642578125,
+      "rmse": 9507.52207465226,
+      "cv_deviance": 109.72932688395183,
+      "config": {
+        "batch": 5109,
+        "activacion": "relu",
+        "capas_nodos": [
+          11
+        ],
+        "dropout": [
+          0.0002
+        ]
+      },
+      "repeticiones": 1,
+      "segundos": 33.2
+    },
+    "CANN|sev": {
+      "deviance": 1.5360736846923828,
+      "mae": 2055.731689453125,
+      "rmse": 9527.19014190438,
+      "cv_deviance": 1.479820966720581,
+      "config": {
+        "batch": 1109,
+        "activacion": "softmax",
+        "capas_nodos": [
+          46,
+          46,
+          46,
+          46
+        ],
+        "dropout": [
+          0.0649,
+          0.0649,
+          0.0649,
+          0.0649
+        ]
+      },
+      "repeticiones": 1,
+      "segundos": 23.2
+    }
+  },
+  "segundos": 399.4
+}

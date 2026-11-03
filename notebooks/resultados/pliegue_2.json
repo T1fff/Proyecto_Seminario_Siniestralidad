@@ -1,0 +1,96 @@
+{
+  "pliegue": 2,
+  "modelos": {
+    "GLM|freq": {
+      "deviance": 0.27618189168039714,
+      "mae": 0.10958310869422482,
+      "rmse": 0.21002478411242984
+    },
+    "FFNN|freq": {
+      "deviance": 0.24143356084823608,
+      "mae": 0.07296912372112274,
+      "rmse": 0.20170453301465122,
+      "cv_deviance": 0.24178215364615122,
+      "config": {
+        "batch": 19389,
+        "activacion": "sigmoid",
+        "capas_nodos": [
+          47,
+          47
+        ],
+        "dropout": [
+          0.0603,
+          0.0603
+        ]
+      },
+      "repeticiones": 1,
+      "segundos": 155.9
+    },
+    "CANN|freq": {
+      "deviance": 0.2412647008895874,
+      "mae": 0.07173020392656326,
+      "rmse": 0.20155790937356274,
+      "cv_deviance": 0.24073322614034018,
+      "config": {
+        "batch": 13377,
+        "activacion": "softmax",
+        "capas_nodos": [
+          14,
+          14
+        ],
+        "dropout": [
+          0.0002,
+          0.0002
+        ]
+      },
+      "repeticiones": 1,
+      "segundos": 128.4
+    },
+    "GLM|sev": {
+      "deviance": 1.390955572531918,
+      "mae": 1911.3570683636672,
+      "rmse": 7269.091412786169
+    },
+    "FFNN|sev": {
+      "deviance": 26.539155960083008,
+      "mae": 2037.979248046875,
+      "rmse": 7907.657554547996,
+      "cv_deviance": 23.544413884480793,
+      "config": {
+        "batch": 6905,
+        "activacion": "relu",
+        "capas_nodos": [
+          36,
+          36
+        ],
+        "dropout": [
+          0.0004,
+          0.0004
+        ]
+      },
+      "repeticiones": 1,
+      "segundos": 36.8
+    },
+    "CANN|sev": {
+      "deviance": 1.388601541519165,
+      "mae": 1875.2154541015625,
+      "rmse": 7254.325330449414,
+      "cv_deviance": 1.507529377937317,
+      "config": {
+        "batch": 318,
+        "activacion": "softmax",
+        "capas_nodos": [
+          26,
+          26
+        ],
+        "dropout": [
+          0.0009,
+          0.0009
+        ]
+      },
+      "repeticiones": 1,
+      "segundos": 20.8
+    }
+  },
+  "segundos": 388.2
+}

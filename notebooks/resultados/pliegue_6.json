@@ -1,0 +1,94 @@
+{
+  "pliegue": 6,
+  "modelos": {
+    "GLM|freq": {
+      "deviance": 0.2771820883568056,
+      "mae": 0.10972422515532465,
+      "rmse": 0.21477641152632374
+    },
+    "FFNN|freq": {
+      "deviance": 0.2415623962879181,
+      "mae": 0.07328784465789795,
+      "rmse": 0.2027203490710358,
+      "cv_deviance": 0.2420684943596522,
+      "config": {
+        "batch": 22863,
+        "activacion": "relu",
+        "capas_nodos": [
+          26,
+          26
+        ],
+        "dropout": [
+          0.0091,
+          0.0091
+        ]
+      },
+      "repeticiones": 1,
+      "segundos": 147.7
+    },
+    "CANN|freq": {
+      "deviance": 0.2405618578195572,
+      "mae": 0.07309184968471527,
+      "rmse": 0.20245256443804288,
+      "cv_deviance": 0.2408245156208674,
+      "config": {
+        "batch": 17535,
+        "activacion": "relu",
+        "capas_nodos": [
+          15
+        ],
+        "dropout": [
+          0.0002
+        ]
+      },
+      "repeticiones": 1,
+      "segundos": 124.0
+    },
+    "GLM|sev": {
+      "deviance": 1.487517699268299,
+      "mae": 2031.6959922223123,
+      "rmse": 7245.831720822574
+    },
+    "FFNN|sev": {
+      "deviance": 2.2131576538085938,
+      "mae": 4151.8798828125,
+      "rmse": 10182.88839180711,
+      "cv_deviance": 2.713855743408203,
+      "config": {
+        "batch": 285,
+        "activacion": "relu",
+        "capas_nodos": [
+          20,
+          20,
+          20
+        ],
+        "dropout": [
+          0.0066,
+          0.0066,
+          0.0066
+        ]
+      },
+      "repeticiones": 1,
+      "segundos": 39.4
+    },
+    "CANN|sev": {
+      "deviance": 1.4913564920425415,
+      "mae": 1983.9095458984375,
+      "rmse": 7228.2526242515905,
+      "cv_deviance": 1.488638162612915,
+      "config": {
+        "batch": 476,
+        "activacion": "softmax",
+        "capas_nodos": [
+          36
+        ],
+        "dropout": [
+          0.0028
+        ]
+      },
+      "repeticiones": 1,
+      "segundos": 26.0
+    }
+  },
+  "segundos": 380.7
+}

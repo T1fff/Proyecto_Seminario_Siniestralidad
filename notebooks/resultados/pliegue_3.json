@@ -1,0 +1,102 @@
+{
+  "pliegue": 3,
+  "modelos": {
+    "GLM|freq": {
+      "deviance": 0.2772113003614804,
+      "mae": 0.10972530553602777,
+      "rmse": 0.21163160774200107
+    },
+    "FFNN|freq": {
+      "deviance": 0.2427552342414856,
+      "mae": 0.07394937425851822,
+      "rmse": 0.20277553537422965,
+      "cv_deviance": 0.24223199983437857,
+      "config": {
+        "batch": 38654,
+        "activacion": "relu",
+        "capas_nodos": [
+          27,
+          27,
+          27
+        ],
+        "dropout": [
+          0.0039,
+          0.0039,
+          0.0039
+        ]
+      },
+      "repeticiones": 1,
+      "segundos": 212.4
+    },
+    "CANN|freq": {
+      "deviance": 0.24169626832008362,
+      "mae": 0.07363266497850418,
+      "rmse": 0.20253677661161273,
+      "cv_deviance": 0.24057863652706146,
+      "config": {
+        "batch": 12236,
+        "activacion": "relu",
+        "capas_nodos": [
+          12
+        ],
+        "dropout": [
+          0.0003
+        ]
+      },
+      "repeticiones": 1,
+      "segundos": 121.9
+    },
+    "GLM|sev": {
+      "deviance": 1.5739529711516087,
+      "mae": 2076.0032120092774,
+      "rmse": 9283.438299052972
+    },
+    "FFNN|sev": {
+      "deviance": 6.064413547515869,
+      "mae": 214337.828125,
+      "rmse": 7689057.468601467,
+      "cv_deviance": 7.344095230102539,
+      "config": {
+        "batch": 3000,
+        "activacion": "relu",
+        "capas_nodos": [
+          18,
+          18,
+          18,
+          18
+        ],
+        "dropout": [
+          0.0004,
+          0.0004,
+          0.0004,
+          0.0004
+        ]
+      },
+      "repeticiones": 1,
+      "segundos": 30.0
+    },
+    "CANN|sev": {
+      "deviance": 1.5736589431762695,
+      "mae": 2081.73828125,
+      "rmse": 9284.912923662774,
+      "cv_deviance": 1.487423062324524,
+      "config": {
+        "batch": 313,
+        "activacion": "softmax",
+        "capas_nodos": [
+          30,
+          30,
+          30
+        ],
+        "dropout": [
+          0.0032,
+          0.0032,
+          0.0032
+        ]
+      },
+      "repeticiones": 1,
+      "segundos": 25.1
+    }
+  },
+  "segundos": 443.5
+}

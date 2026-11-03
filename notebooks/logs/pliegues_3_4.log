@@ -1,0 +1,632 @@
+Dispositivo: CPU (sin GPU Metal)
+Unidades de entrenamiento: 110
+Pólizas: 678,007 | con siniestro: 24,938
+pliegue       1       2       3       4       5       6
+pólizas  113002  113001  113001  113001  113001  113001
+Pliegue externo 3 ...
+[   1/110]   0.9% | pliegue 3 | autoencoder |   39.7 s | transcurrido 0:00:40 | faltan ~1:12:05
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:175: RuntimeWarning: divide by zero encountered in matmul
+  lat = Z @ W + b
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:175: RuntimeWarning: overflow encountered in matmul
+  lat = Z @ W + b
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:175: RuntimeWarning: invalid value encountered in matmul
+  lat = Z @ W + b
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:367: RuntimeWarning: divide by zero encountered in matmul
+  tasa_te = np.exp(Xte @ m.params)
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:367: RuntimeWarning: overflow encountered in matmul
+  tasa_te = np.exp(Xte @ m.params)
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:367: RuntimeWarning: invalid value encountered in matmul
+  tasa_te = np.exp(Xte @ m.params)
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:368: RuntimeWarning: divide by zero encountered in matmul
+  tasa_tr = np.exp(Xtr @ m.params)
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:368: RuntimeWarning: overflow encountered in matmul
+  tasa_tr = np.exp(Xtr @ m.params)
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:368: RuntimeWarning: invalid value encountered in matmul
+  tasa_tr = np.exp(Xtr @ m.params)
+[   2/110]   1.8% | pliegue 3 | GLM freq |   11.2 s | transcurrido 0:00:52 | faltan ~0:45:47
+      pliegue 3 | FFNN freq CV1 época 10 | val_loss 0.41354 |    2.5 s
+      pliegue 3 | FFNN freq CV1 época 20 | val_loss 0.33103 |    4.8 s
+      pliegue 3 | FFNN freq CV1 época 30 | val_loss 0.27977 |    7.0 s
+      pliegue 3 | FFNN freq CV1 época 40 | val_loss 0.24698 |    9.3 s
+      pliegue 3 | FFNN freq CV1 época 50 | val_loss 0.22440 |   11.6 s
+[   3/110]   2.7% | pliegue 3 | FFNN freq | cfg 1/4 | CV 1/3 |   11.8 s | transcurrido 0:01:04 | faltan ~0:37:16
+      pliegue 3 | FFNN freq CV2 época 10 | val_loss 0.45424 |    2.8 s
+      pliegue 3 | FFNN freq CV2 época 20 | val_loss 0.36598 |    5.2 s
+      pliegue 3 | FFNN freq CV2 época 30 | val_loss 0.30778 |    7.6 s
+      pliegue 3 | FFNN freq CV2 época 40 | val_loss 0.26662 |    9.9 s
+      pliegue 3 | FFNN freq CV2 época 50 | val_loss 0.23720 |   12.1 s
+[   4/110]   3.6% | pliegue 3 | FFNN freq | cfg 1/4 | CV 2/3 |   12.3 s | transcurrido 0:01:16 | faltan ~0:33:07
+      pliegue 3 | FFNN freq CV3 época 10 | val_loss 0.42781 |    2.7 s
+      pliegue 3 | FFNN freq CV3 época 20 | val_loss 0.34442 |    5.3 s
+      pliegue 3 | FFNN freq CV3 época 30 | val_loss 0.29284 |    7.7 s
+      pliegue 3 | FFNN freq CV3 época 40 | val_loss 0.25751 |   10.1 s
+      pliegue 3 | FFNN freq CV3 época 50 | val_loss 0.23230 |   12.4 s
+WARNING:tensorflow:5 out of the last 7 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x16cc0b880> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 9 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x16cc0b880> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[   5/110]   4.5% | pliegue 3 | FFNN freq | cfg 1/4 | CV 3/3 |   12.6 s | transcurrido 0:01:29 | faltan ~0:30:39
+      pliegue 3 | FFNN freq CV1 época 10 | val_loss 0.40709 |    4.5 s
+      pliegue 3 | FFNN freq CV1 época 20 | val_loss 0.32454 |    8.5 s
+      pliegue 3 | FFNN freq CV1 época 30 | val_loss 0.27080 |   12.4 s
+      pliegue 3 | FFNN freq CV1 época 40 | val_loss 0.23477 |   16.3 s
+      pliegue 3 | FFNN freq CV1 época 50 | val_loss 0.21050 |   20.3 s
+[   6/110]   5.5% | pliegue 3 | FFNN freq | cfg 2/4 | CV 1/3 |   20.5 s | transcurrido 0:01:49 | faltan ~0:31:13
+      pliegue 3 | FFNN freq CV2 época 10 | val_loss 0.41073 |    4.4 s
+      pliegue 3 | FFNN freq CV2 época 20 | val_loss 0.32673 |    8.4 s
+      pliegue 3 | FFNN freq CV2 época 30 | val_loss 0.27239 |   12.2 s
+      pliegue 3 | FFNN freq CV2 época 40 | val_loss 0.23617 |   16.1 s
+      pliegue 3 | FFNN freq CV2 época 50 | val_loss 0.21181 |   20.1 s
+[   7/110]   6.4% | pliegue 3 | FFNN freq | cfg 2/4 | CV 2/3 |   20.3 s | transcurrido 0:02:10 | faltan ~0:31:29
+      pliegue 3 | FFNN freq CV3 época 10 | val_loss 0.39896 |    4.8 s
+      pliegue 3 | FFNN freq CV3 época 20 | val_loss 0.31522 |    8.8 s
+      pliegue 3 | FFNN freq CV3 época 30 | val_loss 0.26236 |   12.8 s
+      pliegue 3 | FFNN freq CV3 época 40 | val_loss 0.22894 |   16.9 s
+      pliegue 3 | FFNN freq CV3 época 50 | val_loss 0.20734 |   21.0 s
+[   8/110]   7.3% | pliegue 3 | FFNN freq | cfg 2/4 | CV 3/3 |   21.2 s | transcurrido 0:02:31 | faltan ~0:31:47
+      pliegue 3 | FFNN freq CV1 época 10 | val_loss 0.16082 |    3.4 s
+      pliegue 3 | FFNN freq CV1 época 20 | val_loss 0.15831 |    6.5 s
+      pliegue 3 | FFNN freq CV1 época 30 | val_loss 0.15756 |    9.3 s
+      pliegue 3 | FFNN freq CV1 época 40 | val_loss 0.15723 |   12.1 s
+      pliegue 3 | FFNN freq CV1 época 50 | val_loss 0.15704 |   15.0 s
+[   9/110]   8.2% | pliegue 3 | FFNN freq | cfg 3/4 | CV 1/3 |   15.2 s | transcurrido 0:02:46 | faltan ~0:30:49
+      pliegue 3 | FFNN freq CV2 época 10 | val_loss 0.15996 |    3.2 s
+      pliegue 3 | FFNN freq CV2 época 20 | val_loss 0.15809 |    6.0 s
+      pliegue 3 | FFNN freq CV2 época 30 | val_loss 0.15740 |    8.6 s
+      pliegue 3 | FFNN freq CV2 época 40 | val_loss 0.15709 |   11.2 s
+      pliegue 3 | FFNN freq CV2 época 50 | val_loss 0.15694 |   13.9 s
+[  10/110]   9.1% | pliegue 3 | FFNN freq | cfg 3/4 | CV 2/3 |   14.1 s | transcurrido 0:03:00 | faltan ~0:29:49
+      pliegue 3 | FFNN freq CV3 época 10 | val_loss 0.16121 |    3.1 s
+      pliegue 3 | FFNN freq CV3 época 20 | val_loss 0.15859 |    5.7 s
+      pliegue 3 | FFNN freq CV3 época 30 | val_loss 0.15771 |    8.4 s
+      pliegue 3 | FFNN freq CV3 época 40 | val_loss 0.15730 |   11.0 s
+      pliegue 3 | FFNN freq CV3 época 50 | val_loss 0.15706 |   13.6 s
+[  11/110]  10.0% | pliegue 3 | FFNN freq | cfg 3/4 | CV 3/3 |   13.8 s | transcurrido 0:03:14 | faltan ~0:28:54
+      pliegue 3 | FFNN freq CV1 época 10 | val_loss 0.46573 |    3.8 s
+      pliegue 3 | FFNN freq CV1 época 20 | val_loss 0.38531 |    7.0 s
+      pliegue 3 | FFNN freq CV1 época 30 | val_loss 0.32795 |   10.4 s
+      pliegue 3 | FFNN freq CV1 época 40 | val_loss 0.28575 |   13.7 s
+      pliegue 3 | FFNN freq CV1 época 50 | val_loss 0.25443 |   16.9 s
+[  12/110]  10.9% | pliegue 3 | FFNN freq | cfg 4/4 | CV 1/3 |   17.1 s | transcurrido 0:03:31 | faltan ~0:28:33
+      pliegue 3 | FFNN freq CV2 época 10 | val_loss 0.41220 |    4.2 s
+      pliegue 3 | FFNN freq CV2 época 20 | val_loss 0.34288 |    7.6 s
+      pliegue 3 | FFNN freq CV2 época 30 | val_loss 0.29553 |   11.1 s
+      pliegue 3 | FFNN freq CV2 época 40 | val_loss 0.26187 |   14.6 s
+      pliegue 3 | FFNN freq CV2 época 50 | val_loss 0.23715 |   18.0 s
+[  13/110]  11.8% | pliegue 3 | FFNN freq | cfg 4/4 | CV 2/3 |   18.2 s | transcurrido 0:03:49 | faltan ~0:28:21
+      pliegue 3 | FFNN freq CV3 época 10 | val_loss 0.40292 |    4.4 s
+      pliegue 3 | FFNN freq CV3 época 20 | val_loss 0.33897 |    7.7 s
+      pliegue 3 | FFNN freq CV3 época 30 | val_loss 0.29410 |   11.0 s
+      pliegue 3 | FFNN freq CV3 época 40 | val_loss 0.26134 |   14.2 s
+      pliegue 3 | FFNN freq CV3 época 50 | val_loss 0.23684 |   17.5 s
+[  14/110]  12.7% | pliegue 3 | FFNN freq | cfg 4/4 | CV 3/3 |   17.7 s | transcurrido 0:04:07 | faltan ~0:28:04
+      pliegue 3 | FFNN freq final1 época 10 | val_loss 0.13826 |    3.8 s
+      pliegue 3 | FFNN freq final1 época 20 | val_loss 0.13575 |    6.9 s
+      pliegue 3 | FFNN freq final1 época 30 | val_loss 0.13497 |   10.0 s
+      pliegue 3 | FFNN freq final1 época 40 | val_loss 0.13463 |   13.2 s
+      pliegue 3 | FFNN freq final1 época 50 | val_loss 0.13442 |   16.3 s
+[  15/110]  13.6% | pliegue 3 | FFNN freq | entrenamiento final 1/1 |   16.5 s | transcurrido 0:04:24 | faltan ~0:27:40
+      pliegue 3 | CANN freq CV1 época 10 | val_loss 0.15682 |    2.8 s
+      pliegue 3 | CANN freq CV1 época 20 | val_loss 0.15668 |    5.0 s
+      pliegue 3 | CANN freq CV1 época 30 | val_loss 0.15663 |    7.2 s
+      pliegue 3 | CANN freq CV1 época 40 | val_loss 0.15659 |    9.4 s
+      pliegue 3 | CANN freq CV1 época 50 | val_loss 0.15654 |   11.5 s
+[  16/110]  14.5% | pliegue 3 | CANN freq | cfg 1/4 | CV 1/3 |   11.7 s | transcurrido 0:04:36 | faltan ~0:26:48
+      pliegue 3 | CANN freq CV2 época 10 | val_loss 0.15635 |    2.5 s
+      pliegue 3 | CANN freq CV2 época 20 | val_loss 0.15631 |    4.7 s
+      pliegue 3 | CANN freq CV2 época 30 | val_loss 0.15632 |    6.8 s
+      pliegue 3 | CANN freq CV2 época 40 | val_loss 0.15636 |    9.1 s
+[  17/110]  15.5% | pliegue 3 | CANN freq | cfg 1/4 | CV 2/3 |    9.4 s | transcurrido 0:04:46 | faltan ~0:25:49
+      pliegue 3 | CANN freq CV3 época 10 | val_loss 0.15663 |    2.8 s
+      pliegue 3 | CANN freq CV3 época 20 | val_loss 0.15660 |    5.0 s
+      pliegue 3 | CANN freq CV3 época 30 | val_loss 0.15665 |    7.3 s
+[  18/110]  16.4% | pliegue 3 | CANN freq | cfg 1/4 | CV 3/3 |    8.9 s | transcurrido 0:04:55 | faltan ~0:24:53
+      pliegue 3 | CANN freq CV1 época 10 | val_loss 0.15671 |    2.3 s
+      pliegue 3 | CANN freq CV1 época 20 | val_loss 0.15650 |    4.2 s
+      pliegue 3 | CANN freq CV1 época 30 | val_loss 0.15640 |    6.1 s
+      pliegue 3 | CANN freq CV1 época 40 | val_loss 0.15633 |    8.1 s
+      pliegue 3 | CANN freq CV1 época 50 | val_loss 0.15630 |   10.1 s
+[  19/110]  17.3% | pliegue 3 | CANN freq | cfg 2/4 | CV 1/3 |   10.3 s | transcurrido 0:05:05 | faltan ~0:24:08
+      pliegue 3 | CANN freq CV2 época 10 | val_loss 0.15680 |    2.3 s
+      pliegue 3 | CANN freq CV2 época 20 | val_loss 0.15644 |    4.2 s
+      pliegue 3 | CANN freq CV2 época 30 | val_loss 0.15628 |    6.2 s
+      pliegue 3 | CANN freq CV2 época 40 | val_loss 0.15619 |    8.2 s
+      pliegue 3 | CANN freq CV2 época 50 | val_loss 0.15613 |   10.2 s
+[  20/110]  18.2% | pliegue 3 | CANN freq | cfg 2/4 | CV 2/3 |   10.3 s | transcurrido 0:05:15 | faltan ~0:23:27
+      pliegue 3 | CANN freq CV3 época 10 | val_loss 0.15662 |    2.3 s
+      pliegue 3 | CANN freq CV3 época 20 | val_loss 0.15645 |    4.4 s
+      pliegue 3 | CANN freq CV3 época 30 | val_loss 0.15638 |    6.3 s
+      pliegue 3 | CANN freq CV3 época 40 | val_loss 0.15631 |    8.3 s
+      pliegue 3 | CANN freq CV3 época 50 | val_loss 0.15626 |   10.3 s
+[  21/110]  19.1% | pliegue 3 | CANN freq | cfg 2/4 | CV 3/3 |   10.5 s | transcurrido 0:05:26 | faltan ~0:22:49
+      pliegue 3 | CANN freq CV1 época 10 | val_loss 0.15709 |    2.3 s
+      pliegue 3 | CANN freq CV1 época 20 | val_loss 0.15667 |    4.1 s
+      pliegue 3 | CANN freq CV1 época 30 | val_loss 0.15647 |    5.6 s
+      pliegue 3 | CANN freq CV1 época 40 | val_loss 0.15627 |    7.4 s
+      pliegue 3 | CANN freq CV1 época 50 | val_loss 0.15615 |    9.1 s
+[  22/110]  20.0% | pliegue 3 | CANN freq | cfg 3/4 | CV 1/3 |    9.2 s | transcurrido 0:05:35 | faltan ~0:22:09
+      pliegue 3 | CANN freq CV2 época 10 | val_loss 0.15664 |    2.2 s
+      pliegue 3 | CANN freq CV2 época 20 | val_loss 0.15632 |    3.9 s
+      pliegue 3 | CANN freq CV2 época 30 | val_loss 0.15618 |    5.6 s
+      pliegue 3 | CANN freq CV2 época 40 | val_loss 0.15606 |    7.2 s
+      pliegue 3 | CANN freq CV2 época 50 | val_loss 0.15599 |    8.8 s
+[  23/110]  20.9% | pliegue 3 | CANN freq | cfg 3/4 | CV 2/3 |    8.9 s | transcurrido 0:05:44 | faltan ~0:21:31
+      pliegue 3 | CANN freq CV3 época 10 | val_loss 0.15692 |    2.1 s
+      pliegue 3 | CANN freq CV3 época 20 | val_loss 0.15674 |    3.6 s
+      pliegue 3 | CANN freq CV3 época 30 | val_loss 0.15661 |    5.1 s
+      pliegue 3 | CANN freq CV3 época 40 | val_loss 0.15650 |    6.6 s
+      pliegue 3 | CANN freq CV3 época 50 | val_loss 0.15642 |    8.1 s
+[  24/110]  21.8% | pliegue 3 | CANN freq | cfg 3/4 | CV 3/3 |    8.3 s | transcurrido 0:05:52 | faltan ~0:20:52
+      pliegue 3 | CANN freq CV1 época 10 | val_loss 0.15653 |    4.0 s
+      pliegue 3 | CANN freq CV1 época 20 | val_loss 0.15653 |    7.3 s
+[  25/110]  22.7% | pliegue 3 | CANN freq | cfg 4/4 | CV 1/3 |   10.6 s | transcurrido 0:06:03 | faltan ~0:20:24
+      pliegue 3 | CANN freq CV2 época 10 | val_loss 0.15634 |    3.9 s
+      pliegue 3 | CANN freq CV2 época 20 | val_loss 0.15634 |    7.2 s
+[  26/110]  23.6% | pliegue 3 | CANN freq | cfg 4/4 | CV 2/3 |    7.7 s | transcurrido 0:06:10 | faltan ~0:19:48
+      pliegue 3 | CANN freq CV3 época 10 | val_loss 0.15653 |    3.7 s
+      pliegue 3 | CANN freq CV3 época 20 | val_loss 0.15653 |    6.8 s
+[  27/110]  24.5% | pliegue 3 | CANN freq | cfg 4/4 | CV 3/3 |    8.0 s | transcurrido 0:06:18 | faltan ~0:19:15
+      pliegue 3 | CANN freq final1 época 10 | val_loss 0.13375 |    1.8 s
+      pliegue 3 | CANN freq final1 época 20 | val_loss 0.13367 |    3.3 s
+      pliegue 3 | CANN freq final1 época 30 | val_loss 0.13366 |    4.7 s
+      pliegue 3 | CANN freq final1 época 40 | val_loss 0.13369 |    6.2 s
+[  28/110]  25.5% | pliegue 3 | CANN freq | entrenamiento final 1/1 |    7.1 s | transcurrido 0:06:26 | faltan ~0:18:41
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:374: RuntimeWarning: divide by zero encountered in matmul
+  return np.exp(matriz_glm(P, d_tr) @ m.params), np.exp(matriz_glm(P, d_te) @ m.params)
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:374: RuntimeWarning: overflow encountered in matmul
+  return np.exp(matriz_glm(P, d_tr) @ m.params), np.exp(matriz_glm(P, d_te) @ m.params)
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:374: RuntimeWarning: invalid value encountered in matmul
+  return np.exp(matriz_glm(P, d_tr) @ m.params), np.exp(matriz_glm(P, d_te) @ m.params)
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:374: RuntimeWarning: divide by zero encountered in matmul
+  return np.exp(matriz_glm(P, d_tr) @ m.params), np.exp(matriz_glm(P, d_te) @ m.params)
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:374: RuntimeWarning: overflow encountered in matmul
+  return np.exp(matriz_glm(P, d_tr) @ m.params), np.exp(matriz_glm(P, d_te) @ m.params)
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:374: RuntimeWarning: invalid value encountered in matmul
+  return np.exp(matriz_glm(P, d_tr) @ m.params), np.exp(matriz_glm(P, d_te) @ m.params)
+[  29/110]  26.4% | pliegue 3 | GLM sev |    0.9 s | transcurrido 0:06:28 | faltan ~0:17:52
+      pliegue 3 | FFNN sev CV1 época 10 | val_loss 739.68738 |    0.7 s
+      pliegue 3 | FFNN sev CV1 época 20 | val_loss 337.58224 |    1.1 s
+      pliegue 3 | FFNN sev CV1 época 30 | val_loss 208.88528 |    1.4 s
+      pliegue 3 | FFNN sev CV1 época 40 | val_loss 146.53622 |    1.7 s
+      pliegue 3 | FFNN sev CV1 época 50 | val_loss 109.93925 |    2.0 s
+[  30/110]  27.3% | pliegue 3 | FFNN sev | cfg 1/4 | CV 1/3 |    2.1 s | transcurrido 0:06:30 | faltan ~0:17:09
+      pliegue 3 | FFNN sev CV2 época 10 | val_loss 668.18945 |    0.7 s
+      pliegue 3 | FFNN sev CV2 época 20 | val_loss 275.83353 |    1.1 s
+      pliegue 3 | FFNN sev CV2 época 30 | val_loss 158.85175 |    1.4 s
+      pliegue 3 | FFNN sev CV2 época 40 | val_loss 107.06380 |    1.7 s
+      pliegue 3 | FFNN sev CV2 época 50 | val_loss 77.99383 |    2.0 s
+[  31/110]  28.2% | pliegue 3 | FFNN sev | cfg 1/4 | CV 2/3 |    2.1 s | transcurrido 0:06:33 | faltan ~0:16:29
+      pliegue 3 | FFNN sev CV3 época 10 | val_loss 511.73334 |    0.7 s
+      pliegue 3 | FFNN sev CV3 época 20 | val_loss 221.26945 |    1.0 s
+      pliegue 3 | FFNN sev CV3 época 30 | val_loss 125.83630 |    1.4 s
+      pliegue 3 | FFNN sev CV3 época 40 | val_loss 82.68743 |    1.7 s
+      pliegue 3 | FFNN sev CV3 época 50 | val_loss 58.87091 |    2.1 s
+[  32/110]  29.1% | pliegue 3 | FFNN sev | cfg 1/4 | CV 3/3 |    2.1 s | transcurrido 0:06:35 | faltan ~0:15:51
+      pliegue 3 | FFNN sev CV1 época 10 | val_loss 353.99814 |    0.9 s
+      pliegue 3 | FFNN sev CV1 época 20 | val_loss 22.81176 |    1.3 s
+      pliegue 3 | FFNN sev CV1 época 30 | val_loss 9.90565 |    1.6 s
+      pliegue 3 | FFNN sev CV1 época 40 | val_loss 7.37256 |    2.0 s
+      pliegue 3 | FFNN sev CV1 época 50 | val_loss 6.52840 |    2.4 s
+[  33/110]  30.0% | pliegue 3 | FFNN sev | cfg 2/4 | CV 1/3 |    2.4 s | transcurrido 0:06:37 | faltan ~0:15:16
+      pliegue 3 | FFNN sev CV2 época 10 | val_loss 216.22160 |    0.9 s
+      pliegue 3 | FFNN sev CV2 época 20 | val_loss 30.50649 |    1.3 s
+      pliegue 3 | FFNN sev CV2 época 30 | val_loss 13.75376 |    1.6 s
+      pliegue 3 | FFNN sev CV2 época 40 | val_loss 9.34334 |    2.0 s
+      pliegue 3 | FFNN sev CV2 época 50 | val_loss 7.73810 |    2.4 s
+[  34/110]  30.9% | pliegue 3 | FFNN sev | cfg 2/4 | CV 2/3 |    2.4 s | transcurrido 0:06:40 | faltan ~0:14:43
+      pliegue 3 | FFNN sev CV3 época 10 | val_loss 2912.62549 |    0.9 s
+      pliegue 3 | FFNN sev CV3 época 20 | val_loss 317.13123 |    1.3 s
+      pliegue 3 | FFNN sev CV3 época 30 | val_loss 37.30873 |    1.7 s
+      pliegue 3 | FFNN sev CV3 época 40 | val_loss 15.13407 |    2.0 s
+      pliegue 3 | FFNN sev CV3 época 50 | val_loss 9.03911 |    2.4 s
+[  35/110]  31.8% | pliegue 3 | FFNN sev | cfg 2/4 | CV 3/3 |    2.7 s | transcurrido 0:06:42 | faltan ~0:14:12
+      pliegue 3 | FFNN sev CV1 época 10 | val_loss 4762.24854 |    0.8 s
+      pliegue 3 | FFNN sev CV1 época 20 | val_loss 3813.85156 |    1.1 s
+      pliegue 3 | FFNN sev CV1 época 30 | val_loss 3136.24487 |    1.4 s
+      pliegue 3 | FFNN sev CV1 época 40 | val_loss 2694.79395 |    1.8 s
+      pliegue 3 | FFNN sev CV1 época 50 | val_loss 2393.77979 |    2.1 s
+[  36/110]  32.7% | pliegue 3 | FFNN sev | cfg 3/4 | CV 1/3 |    2.2 s | transcurrido 0:06:44 | faltan ~0:13:42
+      pliegue 3 | FFNN sev CV2 época 10 | val_loss 3731.37695 |    0.7 s
+      pliegue 3 | FFNN sev CV2 época 20 | val_loss 3010.96460 |    1.0 s
+      pliegue 3 | FFNN sev CV2 época 30 | val_loss 2517.02588 |    1.3 s
+      pliegue 3 | FFNN sev CV2 época 40 | val_loss 2129.92676 |    1.6 s
+      pliegue 3 | FFNN sev CV2 época 50 | val_loss 1832.82739 |    2.0 s
+[  37/110]  33.6% | pliegue 3 | FFNN sev | cfg 3/4 | CV 2/3 |    2.1 s | transcurrido 0:06:46 | faltan ~0:13:13
+      pliegue 3 | FFNN sev CV3 época 10 | val_loss 3924.85474 |    0.7 s
+      pliegue 3 | FFNN sev CV3 época 20 | val_loss 3132.47632 |    1.0 s
+      pliegue 3 | FFNN sev CV3 época 30 | val_loss 2505.42334 |    1.3 s
+      pliegue 3 | FFNN sev CV3 época 40 | val_loss 2142.58936 |    1.7 s
+      pliegue 3 | FFNN sev CV3 época 50 | val_loss 1881.13269 |    2.0 s
+[  38/110]  34.5% | pliegue 3 | FFNN sev | cfg 3/4 | CV 3/3 |    2.1 s | transcurrido 0:06:49 | faltan ~0:12:45
+      pliegue 3 | FFNN sev CV1 época 10 | val_loss 3807.46582 |    0.8 s
+      pliegue 3 | FFNN sev CV1 época 20 | val_loss 2727.64648 |    1.2 s
+      pliegue 3 | FFNN sev CV1 época 30 | val_loss 2046.82532 |    1.6 s
+      pliegue 3 | FFNN sev CV1 época 40 | val_loss 1586.70166 |    2.0 s
+      pliegue 3 | FFNN sev CV1 época 50 | val_loss 1259.93884 |    2.4 s
+[  39/110]  35.5% | pliegue 3 | FFNN sev | cfg 4/4 | CV 1/3 |    2.4 s | transcurrido 0:06:51 | faltan ~0:12:20
+      pliegue 3 | FFNN sev CV2 época 10 | val_loss 2660.48218 |    0.8 s
+      pliegue 3 | FFNN sev CV2 época 20 | val_loss 1932.27271 |    1.2 s
+      pliegue 3 | FFNN sev CV2 época 30 | val_loss 1488.22205 |    1.6 s
+      pliegue 3 | FFNN sev CV2 época 40 | val_loss 1179.09985 |    2.0 s
+      pliegue 3 | FFNN sev CV2 época 50 | val_loss 952.62573 |    2.4 s
+[  40/110]  36.4% | pliegue 3 | FFNN sev | cfg 4/4 | CV 2/3 |    2.5 s | transcurrido 0:06:53 | faltan ~0:11:55
+      pliegue 3 | FFNN sev CV3 época 10 | val_loss 3080.70923 |    0.8 s
+      pliegue 3 | FFNN sev CV3 época 20 | val_loss 2257.96875 |    1.2 s
+      pliegue 3 | FFNN sev CV3 época 30 | val_loss 1744.79553 |    1.6 s
+      pliegue 3 | FFNN sev CV3 época 40 | val_loss 1377.42041 |    2.0 s
+      pliegue 3 | FFNN sev CV3 época 50 | val_loss 1098.93457 |    2.3 s
+[  41/110]  37.3% | pliegue 3 | FFNN sev | cfg 4/4 | CV 3/3 |    2.4 s | transcurrido 0:06:56 | faltan ~0:11:32
+      pliegue 3 | FFNN sev final1 época 10 | val_loss 72.94807 |    1.0 s
+      pliegue 3 | FFNN sev final1 época 20 | val_loss 19.03662 |    1.3 s
+      pliegue 3 | FFNN sev final1 época 30 | val_loss 10.26866 |    1.7 s
+      pliegue 3 | FFNN sev final1 época 40 | val_loss 7.83627 |    2.1 s
+      pliegue 3 | FFNN sev final1 época 50 | val_loss 6.82196 |    2.4 s
+[  42/110]  38.2% | pliegue 3 | FFNN sev | entrenamiento final 1/1 |    2.5 s | transcurrido 0:06:58 | faltan ~0:11:10
+      pliegue 3 | CANN sev CV1 época 10 | val_loss 1.53555 |    0.8 s
+      pliegue 3 | CANN sev CV1 época 20 | val_loss 1.53670 |    1.1 s
+[  43/110]  39.1% | pliegue 3 | CANN sev | cfg 1/4 | CV 1/3 |    1.4 s | transcurrido 0:07:00 | faltan ~0:10:47
+      pliegue 3 | CANN sev CV2 época 10 | val_loss 1.58159 |    0.8 s
+      pliegue 3 | CANN sev CV2 época 20 | val_loss 1.58216 |    1.1 s
+      pliegue 3 | CANN sev CV2 época 30 | val_loss 1.58308 |    1.5 s
+[  44/110]  40.0% | pliegue 3 | CANN sev | cfg 1/4 | CV 2/3 |    1.6 s | transcurrido 0:07:01 | faltan ~0:10:25
+      pliegue 3 | CANN sev CV3 época 10 | val_loss 1.60554 |    0.8 s
+      pliegue 3 | CANN sev CV3 época 20 | val_loss 1.60671 |    1.1 s
+[  45/110]  40.9% | pliegue 3 | CANN sev | cfg 1/4 | CV 3/3 |    1.5 s | transcurrido 0:07:03 | faltan ~0:10:04
+      pliegue 3 | CANN sev CV1 época 10 | val_loss 1.57681 |    0.7 s
+      pliegue 3 | CANN sev CV1 época 20 | val_loss 1.55231 |    1.0 s
+      pliegue 3 | CANN sev CV1 época 30 | val_loss 1.54826 |    1.3 s
+      pliegue 3 | CANN sev CV1 época 40 | val_loss 1.54834 |    1.6 s
+      pliegue 3 | CANN sev CV1 época 50 | val_loss 1.55014 |    2.0 s
+[  46/110]  41.8% | pliegue 3 | CANN sev | cfg 2/4 | CV 1/3 |    2.0 s | transcurrido 0:07:05 | faltan ~0:09:45
+      pliegue 3 | CANN sev CV2 época 10 | val_loss 1.62386 |    1.0 s
+      pliegue 3 | CANN sev CV2 época 20 | val_loss 1.61843 |    1.3 s
+      pliegue 3 | CANN sev CV2 época 30 | val_loss 1.61812 |    1.7 s
+      pliegue 3 | CANN sev CV2 época 40 | val_loss 1.62228 |    2.0 s
+[  47/110]  42.7% | pliegue 3 | CANN sev | cfg 2/4 | CV 2/3 |    2.3 s | transcurrido 0:07:07 | faltan ~0:09:26
+      pliegue 3 | CANN sev CV3 época 10 | val_loss 1.66407 |    0.7 s
+      pliegue 3 | CANN sev CV3 época 20 | val_loss 1.65274 |    1.0 s
+      pliegue 3 | CANN sev CV3 época 30 | val_loss 1.65635 |    1.4 s
+      pliegue 3 | CANN sev CV3 época 40 | val_loss 1.66588 |    1.7 s
+[  48/110]  43.6% | pliegue 3 | CANN sev | cfg 2/4 | CV 3/3 |    1.8 s | transcurrido 0:07:09 | faltan ~0:09:08
+      pliegue 3 | CANN sev CV1 época 10 | val_loss 1.53429 |    1.1 s
+      pliegue 3 | CANN sev CV1 época 20 | val_loss 1.53507 |    1.8 s
+[  49/110]  44.5% | pliegue 3 | CANN sev | cfg 3/4 | CV 1/3 |    1.9 s | transcurrido 0:07:11 | faltan ~0:08:50
+      pliegue 3 | CANN sev CV2 época 10 | val_loss 1.58145 |    1.2 s
+      pliegue 3 | CANN sev CV2 época 20 | val_loss 1.58207 |    1.8 s
+[  50/110]  45.5% | pliegue 3 | CANN sev | cfg 3/4 | CV 2/3 |    1.9 s | transcurrido 0:07:13 | faltan ~0:08:34
+      pliegue 3 | CANN sev CV3 época 10 | val_loss 1.60544 |    1.1 s
+      pliegue 3 | CANN sev CV3 época 20 | val_loss 1.60669 |    1.8 s
+      pliegue 3 | CANN sev CV3 época 30 | val_loss 1.62394 |    2.4 s
+[  51/110]  46.4% | pliegue 3 | CANN sev | cfg 3/4 | CV 3/3 |    2.5 s | transcurrido 0:07:15 | faltan ~0:08:18
+      pliegue 3 | CANN sev CV1 época 10 | val_loss 1.53489 |    1.2 s
+      pliegue 3 | CANN sev CV1 época 20 | val_loss 1.53987 |    1.9 s
+[  52/110]  47.3% | pliegue 3 | CANN sev | cfg 4/4 | CV 1/3 |    2.0 s | transcurrido 0:07:17 | faltan ~0:08:02
+      pliegue 3 | CANN sev CV2 época 10 | val_loss 1.58310 |    1.2 s
+      pliegue 3 | CANN sev CV2 época 20 | val_loss 1.58701 |    1.9 s
+[  53/110]  48.2% | pliegue 3 | CANN sev | cfg 4/4 | CV 2/3 |    2.4 s | transcurrido 0:07:20 | faltan ~0:07:48
+      pliegue 3 | CANN sev CV3 época 10 | val_loss 1.60688 |    1.0 s
+      pliegue 3 | CANN sev CV3 época 20 | val_loss 1.61510 |    1.5 s
+[  54/110]  49.1% | pliegue 3 | CANN sev | cfg 4/4 | CV 3/3 |    1.6 s | transcurrido 0:07:21 | faltan ~0:07:33
+      pliegue 3 | CANN sev final1 época 10 | val_loss 1.20620 |    1.2 s
+      pliegue 3 | CANN sev final1 época 20 | val_loss 1.20757 |    1.9 s
+[  55/110]  50.0% | pliegue 3 | CANN sev | entrenamiento final 1/1 |    2.0 s | transcurrido 0:07:23 | faltan ~0:07:19
+  GLM|freq       deviance=0.27721  MAE=0.1097  RMSE=0.2116
+  FFNN|freq      deviance=0.24276  MAE=0.0739  RMSE=0.2028
+  CANN|freq      deviance=0.24170  MAE=0.0736  RMSE=0.2025
+  GLM|sev        deviance=1.57395  MAE=2076.0032  RMSE=9283.4383
+  FFNN|sev       deviance=6.06441  MAE=214337.8281  RMSE=7689057.4686
+  CANN|sev       deviance=1.57366  MAE=2081.7383  RMSE=9284.9129
+  tiempo 443.5 s
+Pliegue externo 4 ...
+[  56/110]  50.9% | pliegue 4 | autoencoder |   42.1 s | transcurrido 0:08:06 | faltan ~0:07:43
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:175: RuntimeWarning: divide by zero encountered in matmul
+  lat = Z @ W + b
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:175: RuntimeWarning: overflow encountered in matmul
+  lat = Z @ W + b
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:175: RuntimeWarning: invalid value encountered in matmul
+  lat = Z @ W + b
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:367: RuntimeWarning: divide by zero encountered in matmul
+  tasa_te = np.exp(Xte @ m.params)
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:367: RuntimeWarning: overflow encountered in matmul
+  tasa_te = np.exp(Xte @ m.params)
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:367: RuntimeWarning: invalid value encountered in matmul
+  tasa_te = np.exp(Xte @ m.params)
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:368: RuntimeWarning: divide by zero encountered in matmul
+  tasa_tr = np.exp(Xtr @ m.params)
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:368: RuntimeWarning: overflow encountered in matmul
+  tasa_tr = np.exp(Xtr @ m.params)
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:368: RuntimeWarning: invalid value encountered in matmul
+  tasa_tr = np.exp(Xtr @ m.params)
+[  57/110]  51.8% | pliegue 4 | GLM freq |    5.5 s | transcurrido 0:08:12 | faltan ~0:07:32
+      pliegue 4 | FFNN freq CV1 época 10 | val_loss 0.16158 |    3.0 s
+      pliegue 4 | FFNN freq CV1 época 20 | val_loss 0.15775 |    5.4 s
+      pliegue 4 | FFNN freq CV1 época 30 | val_loss 0.15717 |    7.7 s
+      pliegue 4 | FFNN freq CV1 época 40 | val_loss 0.15701 |   10.1 s
+      pliegue 4 | FFNN freq CV1 época 50 | val_loss 0.15691 |   12.5 s
+[  58/110]  52.7% | pliegue 4 | FFNN freq | cfg 1/4 | CV 1/3 |   12.7 s | transcurrido 0:08:25 | faltan ~0:07:27
+      pliegue 4 | FFNN freq CV2 época 10 | val_loss 0.15958 |    3.0 s
+      pliegue 4 | FFNN freq CV2 época 20 | val_loss 0.15808 |    5.4 s
+      pliegue 4 | FFNN freq CV2 época 30 | val_loss 0.15764 |    7.8 s
+      pliegue 4 | FFNN freq CV2 época 40 | val_loss 0.15749 |   10.3 s
+      pliegue 4 | FFNN freq CV2 época 50 | val_loss 0.15736 |   12.7 s
+[  59/110]  53.6% | pliegue 4 | FFNN freq | cfg 1/4 | CV 2/3 |   12.9 s | transcurrido 0:08:38 | faltan ~0:07:22
+      pliegue 4 | FFNN freq CV3 época 10 | val_loss 0.16059 |    3.4 s
+      pliegue 4 | FFNN freq CV3 época 20 | val_loss 0.15837 |    5.7 s
+      pliegue 4 | FFNN freq CV3 época 30 | val_loss 0.15816 |    7.9 s
+      pliegue 4 | FFNN freq CV3 época 40 | val_loss 0.15781 |   10.3 s
+      pliegue 4 | FFNN freq CV3 época 50 | val_loss 0.15747 |   12.8 s
+[  60/110]  54.5% | pliegue 4 | FFNN freq | cfg 1/4 | CV 3/3 |   12.9 s | transcurrido 0:08:51 | faltan ~0:07:17
+      pliegue 4 | FFNN freq CV1 época 10 | val_loss 0.16110 |    1.9 s
+      pliegue 4 | FFNN freq CV1 época 20 | val_loss 0.15855 |    3.5 s
+      pliegue 4 | FFNN freq CV1 época 30 | val_loss 0.15758 |    5.0 s
+      pliegue 4 | FFNN freq CV1 época 40 | val_loss 0.15715 |    6.7 s
+      pliegue 4 | FFNN freq CV1 época 50 | val_loss 0.15695 |    8.3 s
+[  61/110]  55.5% | pliegue 4 | FFNN freq | cfg 2/4 | CV 1/3 |    8.4 s | transcurrido 0:08:59 | faltan ~0:07:08
+      pliegue 4 | FFNN freq CV2 época 10 | val_loss 0.16361 |    1.9 s
+      pliegue 4 | FFNN freq CV2 época 20 | val_loss 0.16025 |    3.4 s
+      pliegue 4 | FFNN freq CV2 época 30 | val_loss 0.15877 |    5.0 s
+      pliegue 4 | FFNN freq CV2 época 40 | val_loss 0.15796 |    6.6 s
+      pliegue 4 | FFNN freq CV2 época 50 | val_loss 0.15746 |    8.2 s
+[  62/110]  56.4% | pliegue 4 | FFNN freq | cfg 2/4 | CV 2/3 |    8.3 s | transcurrido 0:09:08 | faltan ~0:06:59
+      pliegue 4 | FFNN freq CV3 época 10 | val_loss 0.16832 |    1.9 s
+      pliegue 4 | FFNN freq CV3 época 20 | val_loss 0.16050 |    3.5 s
+      pliegue 4 | FFNN freq CV3 época 30 | val_loss 0.15903 |    5.2 s
+      pliegue 4 | FFNN freq CV3 época 40 | val_loss 0.15809 |    6.8 s
+      pliegue 4 | FFNN freq CV3 época 50 | val_loss 0.15747 |    8.4 s
+[  63/110]  57.3% | pliegue 4 | FFNN freq | cfg 2/4 | CV 3/3 |    8.6 s | transcurrido 0:09:16 | faltan ~0:06:50
+      pliegue 4 | FFNN freq CV1 época 10 | val_loss 0.16161 |    4.3 s
+      pliegue 4 | FFNN freq CV1 época 20 | val_loss 0.16037 |    8.1 s
+      pliegue 4 | FFNN freq CV1 época 30 | val_loss 0.15916 |   12.0 s
+      pliegue 4 | FFNN freq CV1 época 40 | val_loss 0.15822 |   15.8 s
+      pliegue 4 | FFNN freq CV1 época 50 | val_loss 0.15746 |   19.6 s
+[  64/110]  58.2% | pliegue 4 | FFNN freq | cfg 3/4 | CV 1/3 |   19.7 s | transcurrido 0:09:36 | faltan ~0:06:49
+      pliegue 4 | FFNN freq CV2 época 10 | val_loss 0.16169 |    4.4 s
+      pliegue 4 | FFNN freq CV2 época 20 | val_loss 0.16068 |    8.2 s
+      pliegue 4 | FFNN freq CV2 época 30 | val_loss 0.15948 |   12.0 s
+      pliegue 4 | FFNN freq CV2 época 40 | val_loss 0.15838 |   15.7 s
+      pliegue 4 | FFNN freq CV2 época 50 | val_loss 0.15752 |   19.3 s
+[  65/110]  59.1% | pliegue 4 | FFNN freq | cfg 3/4 | CV 2/3 |   19.5 s | transcurrido 0:09:55 | faltan ~0:06:48
+      pliegue 4 | FFNN freq CV3 época 10 | val_loss 0.16055 |    4.3 s
+      pliegue 4 | FFNN freq CV3 época 20 | val_loss 0.15908 |    8.0 s
+      pliegue 4 | FFNN freq CV3 época 30 | val_loss 0.15774 |   11.7 s
+      pliegue 4 | FFNN freq CV3 época 40 | val_loss 0.15667 |   15.5 s
+      pliegue 4 | FFNN freq CV3 época 50 | val_loss 0.15631 |   19.4 s
+[  66/110]  60.0% | pliegue 4 | FFNN freq | cfg 3/4 | CV 3/3 |   19.6 s | transcurrido 0:10:15 | faltan ~0:06:46
+      pliegue 4 | FFNN freq CV1 época 10 | val_loss 0.30657 |    5.0 s
+      pliegue 4 | FFNN freq CV1 época 20 | val_loss 0.22015 |    9.2 s
+      pliegue 4 | FFNN freq CV1 época 30 | val_loss 0.18462 |   13.7 s
+      pliegue 4 | FFNN freq CV1 época 40 | val_loss 0.16920 |   17.9 s
+      pliegue 4 | FFNN freq CV1 época 50 | val_loss 0.16239 |   22.1 s
+[  67/110]  60.9% | pliegue 4 | FFNN freq | cfg 4/4 | CV 1/3 |   22.3 s | transcurrido 0:10:37 | faltan ~0:06:45
+      pliegue 4 | FFNN freq CV2 época 10 | val_loss 0.30884 |    4.9 s
+      pliegue 4 | FFNN freq CV2 época 20 | val_loss 0.22165 |    9.1 s
+      pliegue 4 | FFNN freq CV2 época 30 | val_loss 0.18607 |   13.3 s
+      pliegue 4 | FFNN freq CV2 época 40 | val_loss 0.17121 |   17.4 s
+      pliegue 4 | FFNN freq CV2 época 50 | val_loss 0.16463 |   21.7 s
+[  68/110]  61.8% | pliegue 4 | FFNN freq | cfg 4/4 | CV 2/3 |   21.8 s | transcurrido 0:10:59 | faltan ~0:06:43
+      pliegue 4 | FFNN freq CV3 época 10 | val_loss 0.30128 |    4.8 s
+      pliegue 4 | FFNN freq CV3 época 20 | val_loss 0.21556 |    9.1 s
+      pliegue 4 | FFNN freq CV3 época 30 | val_loss 0.18362 |   13.3 s
+      pliegue 4 | FFNN freq CV3 época 40 | val_loss 0.17035 |   17.8 s
+      pliegue 4 | FFNN freq CV3 época 50 | val_loss 0.16444 |   22.2 s
+[  69/110]  62.7% | pliegue 4 | FFNN freq | cfg 4/4 | CV 3/3 |   22.3 s | transcurrido 0:11:21 | faltan ~0:06:41
+      pliegue 4 | FFNN freq final1 época 10 | val_loss 0.13612 |    4.7 s
+      pliegue 4 | FFNN freq final1 época 20 | val_loss 0.13517 |    8.9 s
+      pliegue 4 | FFNN freq final1 época 30 | val_loss 0.13423 |   13.3 s
+      pliegue 4 | FFNN freq final1 época 40 | val_loss 0.13370 |   17.6 s
+      pliegue 4 | FFNN freq final1 época 50 | val_loss 0.13370 |   22.0 s
+[  70/110]  63.6% | pliegue 4 | FFNN freq | entrenamiento final 1/1 |   22.1 s | transcurrido 0:11:44 | faltan ~0:06:38
+      pliegue 4 | CANN freq CV1 época 10 | val_loss 0.15675 |    2.5 s
+      pliegue 4 | CANN freq CV1 época 20 | val_loss 0.15665 |    4.4 s
+      pliegue 4 | CANN freq CV1 época 30 | val_loss 0.15664 |    6.5 s
+      pliegue 4 | CANN freq CV1 época 40 | val_loss 0.15668 |    8.4 s
+[  71/110]  64.5% | pliegue 4 | CANN freq | cfg 1/4 | CV 1/3 |    9.4 s | transcurrido 0:11:54 | faltan ~0:06:28
+      pliegue 4 | CANN freq CV2 época 10 | val_loss 0.15682 |    2.5 s
+      pliegue 4 | CANN freq CV2 época 20 | val_loss 0.15673 |    4.3 s
+      pliegue 4 | CANN freq CV2 época 30 | val_loss 0.15672 |    6.0 s
+      pliegue 4 | CANN freq CV2 época 40 | val_loss 0.15676 |    7.9 s
+      pliegue 4 | CANN freq CV2 época 50 | val_loss 0.15683 |    9.7 s
+[  72/110]  65.5% | pliegue 4 | CANN freq | cfg 1/4 | CV 2/3 |    9.8 s | transcurrido 0:12:04 | faltan ~0:06:18
+      pliegue 4 | CANN freq CV3 época 10 | val_loss 0.15605 |    2.2 s
+      pliegue 4 | CANN freq CV3 época 20 | val_loss 0.15598 |    4.0 s
+      pliegue 4 | CANN freq CV3 época 30 | val_loss 0.15600 |    5.9 s
+      pliegue 4 | CANN freq CV3 época 40 | val_loss 0.15605 |    7.8 s
+[  73/110]  66.4% | pliegue 4 | CANN freq | cfg 1/4 | CV 3/3 |    8.6 s | transcurrido 0:12:12 | faltan ~0:06:07
+      pliegue 4 | CANN freq CV1 época 10 | val_loss 0.15672 |    2.0 s
+      pliegue 4 | CANN freq CV1 época 20 | val_loss 0.15661 |    3.7 s
+      pliegue 4 | CANN freq CV1 época 30 | val_loss 0.15643 |    5.4 s
+      pliegue 4 | CANN freq CV1 época 40 | val_loss 0.15627 |    7.1 s
+      pliegue 4 | CANN freq CV1 época 50 | val_loss 0.15618 |    8.8 s
+[  74/110]  67.3% | pliegue 4 | CANN freq | cfg 2/4 | CV 1/3 |    9.0 s | transcurrido 0:12:21 | faltan ~0:05:57
+      pliegue 4 | CANN freq CV2 época 10 | val_loss 0.15658 |    2.0 s
+      pliegue 4 | CANN freq CV2 época 20 | val_loss 0.15646 |    3.7 s
+      pliegue 4 | CANN freq CV2 época 30 | val_loss 0.15630 |    5.4 s
+      pliegue 4 | CANN freq CV2 época 40 | val_loss 0.15616 |    7.0 s
+      pliegue 4 | CANN freq CV2 época 50 | val_loss 0.15607 |    8.7 s
+[  75/110]  68.2% | pliegue 4 | CANN freq | cfg 2/4 | CV 2/3 |    8.8 s | transcurrido 0:12:30 | faltan ~0:05:46
+      pliegue 4 | CANN freq CV3 época 10 | val_loss 0.15598 |    2.4 s
+      pliegue 4 | CANN freq CV3 época 20 | val_loss 0.15591 |    4.0 s
+      pliegue 4 | CANN freq CV3 época 30 | val_loss 0.15586 |    5.6 s
+      pliegue 4 | CANN freq CV3 época 40 | val_loss 0.15581 |    7.2 s
+      pliegue 4 | CANN freq CV3 época 50 | val_loss 0.15575 |    8.7 s
+[  76/110]  69.1% | pliegue 4 | CANN freq | cfg 2/4 | CV 3/3 |    8.9 s | transcurrido 0:12:39 | faltan ~0:05:36
+      pliegue 4 | CANN freq CV1 época 10 | val_loss 0.15673 |    2.1 s
+      pliegue 4 | CANN freq CV1 época 20 | val_loss 0.15673 |    3.7 s
+      pliegue 4 | CANN freq CV1 época 30 | val_loss 0.15672 |    5.3 s
+      pliegue 4 | CANN freq CV1 época 40 | val_loss 0.15672 |    6.9 s
+      pliegue 4 | CANN freq CV1 época 50 | val_loss 0.15672 |    8.6 s
+[  77/110]  70.0% | pliegue 4 | CANN freq | cfg 3/4 | CV 1/3 |    8.7 s | transcurrido 0:12:48 | faltan ~0:05:26
+      pliegue 4 | CANN freq CV2 época 10 | val_loss 0.15662 |    2.2 s
+      pliegue 4 | CANN freq CV2 época 20 | val_loss 0.15662 |    3.7 s
+[  78/110]  70.9% | pliegue 4 | CANN freq | cfg 3/4 | CV 2/3 |    4.5 s | transcurrido 0:12:52 | faltan ~0:05:14
+      pliegue 4 | CANN freq CV3 época 10 | val_loss 0.15603 |    2.1 s
+      pliegue 4 | CANN freq CV3 época 20 | val_loss 0.15603 |    3.7 s
+      pliegue 4 | CANN freq CV3 época 30 | val_loss 0.15603 |    5.4 s
+      pliegue 4 | CANN freq CV3 época 40 | val_loss 0.15602 |    7.0 s
+      pliegue 4 | CANN freq CV3 época 50 | val_loss 0.15602 |    8.6 s
+[  79/110]  71.8% | pliegue 4 | CANN freq | cfg 3/4 | CV 3/3 |    8.8 s | transcurrido 0:13:01 | faltan ~0:05:03
+      pliegue 4 | CANN freq CV1 época 10 | val_loss 0.15682 |    3.2 s
+      pliegue 4 | CANN freq CV1 época 20 | val_loss 0.15681 |    5.8 s
+[  80/110]  72.7% | pliegue 4 | CANN freq | cfg 4/4 | CV 1/3 |    6.7 s | transcurrido 0:13:08 | faltan ~0:04:52
+      pliegue 4 | CANN freq CV2 época 10 | val_loss 0.15664 |    3.0 s
+      pliegue 4 | CANN freq CV2 época 20 | val_loss 0.15664 |    5.6 s
+      pliegue 4 | CANN freq CV2 época 30 | val_loss 0.15664 |    8.1 s
+      pliegue 4 | CANN freq CV2 época 40 | val_loss 0.15663 |   10.7 s
+      pliegue 4 | CANN freq CV2 época 50 | val_loss 0.15660 |   13.3 s
+[  81/110]  73.6% | pliegue 4 | CANN freq | cfg 4/4 | CV 2/3 |   13.5 s | transcurrido 0:13:21 | faltan ~0:04:44
+      pliegue 4 | CANN freq CV3 época 10 | val_loss 0.15605 |    3.0 s
+      pliegue 4 | CANN freq CV3 época 20 | val_loss 0.15605 |    5.6 s
+[  82/110]  74.5% | pliegue 4 | CANN freq | cfg 4/4 | CV 3/3 |    6.6 s | transcurrido 0:13:28 | faltan ~0:04:33
+      pliegue 4 | CANN freq final1 época 10 | val_loss 0.13339 |    1.8 s
+      pliegue 4 | CANN freq final1 época 20 | val_loss 0.13330 |    3.3 s
+      pliegue 4 | CANN freq final1 época 30 | val_loss 0.13323 |    4.7 s
+      pliegue 4 | CANN freq final1 época 40 | val_loss 0.13320 |    6.1 s
+      pliegue 4 | CANN freq final1 época 50 | val_loss 0.13319 |    7.6 s
+[  83/110]  75.5% | pliegue 4 | CANN freq | entrenamiento final 1/1 |    7.7 s | transcurrido 0:13:36 | faltan ~0:04:23
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:374: RuntimeWarning: divide by zero encountered in matmul
+  return np.exp(matriz_glm(P, d_tr) @ m.params), np.exp(matriz_glm(P, d_te) @ m.params)
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:374: RuntimeWarning: overflow encountered in matmul
+  return np.exp(matriz_glm(P, d_tr) @ m.params), np.exp(matriz_glm(P, d_te) @ m.params)
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:374: RuntimeWarning: invalid value encountered in matmul
+  return np.exp(matriz_glm(P, d_tr) @ m.params), np.exp(matriz_glm(P, d_te) @ m.params)
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:374: RuntimeWarning: divide by zero encountered in matmul
+  return np.exp(matriz_glm(P, d_tr) @ m.params), np.exp(matriz_glm(P, d_te) @ m.params)
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:374: RuntimeWarning: overflow encountered in matmul
+  return np.exp(matriz_glm(P, d_tr) @ m.params), np.exp(matriz_glm(P, d_te) @ m.params)
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:374: RuntimeWarning: invalid value encountered in matmul
+  return np.exp(matriz_glm(P, d_tr) @ m.params), np.exp(matriz_glm(P, d_te) @ m.params)
+[  84/110]  76.4% | pliegue 4 | GLM sev |    0.6 s | transcurrido 0:13:38 | faltan ~0:04:10
+      pliegue 4 | FFNN sev CV1 época 10 | val_loss 1532.59937 |    0.7 s
+      pliegue 4 | FFNN sev CV1 época 20 | val_loss 930.29431 |    1.0 s
+      pliegue 4 | FFNN sev CV1 época 30 | val_loss 628.07208 |    1.4 s
+      pliegue 4 | FFNN sev CV1 época 40 | val_loss 449.11011 |    1.8 s
+      pliegue 4 | FFNN sev CV1 época 50 | val_loss 333.48413 |    2.2 s
+[  85/110]  77.3% | pliegue 4 | FFNN sev | cfg 1/4 | CV 1/3 |    2.2 s | transcurrido 0:13:40 | faltan ~0:03:58
+      pliegue 4 | FFNN sev CV2 época 10 | val_loss 1560.92871 |    0.7 s
+      pliegue 4 | FFNN sev CV2 época 20 | val_loss 901.28546 |    1.0 s
+      pliegue 4 | FFNN sev CV2 época 30 | val_loss 604.58740 |    1.4 s
+      pliegue 4 | FFNN sev CV2 época 40 | val_loss 431.97275 |    1.8 s
+      pliegue 4 | FFNN sev CV2 época 50 | val_loss 320.73004 |    2.2 s
+[  86/110]  78.2% | pliegue 4 | FFNN sev | cfg 1/4 | CV 2/3 |    2.2 s | transcurrido 0:13:42 | faltan ~0:03:47
+      pliegue 4 | FFNN sev CV3 época 10 | val_loss 1057.36707 |    0.7 s
+      pliegue 4 | FFNN sev CV3 época 20 | val_loss 638.68396 |    1.0 s
+      pliegue 4 | FFNN sev CV3 época 30 | val_loss 432.75601 |    1.4 s
+      pliegue 4 | FFNN sev CV3 época 40 | val_loss 310.27643 |    1.8 s
+      pliegue 4 | FFNN sev CV3 época 50 | val_loss 230.69232 |    2.2 s
+[  87/110]  79.1% | pliegue 4 | FFNN sev | cfg 1/4 | CV 3/3 |    2.2 s | transcurrido 0:13:45 | faltan ~0:03:35
+      pliegue 4 | FFNN sev CV1 época 10 | val_loss 241.13535 |    0.7 s
+      pliegue 4 | FFNN sev CV1 época 20 | val_loss 93.10699 |    1.1 s
+      pliegue 4 | FFNN sev CV1 época 30 | val_loss 52.42442 |    1.5 s
+      pliegue 4 | FFNN sev CV1 época 40 | val_loss 33.15208 |    1.9 s
+      pliegue 4 | FFNN sev CV1 época 50 | val_loss 22.30874 |    2.3 s
+[  88/110]  80.0% | pliegue 4 | FFNN sev | cfg 2/4 | CV 1/3 |    2.3 s | transcurrido 0:13:47 | faltan ~0:03:24
+      pliegue 4 | FFNN sev CV2 época 10 | val_loss 158.37057 |    0.7 s
+      pliegue 4 | FFNN sev CV2 época 20 | val_loss 55.61043 |    1.1 s
+      pliegue 4 | FFNN sev CV2 época 30 | val_loss 30.59027 |    1.5 s
+      pliegue 4 | FFNN sev CV2 época 40 | val_loss 19.42749 |    1.9 s
+      pliegue 4 | FFNN sev CV2 época 50 | val_loss 13.24974 |    2.3 s
+[  89/110]  80.9% | pliegue 4 | FFNN sev | cfg 2/4 | CV 2/3 |    2.3 s | transcurrido 0:13:49 | faltan ~0:03:13
+      pliegue 4 | FFNN sev CV3 época 10 | val_loss 72.60875 |    0.7 s
+      pliegue 4 | FFNN sev CV3 época 20 | val_loss 25.18281 |    1.1 s
+      pliegue 4 | FFNN sev CV3 época 30 | val_loss 12.84996 |    1.5 s
+      pliegue 4 | FFNN sev CV3 época 40 | val_loss 7.51332 |    1.9 s
+      pliegue 4 | FFNN sev CV3 época 50 | val_loss 4.76982 |    2.3 s
+[  90/110]  81.8% | pliegue 4 | FFNN sev | cfg 2/4 | CV 3/3 |    2.3 s | transcurrido 0:13:52 | faltan ~0:03:02
+      pliegue 4 | FFNN sev CV1 época 10 | val_loss 239.68677 |    0.9 s
+      pliegue 4 | FFNN sev CV1 época 20 | val_loss 87.00410 |    1.3 s
+      pliegue 4 | FFNN sev CV1 época 30 | val_loss 48.95927 |    1.7 s
+      pliegue 4 | FFNN sev CV1 época 40 | val_loss 32.38479 |    2.0 s
+      pliegue 4 | FFNN sev CV1 época 50 | val_loss 23.23656 |    2.4 s
+[  91/110]  82.7% | pliegue 4 | FFNN sev | cfg 3/4 | CV 1/3 |    2.5 s | transcurrido 0:13:54 | faltan ~0:02:52
+      pliegue 4 | FFNN sev CV2 época 10 | val_loss 1132.74768 |    0.9 s
+      pliegue 4 | FFNN sev CV2 época 20 | val_loss 435.54953 |    1.3 s
+      pliegue 4 | FFNN sev CV2 época 30 | val_loss 251.81741 |    1.6 s
+      pliegue 4 | FFNN sev CV2 época 40 | val_loss 171.31712 |    2.0 s
+      pliegue 4 | FFNN sev CV2 época 50 | val_loss 126.83003 |    2.4 s
+[  92/110]  83.6% | pliegue 4 | FFNN sev | cfg 3/4 | CV 2/3 |    2.5 s | transcurrido 0:13:57 | faltan ~0:02:42
+      pliegue 4 | FFNN sev CV3 época 10 | val_loss 1508.71606 |    0.9 s
+      pliegue 4 | FFNN sev CV3 época 20 | val_loss 708.67157 |    1.3 s
+      pliegue 4 | FFNN sev CV3 época 30 | val_loss 457.65973 |    1.7 s
+      pliegue 4 | FFNN sev CV3 época 40 | val_loss 331.23071 |    2.0 s
+      pliegue 4 | FFNN sev CV3 época 50 | val_loss 253.86749 |    2.4 s
+[  93/110]  84.5% | pliegue 4 | FFNN sev | cfg 3/4 | CV 3/3 |    2.5 s | transcurrido 0:13:59 | faltan ~0:02:31
+      pliegue 4 | FFNN sev CV1 época 10 | val_loss 89.58140 |    0.8 s
+      pliegue 4 | FFNN sev CV1 época 20 | val_loss 31.52172 |    1.2 s
+      pliegue 4 | FFNN sev CV1 época 30 | val_loss 16.01374 |    1.6 s
+      pliegue 4 | FFNN sev CV1 época 40 | val_loss 9.40031 |    2.1 s
+      pliegue 4 | FFNN sev CV1 época 50 | val_loss 6.02305 |    2.5 s
+[  94/110]  85.5% | pliegue 4 | FFNN sev | cfg 4/4 | CV 1/3 |    2.6 s | transcurrido 0:14:02 | faltan ~0:02:21
+      pliegue 4 | FFNN sev CV2 época 10 | val_loss 56.01578 |    0.8 s
+      pliegue 4 | FFNN sev CV2 época 20 | val_loss 19.77291 |    1.2 s
+      pliegue 4 | FFNN sev CV2 época 30 | val_loss 9.96604 |    1.7 s
+      pliegue 4 | FFNN sev CV2 época 40 | val_loss 5.91701 |    2.1 s
+      pliegue 4 | FFNN sev CV2 época 50 | val_loss 3.98525 |    2.5 s
+[  95/110]  86.4% | pliegue 4 | FFNN sev | cfg 4/4 | CV 2/3 |    2.6 s | transcurrido 0:14:04 | faltan ~0:02:11
+      pliegue 4 | FFNN sev CV3 época 10 | val_loss 32.11327 |    1.2 s
+      pliegue 4 | FFNN sev CV3 época 20 | val_loss 10.30893 |    1.7 s
+      pliegue 4 | FFNN sev CV3 época 30 | val_loss 4.94458 |    2.1 s
+      pliegue 4 | FFNN sev CV3 época 40 | val_loss 2.89555 |    2.6 s
+      pliegue 4 | FFNN sev CV3 época 50 | val_loss 2.00405 |    3.1 s
+[  96/110]  87.3% | pliegue 4 | FFNN sev | cfg 4/4 | CV 3/3 |    3.1 s | transcurrido 0:14:07 | faltan ~0:02:02
+      pliegue 4 | FFNN sev final1 época 10 | val_loss 244.40927 |    0.8 s
+      pliegue 4 | FFNN sev final1 época 20 | val_loss 92.96098 |    1.3 s
+      pliegue 4 | FFNN sev final1 época 30 | val_loss 47.04768 |    1.8 s
+      pliegue 4 | FFNN sev final1 época 40 | val_loss 26.78331 |    2.2 s
+      pliegue 4 | FFNN sev final1 época 50 | val_loss 16.07400 |    2.7 s
+[  97/110]  88.2% | pliegue 4 | FFNN sev | entrenamiento final 1/1 |    2.7 s | transcurrido 0:14:10 | faltan ~0:01:52
+      pliegue 4 | CANN sev CV1 época 10 | val_loss 1.62417 |    0.6 s
+      pliegue 4 | CANN sev CV1 época 20 | val_loss 1.61666 |    0.9 s
+      pliegue 4 | CANN sev CV1 época 30 | val_loss 1.62441 |    1.2 s
+[  98/110]  89.1% | pliegue 4 | CANN sev | cfg 1/4 | CV 1/3 |    1.4 s | transcurrido 0:14:12 | faltan ~0:01:43
+      pliegue 4 | CANN sev CV2 época 10 | val_loss 1.90675 |    0.6 s
+      pliegue 4 | CANN sev CV2 época 20 | val_loss 1.84752 |    0.9 s
+      pliegue 4 | CANN sev CV2 época 30 | val_loss 1.84015 |    1.2 s
+      pliegue 4 | CANN sev CV2 época 40 | val_loss 1.84976 |    1.5 s
+[  99/110]  90.0% | pliegue 4 | CANN sev | cfg 1/4 | CV 2/3 |    1.7 s | transcurrido 0:14:13 | faltan ~0:01:33
+      pliegue 4 | CANN sev CV3 época 10 | val_loss 1.46658 |    0.6 s
+      pliegue 4 | CANN sev CV3 época 20 | val_loss 1.45823 |    0.9 s
+      pliegue 4 | CANN sev CV3 época 30 | val_loss 1.46273 |    1.2 s
+[ 100/110]  90.9% | pliegue 4 | CANN sev | cfg 1/4 | CV 3/3 |    1.4 s | transcurrido 0:14:15 | faltan ~0:01:24
+      pliegue 4 | CANN sev CV1 época 10 | val_loss 1.54709 |    0.7 s
+      pliegue 4 | CANN sev CV1 época 20 | val_loss 1.56430 |    1.0 s
+[ 101/110]  91.8% | pliegue 4 | CANN sev | cfg 2/4 | CV 1/3 |    1.1 s | transcurrido 0:14:16 | faltan ~0:01:15
+      pliegue 4 | CANN sev CV2 época 10 | val_loss 1.66703 |    0.7 s
+      pliegue 4 | CANN sev CV2 época 20 | val_loss 1.68995 |    1.0 s
+[ 102/110]  92.7% | pliegue 4 | CANN sev | cfg 2/4 | CV 2/3 |    1.2 s | transcurrido 0:14:17 | faltan ~0:01:06
+      pliegue 4 | CANN sev CV3 época 10 | val_loss 1.39492 |    0.7 s
+      pliegue 4 | CANN sev CV3 época 20 | val_loss 1.40032 |    1.0 s
+[ 103/110]  93.6% | pliegue 4 | CANN sev | cfg 2/4 | CV 3/3 |    1.1 s | transcurrido 0:14:18 | faltan ~0:00:57
+      pliegue 4 | CANN sev CV1 época 10 | val_loss 1.60372 |    0.7 s
+      pliegue 4 | CANN sev CV1 época 20 | val_loss 1.63810 |    1.0 s
+[ 104/110]  94.5% | pliegue 4 | CANN sev | cfg 3/4 | CV 1/3 |    1.3 s | transcurrido 0:14:19 | faltan ~0:00:49
+      pliegue 4 | CANN sev CV2 época 10 | val_loss 1.79780 |    0.6 s
+      pliegue 4 | CANN sev CV2 época 20 | val_loss 1.84645 |    1.0 s
+[ 105/110]  95.5% | pliegue 4 | CANN sev | cfg 3/4 | CV 2/3 |    1.3 s | transcurrido 0:14:21 | faltan ~0:00:40
+      pliegue 4 | CANN sev CV3 época 10 | val_loss 1.45728 |    0.6 s
+      pliegue 4 | CANN sev CV3 época 20 | val_loss 1.46182 |    1.0 s
+      pliegue 4 | CANN sev CV3 época 30 | val_loss 1.47920 |    1.3 s
+[ 106/110]  96.4% | pliegue 4 | CANN sev | cfg 3/4 | CV 3/3 |    1.4 s | transcurrido 0:14:22 | faltan ~0:00:32
+      pliegue 4 | CANN sev CV1 época 10 | val_loss 1.59793 |    0.7 s
+      pliegue 4 | CANN sev CV1 época 20 | val_loss 1.61921 |    1.0 s
+[ 107/110]  97.3% | pliegue 4 | CANN sev | cfg 4/4 | CV 1/3 |    1.1 s | transcurrido 0:14:23 | faltan ~0:00:23
+      pliegue 4 | CANN sev CV2 época 10 | val_loss 1.70610 |    0.7 s
+      pliegue 4 | CANN sev CV2 época 20 | val_loss 1.73697 |    1.0 s
+[ 108/110]  98.2% | pliegue 4 | CANN sev | cfg 4/4 | CV 2/3 |    1.3 s | transcurrido 0:14:25 | faltan ~0:00:15
+      pliegue 4 | CANN sev CV3 época 10 | val_loss 1.40449 |    0.7 s
+      pliegue 4 | CANN sev CV3 época 20 | val_loss 1.40907 |    1.0 s
+[ 109/110]  99.1% | pliegue 4 | CANN sev | cfg 4/4 | CV 3/3 |    1.3 s | transcurrido 0:14:26 | faltan ~0:00:07
+      pliegue 4 | CANN sev final1 época 10 | val_loss 1.20914 |    0.8 s
+      pliegue 4 | CANN sev final1 época 20 | val_loss 1.20305 |    1.1 s
+[ 110/110] 100.0% | pliegue 4 | CANN sev | entrenamiento final 1/1 |    1.3 s | transcurrido 0:14:27 | faltan ~0:00:00
+  GLM|freq       deviance=0.27890  MAE=0.1102  RMSE=0.2132
+  FFNN|freq      deviance=0.24292  MAE=0.0742  RMSE=0.2043
+  CANN|freq      deviance=0.24146  MAE=0.0739  RMSE=0.2041
+  GLM|sev        deviance=1.88520  MAE=2859.6470  RMSE=61829.5644
+  FFNN|sev       deviance=25.67434  MAE=2792.6223  RMSE=61927.8424
+  CANN|sev       deviance=1.86475  MAE=2890.7202  RMSE=61824.6708
+  tiempo 423.7 s
+tarea modelo  deviance         mae         rmse
+ freq   CANN   0.24098     0.07315 2.023100e-01
+ freq   FFNN   0.24165     0.07418 2.024700e-01
+ freq    GLM   0.27686     0.10972 2.116900e-01
+  sev   CANN   1.62017  2264.81425 2.054578e+04
+  sev   FFNN  82.90100 40405.76174 1.311416e+06
+  sev    GLM   1.62329  2270.19866 2.055163e+04

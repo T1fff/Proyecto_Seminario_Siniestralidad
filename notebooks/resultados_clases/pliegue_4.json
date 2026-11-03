@@ -1,0 +1,193 @@
+{
+  "pliegue": 4,
+  "n_train": 20782,
+  "n_test": 4156,
+  "metodos": {
+    "jenks|GLM": {
+      "accuracy": 0.7471126082771896,
+      "balanced_accuracy": 0.3333333333333333,
+      "f1_macro": 0.2850846990772621,
+      "kappa_cuadratico": 0.0,
+      "mae_ordinal": 0.2528873917228104,
+      "gvf_train": 0.7966,
+      "cortes_monto": [
+        339.6,
+        2305.0
+      ]
+    },
+    "jenks|FFNN": {
+      "accuracy": 0.7471126082771896,
+      "balanced_accuracy": 0.3333333333333333,
+      "f1_macro": 0.2850846990772621,
+      "kappa_cuadratico": 0.0,
+      "mae_ordinal": 0.2528873917228104,
+      "gvf_train": 0.7966,
+      "cortes_monto": [
+        339.6,
+        2305.0
+      ],
+      "config": {
+        "batch": 581,
+        "activacion": "relu",
+        "capas_nodos": [
+          11,
+          11,
+          11,
+          11
+        ],
+        "dropout": [
+          0.0634,
+          0.0634,
+          0.0634,
+          0.0634
+        ]
+      },
+      "cv_f1_macro": 0.2836
+    },
+    "kmeans|GLM": {
+      "accuracy": 0.7471126082771896,
+      "balanced_accuracy": 0.3333333333333333,
+      "f1_macro": 0.2850846990772621,
+      "kappa_cuadratico": 0.0,
+      "mae_ordinal": 0.2528873917228104,
+      "gvf_train": 0.7966,
+      "cortes_monto": [
+        340.5,
+        2310.8
+      ]
+    },
+    "kmeans|FFNN": {
+      "accuracy": 0.7471126082771896,
+      "balanced_accuracy": 0.3333333333333333,
+      "f1_macro": 0.2850846990772621,
+      "kappa_cuadratico": 0.0,
+      "mae_ordinal": 0.2528873917228104,
+      "gvf_train": 0.7966,
+      "cortes_monto": [
+        340.5,
+        2310.8
+      ],
+      "config": {
+        "batch": 535,
+        "activacion": "relu",
+        "capas_nodos": [
+          17,
+          17
+        ],
+        "dropout": [
+          0.0001,
+          0.0001
+        ]
+      },
+      "cv_f1_macro": 0.2835
+    },
+    "regla_cola|GLM": {
+      "accuracy": 0.9817131857555341,
+      "balanced_accuracy": 0.3333333333333333,
+      "f1_macro": 0.3302574065080136,
+      "kappa_cuadratico": 0.0,
+      "mae_ordinal": 0.01828681424446583,
+      "gvf_train": 0.1919,
+      "cortes_monto": [
+        31.1,
+        22000.0
+      ]
+    },
+    "regla_cola|FFNN": {
+      "accuracy": 0.9817131857555341,
+      "balanced_accuracy": 0.3333333333333333,
+      "f1_macro": 0.3302574065080136,
+      "kappa_cuadratico": 0.0,
+      "mae_ordinal": 0.01828681424446583,
+      "gvf_train": 0.1919,
+      "cortes_monto": [
+        31.1,
+        22000.0
+      ],
+      "config": {
+        "batch": 394,
+        "activacion": "softmax",
+        "capas_nodos": [
+          15
+        ],
+        "dropout": [
+          0.0022
+        ]
+      },
+      "cv_f1_macro": 0.3304
+    },
+    "ancho_igual_log|GLM": {
+      "accuracy": 0.9042348411934552,
+      "balanced_accuracy": 0.3333333333333333,
+      "f1_macro": 0.31656979192991325,
+      "kappa_cuadratico": 0.0,
+      "mae_ordinal": 0.09576515880654475,
+      "gvf_train": 0.6308,
+      "cortes_monto": [
+        172.3,
+        15015.4
+      ]
+    },
+    "ancho_igual_log|FFNN": {
+      "accuracy": 0.9042348411934552,
+      "balanced_accuracy": 0.3333333333333333,
+      "f1_macro": 0.31656979192991325,
+      "kappa_cuadratico": 0.0,
+      "mae_ordinal": 0.09576515880654475,
+      "gvf_train": 0.6308,
+      "cortes_monto": [
+        172.3,
+        15015.4
+      ],
+      "config": {
+        "batch": 2225,
+        "activacion": "relu",
+        "capas_nodos": [
+          30
+        ],
+        "dropout": [
+          0.0004
+        ]
+      },
+      "cv_f1_macro": 0.3152
+    },
+    "fijos|GLM": {
+      "accuracy": 0.6008180943214629,
+      "balanced_accuracy": 0.3407118566958616,
+      "f1_macro": 0.27171289288657063,
+      "kappa_cuadratico": 0.020204958056422306,
+      "mae_ordinal": 0.4013474494706448,
+      "gvf_train": 0.6638,
+      "cortes_monto": [
+        1000.0,
+        3000.0
+      ]
+    },
+    "fijos|FFNN": {
+      "accuracy": 0.5964870067372473,
+      "balanced_accuracy": 0.3394951265333909,
+      "f1_macro": 0.27436115603292466,
+      "kappa_cuadratico": 0.020036080637185094,
+      "mae_ordinal": 0.4059191530317613,
+      "gvf_train": 0.6638,
+      "cortes_monto": [
+        1000.0,
+        3000.0
+      ],
+      "config": {
+        "batch": 736,
+        "activacion": "sigmoid",
+        "capas_nodos": [
+          30,
+          30
+        ],
+        "dropout": [
+          0.0064,
+          0.0064
+        ]
+      },
+      "cv_f1_macro": 0.271
+    }
+  },
+  "segundos": 193.7
+}

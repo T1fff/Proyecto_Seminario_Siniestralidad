@@ -1,0 +1,1214 @@
+Dispositivo: CPU (sin GPU Metal)
+Unidades de entrenamiento: 142
+Pólizas: 678,007 | con siniestro: 24,938
+pliegue       1       2       3       4       5       6
+pólizas  113002  113001  113001  113001  113001  113001
+Pliegue externo 3 ...
+[   1/142]   0.7% | pliegue 3 | autoencoder |   36.7 s | transcurrido 0:00:37 | faltan ~1:26:18
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:175: RuntimeWarning: divide by zero encountered in matmul
+  lat = Z @ W + b
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:175: RuntimeWarning: overflow encountered in matmul
+  lat = Z @ W + b
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:175: RuntimeWarning: invalid value encountered in matmul
+  lat = Z @ W + b
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: divide by zero encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: overflow encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: invalid value encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+[   2/142]   1.4% | pliegue 3 | jenks | GLM |    0.1 s | transcurrido 0:00:38 | faltan ~0:42:56
+      pliegue 3 | jenks | FFNN CV1 época 10 | val_loss 1.01740 |    0.8 s
+      pliegue 3 | jenks | FFNN CV1 época 20 | val_loss 0.95649 |    1.1 s
+      pliegue 3 | jenks | FFNN CV1 época 30 | val_loss 0.90502 |    1.5 s
+      pliegue 3 | jenks | FFNN CV1 época 40 | val_loss 0.86422 |    1.8 s
+      pliegue 3 | jenks | FFNN CV1 época 50 | val_loss 0.83298 |    2.2 s
+[   3/142]   2.1% | pliegue 3 | jenks | FFNN | cfg 1/4 | CV 1/3 |    2.4 s | transcurrido 0:00:40 | faltan ~0:30:16
+      pliegue 3 | jenks | FFNN CV2 época 10 | val_loss 1.03454 |    0.7 s
+      pliegue 3 | jenks | FFNN CV2 época 20 | val_loss 0.97168 |    1.0 s
+      pliegue 3 | jenks | FFNN CV2 época 30 | val_loss 0.91886 |    1.4 s
+      pliegue 3 | jenks | FFNN CV2 época 40 | val_loss 0.87741 |    1.7 s
+      pliegue 3 | jenks | FFNN CV2 época 50 | val_loss 0.84519 |    2.0 s
+[   4/142]   2.8% | pliegue 3 | jenks | FFNN | cfg 1/4 | CV 2/3 |    2.2 s | transcurrido 0:00:42 | faltan ~0:23:48
+      pliegue 3 | jenks | FFNN CV3 época 10 | val_loss 1.01921 |    0.7 s
+      pliegue 3 | jenks | FFNN CV3 época 20 | val_loss 0.95592 |    1.0 s
+      pliegue 3 | jenks | FFNN CV3 época 30 | val_loss 0.90401 |    1.4 s
+      pliegue 3 | jenks | FFNN CV3 época 40 | val_loss 0.86472 |    1.7 s
+      pliegue 3 | jenks | FFNN CV3 época 50 | val_loss 0.83457 |    2.0 s
+[   5/142]   3.5% | pliegue 3 | jenks | FFNN | cfg 1/4 | CV 3/3 |    2.2 s | transcurrido 0:00:45 | faltan ~0:19:55
+    cfg 0: softmax, capas=[23, 23], batch=3967, dropout=0.0034 -> F1 CV=0.2832
+      pliegue 3 | jenks | FFNN CV1 época 10 | val_loss 0.98287 |    0.9 s
+      pliegue 3 | jenks | FFNN CV1 época 20 | val_loss 0.90082 |    1.3 s
+      pliegue 3 | jenks | FFNN CV1 época 30 | val_loss 0.84397 |    1.7 s
+      pliegue 3 | jenks | FFNN CV1 época 40 | val_loss 0.80685 |    2.1 s
+      pliegue 3 | jenks | FFNN CV1 época 50 | val_loss 0.78407 |    2.5 s
+[   6/142]   4.2% | pliegue 3 | jenks | FFNN | cfg 2/4 | CV 1/3 |    2.7 s | transcurrido 0:00:47 | faltan ~0:17:30
+      pliegue 3 | jenks | FFNN CV2 época 10 | val_loss 1.01265 |    0.9 s
+      pliegue 3 | jenks | FFNN CV2 época 20 | val_loss 0.92393 |    1.3 s
+      pliegue 3 | jenks | FFNN CV2 época 30 | val_loss 0.86100 |    1.7 s
+      pliegue 3 | jenks | FFNN CV2 época 40 | val_loss 0.81899 |    2.1 s
+      pliegue 3 | jenks | FFNN CV2 época 50 | val_loss 0.79260 |    2.5 s
+WARNING:tensorflow:5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x30f8fab00> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[   7/142]   4.9% | pliegue 3 | jenks | FFNN | cfg 2/4 | CV 2/3 |    2.7 s | transcurrido 0:00:50 | faltan ~0:15:45
+      pliegue 3 | jenks | FFNN CV3 época 10 | val_loss 0.96849 |    1.0 s
+      pliegue 3 | jenks | FFNN CV3 época 20 | val_loss 0.88860 |    1.4 s
+      pliegue 3 | jenks | FFNN CV3 época 30 | val_loss 0.83334 |    1.8 s
+      pliegue 3 | jenks | FFNN CV3 época 40 | val_loss 0.79722 |    2.2 s
+      pliegue 3 | jenks | FFNN CV3 época 50 | val_loss 0.77491 |    2.6 s
+WARNING:tensorflow:6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x30f73d990> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[   8/142]   5.6% | pliegue 3 | jenks | FFNN | cfg 2/4 | CV 3/3 |    2.8 s | transcurrido 0:00:53 | faltan ~0:14:28
+    cfg 1: softmax, capas=[36, 36, 36], batch=2049, dropout=0.0017 -> F1 CV=0.2832
+      pliegue 3 | jenks | FFNN CV1 época 10 | val_loss 0.78758 |    0.8 s
+      pliegue 3 | jenks | FFNN CV1 época 20 | val_loss 0.76641 |    1.1 s
+      pliegue 3 | jenks | FFNN CV1 época 30 | val_loss 0.75832 |    1.5 s
+      pliegue 3 | jenks | FFNN CV1 época 40 | val_loss 0.75437 |    1.8 s
+      pliegue 3 | jenks | FFNN CV1 época 50 | val_loss 0.75214 |    2.2 s
+[   9/142]   6.3% | pliegue 3 | jenks | FFNN | cfg 3/4 | CV 1/3 |    2.3 s | transcurrido 0:00:55 | faltan ~0:13:20
+      pliegue 3 | jenks | FFNN CV2 época 10 | val_loss 0.81503 |    0.8 s
+      pliegue 3 | jenks | FFNN CV2 época 20 | val_loss 0.77397 |    1.1 s
+      pliegue 3 | jenks | FFNN CV2 época 30 | val_loss 0.76404 |    1.4 s
+      pliegue 3 | jenks | FFNN CV2 época 40 | val_loss 0.75934 |    1.8 s
+      pliegue 3 | jenks | FFNN CV2 época 50 | val_loss 0.75695 |    2.1 s
+[  10/142]   7.0% | pliegue 3 | jenks | FFNN | cfg 3/4 | CV 2/3 |    2.3 s | transcurrido 0:00:58 | faltan ~0:12:25
+      pliegue 3 | jenks | FFNN CV3 época 10 | val_loss 0.79699 |    0.8 s
+      pliegue 3 | jenks | FFNN CV3 época 20 | val_loss 0.76278 |    1.1 s
+      pliegue 3 | jenks | FFNN CV3 época 30 | val_loss 0.75533 |    1.4 s
+      pliegue 3 | jenks | FFNN CV3 época 40 | val_loss 0.75113 |    1.8 s
+      pliegue 3 | jenks | FFNN CV3 época 50 | val_loss 0.74854 |    2.1 s
+[  11/142]   7.7% | pliegue 3 | jenks | FFNN | cfg 3/4 | CV 3/3 |    2.3 s | transcurrido 0:01:00 | faltan ~0:11:40
+    cfg 2: relu, capas=[27, 27, 27], batch=5349, dropout=0.0039 -> F1 CV=0.2832
+      pliegue 3 | jenks | FFNN CV1 época 10 | val_loss 1.02860 |    0.9 s
+      pliegue 3 | jenks | FFNN CV1 época 20 | val_loss 0.98294 |    1.3 s
+      pliegue 3 | jenks | FFNN CV1 época 30 | val_loss 0.94323 |    1.6 s
+      pliegue 3 | jenks | FFNN CV1 época 40 | val_loss 0.90908 |    2.0 s
+      pliegue 3 | jenks | FFNN CV1 época 50 | val_loss 0.87999 |    2.4 s
+[  12/142]   8.5% | pliegue 3 | jenks | FFNN | cfg 4/4 | CV 1/3 |    2.6 s | transcurrido 0:01:02 | faltan ~0:11:04
+      pliegue 3 | jenks | FFNN CV2 época 10 | val_loss 1.03196 |    0.9 s
+      pliegue 3 | jenks | FFNN CV2 época 20 | val_loss 0.98554 |    1.3 s
+      pliegue 3 | jenks | FFNN CV2 época 30 | val_loss 0.94525 |    1.6 s
+      pliegue 3 | jenks | FFNN CV2 época 40 | val_loss 0.91069 |    2.0 s
+      pliegue 3 | jenks | FFNN CV2 época 50 | val_loss 0.88140 |    2.3 s
+[  13/142]   9.2% | pliegue 3 | jenks | FFNN | cfg 4/4 | CV 2/3 |    2.5 s | transcurrido 0:01:05 | faltan ~0:10:34
+      pliegue 3 | jenks | FFNN CV3 época 10 | val_loss 1.00630 |    0.9 s
+      pliegue 3 | jenks | FFNN CV3 época 20 | val_loss 0.96228 |    1.3 s
+      pliegue 3 | jenks | FFNN CV3 época 30 | val_loss 0.92413 |    1.6 s
+      pliegue 3 | jenks | FFNN CV3 época 40 | val_loss 0.89145 |    2.0 s
+      pliegue 3 | jenks | FFNN CV3 época 50 | val_loss 0.86373 |    2.4 s
+[  14/142]   9.9% | pliegue 3 | jenks | FFNN | cfg 4/4 | CV 3/3 |    2.6 s | transcurrido 0:01:08 | faltan ~0:10:07
+    cfg 3: softmax, capas=[21, 21, 21, 21], batch=4776, dropout=0.0394 -> F1 CV=0.2832
+      pliegue 3 | jenks | FFNN final1 época 10 | val_loss 1.02483 |    0.8 s
+      pliegue 3 | jenks | FFNN final1 época 20 | val_loss 0.93920 |    1.2 s
+      pliegue 3 | jenks | FFNN final1 época 30 | val_loss 0.86926 |    1.5 s
+      pliegue 3 | jenks | FFNN final1 época 40 | val_loss 0.81496 |    1.9 s
+      pliegue 3 | jenks | FFNN final1 época 50 | val_loss 0.77495 |    2.2 s
+[  15/142]  10.6% | pliegue 3 | jenks | FFNN | entrenamiento final 1/1 |    2.3 s | transcurrido 0:01:10 | faltan ~0:09:41
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: divide by zero encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: overflow encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: invalid value encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+[  16/142]  11.3% | pliegue 3 | kmeans | GLM |    0.1 s | transcurrido 0:01:10 | faltan ~0:09:01
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 3 | kmeans | FFNN CV1 época 10 | val_loss 0.75399 |    0.9 s
+      pliegue 3 | kmeans | FFNN CV1 época 20 | val_loss 0.75005 |    1.4 s
+      pliegue 3 | kmeans | FFNN CV1 época 30 | val_loss 0.74847 |    1.9 s
+      pliegue 3 | kmeans | FFNN CV1 época 40 | val_loss 0.74781 |    2.5 s
+      pliegue 3 | kmeans | FFNN CV1 época 50 | val_loss 0.74780 |    3.0 s
+[  17/142]  12.0% | pliegue 3 | kmeans | FFNN | cfg 1/4 | CV 1/3 |    3.1 s | transcurrido 0:01:13 | faltan ~0:08:48
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 3 | kmeans | FFNN CV2 época 10 | val_loss 0.75676 |    0.9 s
+      pliegue 3 | kmeans | FFNN CV2 época 20 | val_loss 0.75287 |    1.4 s
+      pliegue 3 | kmeans | FFNN CV2 época 30 | val_loss 0.75234 |    2.0 s
+      pliegue 3 | kmeans | FFNN CV2 época 40 | val_loss 0.75311 |    2.5 s
+      pliegue 3 | kmeans | FFNN CV2 época 50 | val_loss 0.75413 |    3.0 s
+[  18/142]  12.7% | pliegue 3 | kmeans | FFNN | cfg 1/4 | CV 2/3 |    3.1 s | transcurrido 0:01:16 | faltan ~0:08:36
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 3 | kmeans | FFNN CV3 época 10 | val_loss 0.74366 |    0.9 s
+      pliegue 3 | kmeans | FFNN CV3 época 20 | val_loss 0.73754 |    1.4 s
+      pliegue 3 | kmeans | FFNN CV3 época 30 | val_loss 0.73728 |    1.9 s
+      pliegue 3 | kmeans | FFNN CV3 época 40 | val_loss 0.73766 |    2.5 s
+[  19/142]  13.4% | pliegue 3 | kmeans | FFNN | cfg 1/4 | CV 3/3 |    2.9 s | transcurrido 0:01:19 | faltan ~0:08:24
+    cfg 0: relu, capas=[11, 11], batch=248, dropout=0.0128 -> F1 CV=0.2836
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 3 | kmeans | FFNN CV1 época 10 | val_loss 0.76195 |    0.6 s
+      pliegue 3 | kmeans | FFNN CV1 época 20 | val_loss 0.75294 |    1.0 s
+      pliegue 3 | kmeans | FFNN CV1 época 30 | val_loss 0.75074 |    1.3 s
+      pliegue 3 | kmeans | FFNN CV1 época 40 | val_loss 0.75019 |    1.7 s
+      pliegue 3 | kmeans | FFNN CV1 época 50 | val_loss 0.75000 |    2.1 s
+[  20/142]  14.1% | pliegue 3 | kmeans | FFNN | cfg 2/4 | CV 1/3 |    2.2 s | transcurrido 0:01:21 | faltan ~0:08:08
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 3 | kmeans | FFNN CV2 época 10 | val_loss 0.76748 |    0.6 s
+      pliegue 3 | kmeans | FFNN CV2 época 20 | val_loss 0.75901 |    1.0 s
+      pliegue 3 | kmeans | FFNN CV2 época 30 | val_loss 0.75690 |    1.4 s
+      pliegue 3 | kmeans | FFNN CV2 época 40 | val_loss 0.75656 |    1.7 s
+      pliegue 3 | kmeans | FFNN CV2 época 50 | val_loss 0.75666 |    2.0 s
+[  21/142]  14.8% | pliegue 3 | kmeans | FFNN | cfg 2/4 | CV 2/3 |    2.1 s | transcurrido 0:01:23 | faltan ~0:07:53
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 3 | kmeans | FFNN CV3 época 10 | val_loss 0.76248 |    0.6 s
+      pliegue 3 | kmeans | FFNN CV3 época 20 | val_loss 0.74686 |    1.0 s
+      pliegue 3 | kmeans | FFNN CV3 época 30 | val_loss 0.74210 |    1.3 s
+      pliegue 3 | kmeans | FFNN CV3 época 40 | val_loss 0.74027 |    1.7 s
+      pliegue 3 | kmeans | FFNN CV3 época 50 | val_loss 0.73962 |    2.0 s
+[  22/142]  15.5% | pliegue 3 | kmeans | FFNN | cfg 2/4 | CV 3/3 |    2.1 s | transcurrido 0:01:26 | faltan ~0:07:40
+    cfg 1: relu, capas=[31], batch=1034, dropout=0.0013 -> F1 CV=0.2832
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 3 | kmeans | FFNN CV1 época 10 | val_loss 0.75372 |    0.8 s
+      pliegue 3 | kmeans | FFNN CV1 época 20 | val_loss 0.74736 |    1.2 s
+      pliegue 3 | kmeans | FFNN CV1 época 30 | val_loss 0.74697 |    1.7 s
+      pliegue 3 | kmeans | FFNN CV1 época 40 | val_loss 0.74748 |    2.2 s
+[  23/142]  16.2% | pliegue 3 | kmeans | FFNN | cfg 3/4 | CV 1/3 |    2.5 s | transcurrido 0:01:28 | faltan ~0:07:29
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 3 | kmeans | FFNN CV2 época 10 | val_loss 0.76218 |    0.7 s
+      pliegue 3 | kmeans | FFNN CV2 época 20 | val_loss 0.75559 |    1.2 s
+      pliegue 3 | kmeans | FFNN CV2 época 30 | val_loss 0.75428 |    1.6 s
+      pliegue 3 | kmeans | FFNN CV2 época 40 | val_loss 0.75373 |    2.1 s
+      pliegue 3 | kmeans | FFNN CV2 época 50 | val_loss 0.75380 |    2.5 s
+[  24/142]  16.9% | pliegue 3 | kmeans | FFNN | cfg 3/4 | CV 2/3 |    2.6 s | transcurrido 0:01:31 | faltan ~0:07:19
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 3 | kmeans | FFNN CV3 época 10 | val_loss 0.75032 |    0.7 s
+      pliegue 3 | kmeans | FFNN CV3 época 20 | val_loss 0.74106 |    1.2 s
+      pliegue 3 | kmeans | FFNN CV3 época 30 | val_loss 0.73928 |    1.6 s
+      pliegue 3 | kmeans | FFNN CV3 época 40 | val_loss 0.73897 |    2.1 s
+      pliegue 3 | kmeans | FFNN CV3 época 50 | val_loss 0.73910 |    2.5 s
+[  25/142]  17.6% | pliegue 3 | kmeans | FFNN | cfg 3/4 | CV 3/3 |    2.6 s | transcurrido 0:01:33 | faltan ~0:07:10
+    cfg 2: relu, capas=[12], batch=327, dropout=0.0003 -> F1 CV=0.2836
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 3 | kmeans | FFNN CV1 época 10 | val_loss 0.95937 |    0.9 s
+      pliegue 3 | kmeans | FFNN CV1 época 20 | val_loss 0.86701 |    1.3 s
+      pliegue 3 | kmeans | FFNN CV1 época 30 | val_loss 0.81172 |    1.7 s
+      pliegue 3 | kmeans | FFNN CV1 época 40 | val_loss 0.78177 |    2.2 s
+      pliegue 3 | kmeans | FFNN CV1 época 50 | val_loss 0.76729 |    2.7 s
+[  26/142]  18.3% | pliegue 3 | kmeans | FFNN | cfg 4/4 | CV 1/3 |    2.8 s | transcurrido 0:01:36 | faltan ~0:07:02
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 3 | kmeans | FFNN CV2 época 10 | val_loss 0.98461 |    1.1 s
+      pliegue 3 | kmeans | FFNN CV2 época 20 | val_loss 0.88531 |    1.5 s
+      pliegue 3 | kmeans | FFNN CV2 época 30 | val_loss 0.82441 |    1.9 s
+      pliegue 3 | kmeans | FFNN CV2 época 40 | val_loss 0.79075 |    2.4 s
+      pliegue 3 | kmeans | FFNN CV2 época 50 | val_loss 0.77406 |    2.8 s
+[  27/142]  19.0% | pliegue 3 | kmeans | FFNN | cfg 4/4 | CV 2/3 |    2.9 s | transcurrido 0:01:39 | faltan ~0:06:56
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 3 | kmeans | FFNN CV3 época 10 | val_loss 0.94414 |    0.9 s
+      pliegue 3 | kmeans | FFNN CV3 época 20 | val_loss 0.85441 |    1.3 s
+      pliegue 3 | kmeans | FFNN CV3 época 30 | val_loss 0.80111 |    1.7 s
+      pliegue 3 | kmeans | FFNN CV3 época 40 | val_loss 0.77225 |    2.2 s
+      pliegue 3 | kmeans | FFNN CV3 época 50 | val_loss 0.75804 |    2.6 s
+[  28/142]  19.7% | pliegue 3 | kmeans | FFNN | cfg 4/4 | CV 3/3 |    2.7 s | transcurrido 0:01:42 | faltan ~0:06:48
+    cfg 3: softmax, capas=[31, 31, 31], batch=1547, dropout=0.0761 -> F1 CV=0.2832
+      pliegue 3 | kmeans | FFNN final1 época 10 | val_loss 0.68056 |    0.9 s
+      pliegue 3 | kmeans | FFNN final1 época 20 | val_loss 0.67697 |    1.4 s
+      pliegue 3 | kmeans | FFNN final1 época 30 | val_loss 0.67537 |    2.0 s
+      pliegue 3 | kmeans | FFNN final1 época 40 | val_loss 0.67576 |    2.5 s
+      pliegue 3 | kmeans | FFNN final1 época 50 | val_loss 0.67746 |    3.0 s
+[  29/142]  20.4% | pliegue 3 | kmeans | FFNN | entrenamiento final 1/1 |    3.1 s | transcurrido 0:01:45 | faltan ~0:06:43
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: divide by zero encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: overflow encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: invalid value encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+[  30/142]  21.1% | pliegue 3 | regla_cola | GLM |    0.0 s | transcurrido 0:01:45 | faltan ~0:06:26
+      pliegue 3 | regla_cola | FFNN CV1 época 10 | val_loss 0.40878 |    0.7 s
+      pliegue 3 | regla_cola | FFNN CV1 época 20 | val_loss 0.17879 |    1.0 s
+      pliegue 3 | regla_cola | FFNN CV1 época 30 | val_loss 0.13020 |    1.3 s
+      pliegue 3 | regla_cola | FFNN CV1 época 40 | val_loss 0.11195 |    1.6 s
+      pliegue 3 | regla_cola | FFNN CV1 época 50 | val_loss 0.10334 |    2.0 s
+[  31/142]  21.8% | pliegue 3 | regla_cola | FFNN | cfg 1/4 | CV 1/3 |    2.0 s | transcurrido 0:01:47 | faltan ~0:06:17
+      pliegue 3 | regla_cola | FFNN CV2 época 10 | val_loss 0.51067 |    0.7 s
+      pliegue 3 | regla_cola | FFNN CV2 época 20 | val_loss 0.21316 |    1.0 s
+      pliegue 3 | regla_cola | FFNN CV2 época 30 | val_loss 0.14174 |    1.3 s
+      pliegue 3 | regla_cola | FFNN CV2 época 40 | val_loss 0.11542 |    1.7 s
+      pliegue 3 | regla_cola | FFNN CV2 época 50 | val_loss 0.10325 |    2.0 s
+[  32/142]  22.5% | pliegue 3 | regla_cola | FFNN | cfg 1/4 | CV 2/3 |    2.1 s | transcurrido 0:01:49 | faltan ~0:06:09
+      pliegue 3 | regla_cola | FFNN CV3 época 10 | val_loss 0.40205 |    0.7 s
+      pliegue 3 | regla_cola | FFNN CV3 época 20 | val_loss 0.17046 |    1.0 s
+      pliegue 3 | regla_cola | FFNN CV3 época 30 | val_loss 0.12874 |    1.3 s
+      pliegue 3 | regla_cola | FFNN CV3 época 40 | val_loss 0.11840 |    1.6 s
+      pliegue 3 | regla_cola | FFNN CV3 época 50 | val_loss 0.11505 |    1.9 s
+[  33/142]  23.2% | pliegue 3 | regla_cola | FFNN | cfg 1/4 | CV 3/3 |    2.0 s | transcurrido 0:01:51 | faltan ~0:06:02
+    cfg 0: sigmoid, capas=[11, 11], batch=1389, dropout=0.0002 -> F1 CV=0.3305
+      pliegue 3 | regla_cola | FFNN CV1 época 10 | val_loss 0.10748 |    0.9 s
+      pliegue 3 | regla_cola | FFNN CV1 época 20 | val_loss 0.10048 |    1.2 s
+      pliegue 3 | regla_cola | FFNN CV1 época 30 | val_loss 0.09812 |    1.5 s
+      pliegue 3 | regla_cola | FFNN CV1 época 40 | val_loss 0.09716 |    1.9 s
+      pliegue 3 | regla_cola | FFNN CV1 época 50 | val_loss 0.09680 |    2.2 s
+[  34/142]  23.9% | pliegue 3 | regla_cola | FFNN | cfg 2/4 | CV 1/3 |    2.3 s | transcurrido 0:01:53 | faltan ~0:05:55
+      pliegue 3 | regla_cola | FFNN CV2 época 10 | val_loss 0.22737 |    0.8 s
+      pliegue 3 | regla_cola | FFNN CV2 época 20 | val_loss 0.09636 |    1.2 s
+      pliegue 3 | regla_cola | FFNN CV2 época 30 | val_loss 0.09172 |    1.5 s
+      pliegue 3 | regla_cola | FFNN CV2 época 40 | val_loss 0.08964 |    1.8 s
+      pliegue 3 | regla_cola | FFNN CV2 época 50 | val_loss 0.08863 |    2.2 s
+[  35/142]  24.6% | pliegue 3 | regla_cola | FFNN | cfg 2/4 | CV 2/3 |    2.3 s | transcurrido 0:01:55 | faltan ~0:05:48
+      pliegue 3 | regla_cola | FFNN CV3 época 10 | val_loss 0.14736 |    0.9 s
+      pliegue 3 | regla_cola | FFNN CV3 época 20 | val_loss 0.13451 |    1.2 s
+      pliegue 3 | regla_cola | FFNN CV3 época 30 | val_loss 0.12754 |    1.6 s
+      pliegue 3 | regla_cola | FFNN CV3 época 40 | val_loss 0.12377 |    2.0 s
+      pliegue 3 | regla_cola | FFNN CV3 época 50 | val_loss 0.12181 |    2.4 s
+[  36/142]  25.4% | pliegue 3 | regla_cola | FFNN | cfg 2/4 | CV 3/3 |    2.4 s | transcurrido 0:01:58 | faltan ~0:05:43
+    cfg 1: relu, capas=[18, 18, 18, 18], batch=3000, dropout=0.0004 -> F1 CV=0.3305
+      pliegue 3 | regla_cola | FFNN CV1 época 10 | val_loss 0.89246 |    0.6 s
+      pliegue 3 | regla_cola | FFNN CV1 época 20 | val_loss 0.69291 |    0.9 s
+      pliegue 3 | regla_cola | FFNN CV1 época 30 | val_loss 0.54013 |    1.2 s
+      pliegue 3 | regla_cola | FFNN CV1 época 40 | val_loss 0.44400 |    1.6 s
+      pliegue 3 | regla_cola | FFNN CV1 época 50 | val_loss 0.37576 |    1.9 s
+[  37/142]  26.1% | pliegue 3 | regla_cola | FFNN | cfg 3/4 | CV 1/3 |    1.9 s | transcurrido 0:02:00 | faltan ~0:05:36
+      pliegue 3 | regla_cola | FFNN CV2 época 10 | val_loss 0.92058 |    0.6 s
+      pliegue 3 | regla_cola | FFNN CV2 época 20 | val_loss 0.68718 |    0.9 s
+      pliegue 3 | regla_cola | FFNN CV2 época 30 | val_loss 0.51579 |    1.2 s
+      pliegue 3 | regla_cola | FFNN CV2 época 40 | val_loss 0.40326 |    1.6 s
+      pliegue 3 | regla_cola | FFNN CV2 época 50 | val_loss 0.32670 |    1.9 s
+[  38/142]  26.8% | pliegue 3 | regla_cola | FFNN | cfg 3/4 | CV 2/3 |    1.9 s | transcurrido 0:02:02 | faltan ~0:05:29
+      pliegue 3 | regla_cola | FFNN CV3 época 10 | val_loss 0.90518 |    0.6 s
+      pliegue 3 | regla_cola | FFNN CV3 época 20 | val_loss 0.68380 |    0.9 s
+      pliegue 3 | regla_cola | FFNN CV3 época 30 | val_loss 0.53275 |    1.2 s
+      pliegue 3 | regla_cola | FFNN CV3 época 40 | val_loss 0.42429 |    1.6 s
+      pliegue 3 | regla_cola | FFNN CV3 época 50 | val_loss 0.35329 |    1.9 s
+[  39/142]  27.5% | pliegue 3 | regla_cola | FFNN | cfg 3/4 | CV 3/3 |    2.2 s | transcurrido 0:02:04 | faltan ~0:05:23
+    cfg 2: softmax, capas=[48], batch=3388, dropout=0.0285 -> F1 CV=0.3305
+      pliegue 3 | regla_cola | FFNN CV1 época 10 | val_loss 0.65916 |    0.7 s
+      pliegue 3 | regla_cola | FFNN CV1 época 20 | val_loss 0.41610 |    1.1 s
+      pliegue 3 | regla_cola | FFNN CV1 época 30 | val_loss 0.28319 |    1.4 s
+      pliegue 3 | regla_cola | FFNN CV1 época 40 | val_loss 0.20923 |    1.8 s
+      pliegue 3 | regla_cola | FFNN CV1 época 50 | val_loss 0.16672 |    2.2 s
+[  40/142]  28.2% | pliegue 3 | regla_cola | FFNN | cfg 4/4 | CV 1/3 |    2.2 s | transcurrido 0:02:06 | faltan ~0:05:18
+      pliegue 3 | regla_cola | FFNN CV2 época 10 | val_loss 0.68658 |    0.7 s
+      pliegue 3 | regla_cola | FFNN CV2 época 20 | val_loss 0.43798 |    1.1 s
+      pliegue 3 | regla_cola | FFNN CV2 época 30 | val_loss 0.29887 |    1.4 s
+      pliegue 3 | regla_cola | FFNN CV2 época 40 | val_loss 0.21870 |    1.8 s
+      pliegue 3 | regla_cola | FFNN CV2 época 50 | val_loss 0.17063 |    2.2 s
+[  41/142]  28.9% | pliegue 3 | regla_cola | FFNN | cfg 4/4 | CV 2/3 |    2.2 s | transcurrido 0:02:08 | faltan ~0:05:13
+      pliegue 3 | regla_cola | FFNN CV3 época 10 | val_loss 0.69536 |    0.7 s
+      pliegue 3 | regla_cola | FFNN CV3 época 20 | val_loss 0.44857 |    1.1 s
+      pliegue 3 | regla_cola | FFNN CV3 época 30 | val_loss 0.31330 |    1.5 s
+      pliegue 3 | regla_cola | FFNN CV3 época 40 | val_loss 0.23616 |    1.8 s
+      pliegue 3 | regla_cola | FFNN CV3 época 50 | val_loss 0.19028 |    2.2 s
+[  42/142]  29.6% | pliegue 3 | regla_cola | FFNN | cfg 4/4 | CV 3/3 |    2.3 s | transcurrido 0:02:11 | faltan ~0:05:07
+    cfg 3: softmax, capas=[20, 20], batch=867, dropout=0.042 -> F1 CV=0.3305
+      pliegue 3 | regla_cola | FFNN final1 época 10 | val_loss 0.40022 |    0.7 s
+      pliegue 3 | regla_cola | FFNN final1 época 20 | val_loss 0.15998 |    1.0 s
+      pliegue 3 | regla_cola | FFNN final1 época 30 | val_loss 0.10244 |    1.3 s
+      pliegue 3 | regla_cola | FFNN final1 época 40 | val_loss 0.08167 |    1.6 s
+      pliegue 3 | regla_cola | FFNN final1 época 50 | val_loss 0.07213 |    2.0 s
+[  43/142]  30.3% | pliegue 3 | regla_cola | FFNN | entrenamiento final 1/1 |    2.0 s | transcurrido 0:02:13 | faltan ~0:05:02
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: divide by zero encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: overflow encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: invalid value encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+[  44/142]  31.0% | pliegue 3 | ancho_igual_log | GLM |    0.1 s | transcurrido 0:02:13 | faltan ~0:04:52
+      pliegue 3 | ancho_igual_log | FFNN CV1 época 10 | val_loss 1.00492 |    0.7 s
+      pliegue 3 | ancho_igual_log | FFNN CV1 época 20 | val_loss 0.91266 |    1.0 s
+      pliegue 3 | ancho_igual_log | FFNN CV1 época 30 | val_loss 0.83205 |    1.3 s
+      pliegue 3 | ancho_igual_log | FFNN CV1 época 40 | val_loss 0.76343 |    1.6 s
+      pliegue 3 | ancho_igual_log | FFNN CV1 época 50 | val_loss 0.70658 |    1.9 s
+[  45/142]  31.7% | pliegue 3 | ancho_igual_log | FFNN | cfg 1/4 | CV 1/3 |    2.0 s | transcurrido 0:02:15 | faltan ~0:04:47
+      pliegue 3 | ancho_igual_log | FFNN CV2 época 10 | val_loss 1.03674 |    0.7 s
+      pliegue 3 | ancho_igual_log | FFNN CV2 época 20 | val_loss 0.93336 |    1.0 s
+      pliegue 3 | ancho_igual_log | FFNN CV2 época 30 | val_loss 0.84351 |    1.3 s
+      pliegue 3 | ancho_igual_log | FFNN CV2 época 40 | val_loss 0.77473 |    1.6 s
+      pliegue 3 | ancho_igual_log | FFNN CV2 época 50 | val_loss 0.71771 |    1.9 s
+[  46/142]  32.4% | pliegue 3 | ancho_igual_log | FFNN | cfg 1/4 | CV 2/3 |    2.0 s | transcurrido 0:02:17 | faltan ~0:04:42
+      pliegue 3 | ancho_igual_log | FFNN CV3 época 10 | val_loss 1.01788 |    0.7 s
+      pliegue 3 | ancho_igual_log | FFNN CV3 época 20 | val_loss 0.92346 |    1.0 s
+      pliegue 3 | ancho_igual_log | FFNN CV3 época 30 | val_loss 0.83858 |    1.3 s
+      pliegue 3 | ancho_igual_log | FFNN CV3 época 40 | val_loss 0.76309 |    1.6 s
+      pliegue 3 | ancho_igual_log | FFNN CV3 época 50 | val_loss 0.69907 |    1.9 s
+[  47/142]  33.1% | pliegue 3 | ancho_igual_log | FFNN | cfg 1/4 | CV 3/3 |    1.9 s | transcurrido 0:02:19 | faltan ~0:04:37
+    cfg 0: softmax, capas=[17, 17], batch=3771, dropout=0.0039 -> F1 CV=0.3128
+      pliegue 3 | ancho_igual_log | FFNN CV1 época 10 | val_loss 0.59353 |    0.6 s
+      pliegue 3 | ancho_igual_log | FFNN CV1 época 20 | val_loss 0.46352 |    0.8 s
+      pliegue 3 | ancho_igual_log | FFNN CV1 época 30 | val_loss 0.42935 |    1.1 s
+      pliegue 3 | ancho_igual_log | FFNN CV1 época 40 | val_loss 0.41616 |    1.4 s
+      pliegue 3 | ancho_igual_log | FFNN CV1 época 50 | val_loss 0.40908 |    1.7 s
+[  48/142]  33.8% | pliegue 3 | ancho_igual_log | FFNN | cfg 2/4 | CV 1/3 |    1.8 s | transcurrido 0:02:20 | faltan ~0:04:32
+      pliegue 3 | ancho_igual_log | FFNN CV2 época 10 | val_loss 0.60234 |    0.6 s
+      pliegue 3 | ancho_igual_log | FFNN CV2 época 20 | val_loss 0.46923 |    0.8 s
+      pliegue 3 | ancho_igual_log | FFNN CV2 época 30 | val_loss 0.42780 |    1.1 s
+      pliegue 3 | ancho_igual_log | FFNN CV2 época 40 | val_loss 0.40999 |    1.4 s
+      pliegue 3 | ancho_igual_log | FFNN CV2 época 50 | val_loss 0.40127 |    1.7 s
+[  49/142]  34.5% | pliegue 3 | ancho_igual_log | FFNN | cfg 2/4 | CV 2/3 |    1.8 s | transcurrido 0:02:22 | faltan ~0:04:27
+      pliegue 3 | ancho_igual_log | FFNN CV3 época 10 | val_loss 0.63147 |    0.6 s
+      pliegue 3 | ancho_igual_log | FFNN CV3 época 20 | val_loss 0.43377 |    0.8 s
+      pliegue 3 | ancho_igual_log | FFNN CV3 época 30 | val_loss 0.38041 |    1.1 s
+      pliegue 3 | ancho_igual_log | FFNN CV3 época 40 | val_loss 0.36751 |    1.4 s
+      pliegue 3 | ancho_igual_log | FFNN CV3 época 50 | val_loss 0.36264 |    1.7 s
+[  50/142]  35.2% | pliegue 3 | ancho_igual_log | FFNN | cfg 2/4 | CV 3/3 |    1.7 s | transcurrido 0:02:24 | faltan ~0:04:22
+    cfg 1: sigmoid, capas=[19], batch=6743, dropout=0.0002 -> F1 CV=0.3128
+      pliegue 3 | ancho_igual_log | FFNN CV1 época 10 | val_loss 0.53455 |    1.0 s
+      pliegue 3 | ancho_igual_log | FFNN CV1 época 20 | val_loss 0.44213 |    1.5 s
+      pliegue 3 | ancho_igual_log | FFNN CV1 época 30 | val_loss 0.41717 |    2.1 s
+      pliegue 3 | ancho_igual_log | FFNN CV1 época 40 | val_loss 0.40753 |    2.7 s
+      pliegue 3 | ancho_igual_log | FFNN CV1 época 50 | val_loss 0.40387 |    3.3 s
+[  51/142]  35.9% | pliegue 3 | ancho_igual_log | FFNN | cfg 3/4 | CV 1/3 |    3.3 s | transcurrido 0:02:27 | faltan ~0:04:20
+      pliegue 3 | ancho_igual_log | FFNN CV2 época 10 | val_loss 0.53505 |    1.0 s
+      pliegue 3 | ancho_igual_log | FFNN CV2 época 20 | val_loss 0.43211 |    1.5 s
+      pliegue 3 | ancho_igual_log | FFNN CV2 época 30 | val_loss 0.40527 |    2.1 s
+      pliegue 3 | ancho_igual_log | FFNN CV2 época 40 | val_loss 0.39681 |    2.7 s
+      pliegue 3 | ancho_igual_log | FFNN CV2 época 50 | val_loss 0.39426 |    3.2 s
+[  52/142]  36.6% | pliegue 3 | ancho_igual_log | FFNN | cfg 3/4 | CV 2/3 |    3.3 s | transcurrido 0:02:30 | faltan ~0:04:18
+      pliegue 3 | ancho_igual_log | FFNN CV3 época 10 | val_loss 0.47894 |    1.3 s
+      pliegue 3 | ancho_igual_log | FFNN CV3 época 20 | val_loss 0.38352 |    1.9 s
+      pliegue 3 | ancho_igual_log | FFNN CV3 época 30 | val_loss 0.36781 |    2.4 s
+      pliegue 3 | ancho_igual_log | FFNN CV3 época 40 | val_loss 0.36373 |    3.0 s
+      pliegue 3 | ancho_igual_log | FFNN CV3 época 50 | val_loss 0.36295 |    3.6 s
+[  53/142]  37.3% | pliegue 3 | ancho_igual_log | FFNN | cfg 3/4 | CV 3/3 |    3.7 s | transcurrido 0:02:34 | faltan ~0:04:16
+    cfg 2: softmax, capas=[30, 30, 30], batch=313, dropout=0.0032 -> F1 CV=0.3128
+      pliegue 3 | ancho_igual_log | FFNN CV1 época 10 | val_loss 0.67984 |    0.8 s
+      pliegue 3 | ancho_igual_log | FFNN CV1 época 20 | val_loss 0.52117 |    1.2 s
+      pliegue 3 | ancho_igual_log | FFNN CV1 época 30 | val_loss 0.46525 |    1.7 s
+      pliegue 3 | ancho_igual_log | FFNN CV1 época 40 | val_loss 0.44122 |    2.1 s
+      pliegue 3 | ancho_igual_log | FFNN CV1 época 50 | val_loss 0.42746 |    2.5 s
+[  54/142]  38.0% | pliegue 3 | ancho_igual_log | FFNN | cfg 4/4 | CV 1/3 |    2.6 s | transcurrido 0:02:37 | faltan ~0:04:13
+      pliegue 3 | ancho_igual_log | FFNN CV2 época 10 | val_loss 0.69309 |    0.8 s
+      pliegue 3 | ancho_igual_log | FFNN CV2 época 20 | val_loss 0.52967 |    1.2 s
+      pliegue 3 | ancho_igual_log | FFNN CV2 época 30 | val_loss 0.46328 |    1.6 s
+      pliegue 3 | ancho_igual_log | FFNN CV2 época 40 | val_loss 0.43145 |    2.0 s
+      pliegue 3 | ancho_igual_log | FFNN CV2 época 50 | val_loss 0.41429 |    2.4 s
+[  55/142]  38.7% | pliegue 3 | ancho_igual_log | FFNN | cfg 4/4 | CV 2/3 |    2.5 s | transcurrido 0:02:39 | faltan ~0:04:09
+      pliegue 3 | ancho_igual_log | FFNN CV3 época 10 | val_loss 0.66766 |    0.8 s
+      pliegue 3 | ancho_igual_log | FFNN CV3 época 20 | val_loss 0.49000 |    1.2 s
+      pliegue 3 | ancho_igual_log | FFNN CV3 época 30 | val_loss 0.41886 |    1.6 s
+      pliegue 3 | ancho_igual_log | FFNN CV3 época 40 | val_loss 0.38808 |    2.0 s
+      pliegue 3 | ancho_igual_log | FFNN CV3 época 50 | val_loss 0.37333 |    2.4 s
+[  56/142]  39.4% | pliegue 3 | ancho_igual_log | FFNN | cfg 4/4 | CV 3/3 |    2.4 s | transcurrido 0:02:42 | faltan ~0:04:06
+    cfg 3: softmax, capas=[27, 27], batch=638, dropout=0.0002 -> F1 CV=0.3128
+      pliegue 3 | ancho_igual_log | FFNN final1 época 10 | val_loss 1.02732 |    0.7 s
+      pliegue 3 | ancho_igual_log | FFNN final1 época 20 | val_loss 0.90583 |    1.0 s
+      pliegue 3 | ancho_igual_log | FFNN final1 época 30 | val_loss 0.79818 |    1.3 s
+      pliegue 3 | ancho_igual_log | FFNN final1 época 40 | val_loss 0.70734 |    1.6 s
+      pliegue 3 | ancho_igual_log | FFNN final1 época 50 | val_loss 0.63434 |    1.9 s
+[  57/142]  40.1% | pliegue 3 | ancho_igual_log | FFNN | entrenamiento final 1/1 |    2.0 s | transcurrido 0:02:44 | faltan ~0:04:02
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: divide by zero encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: overflow encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: invalid value encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+[  58/142]  40.8% | pliegue 3 | fijos | GLM |    0.1 s | transcurrido 0:02:44 | faltan ~0:03:55
+      pliegue 3 | fijos | FFNN CV1 época 10 | val_loss 0.93049 |    0.6 s
+      pliegue 3 | fijos | FFNN CV1 época 20 | val_loss 0.90016 |    0.9 s
+      pliegue 3 | fijos | FFNN CV1 época 30 | val_loss 0.89068 |    1.2 s
+      pliegue 3 | fijos | FFNN CV1 época 40 | val_loss 0.88661 |    1.6 s
+      pliegue 3 | fijos | FFNN CV1 época 50 | val_loss 0.88428 |    1.9 s
+[  59/142]  41.5% | pliegue 3 | fijos | FFNN | cfg 1/4 | CV 1/3 |    2.0 s | transcurrido 0:02:46 | faltan ~0:03:51
+      pliegue 3 | fijos | FFNN CV2 época 10 | val_loss 0.91042 |    0.6 s
+      pliegue 3 | fijos | FFNN CV2 época 20 | val_loss 0.89540 |    0.9 s
+      pliegue 3 | fijos | FFNN CV2 época 30 | val_loss 0.89298 |    1.2 s
+      pliegue 3 | fijos | FFNN CV2 época 40 | val_loss 0.89066 |    1.6 s
+      pliegue 3 | fijos | FFNN CV2 época 50 | val_loss 0.88834 |    1.9 s
+[  60/142]  42.3% | pliegue 3 | fijos | FFNN | cfg 1/4 | CV 2/3 |    2.0 s | transcurrido 0:02:48 | faltan ~0:03:47
+      pliegue 3 | fijos | FFNN CV3 época 10 | val_loss 0.91337 |    0.6 s
+      pliegue 3 | fijos | FFNN CV3 época 20 | val_loss 0.89131 |    0.9 s
+      pliegue 3 | fijos | FFNN CV3 época 30 | val_loss 0.88530 |    1.2 s
+      pliegue 3 | fijos | FFNN CV3 época 40 | val_loss 0.88084 |    1.6 s
+      pliegue 3 | fijos | FFNN CV3 época 50 | val_loss 0.87829 |    1.9 s
+[  61/142]  43.0% | pliegue 3 | fijos | FFNN | cfg 1/4 | CV 3/3 |    1.9 s | transcurrido 0:02:49 | faltan ~0:03:43
+    cfg 0: softmax, capas=[13], batch=1019, dropout=0.0005 -> F1 CV=0.2774
+      pliegue 3 | fijos | FFNN CV1 época 10 | val_loss 0.91547 |    0.8 s
+      pliegue 3 | fijos | FFNN CV1 época 20 | val_loss 0.89308 |    1.1 s
+      pliegue 3 | fijos | FFNN CV1 época 30 | val_loss 0.89206 |    1.4 s
+      pliegue 3 | fijos | FFNN CV1 época 40 | val_loss 0.89127 |    1.8 s
+      pliegue 3 | fijos | FFNN CV1 época 50 | val_loss 0.89024 |    2.1 s
+[  62/142]  43.7% | pliegue 3 | fijos | FFNN | cfg 2/4 | CV 1/3 |    2.2 s | transcurrido 0:02:52 | faltan ~0:03:39
+      pliegue 3 | fijos | FFNN CV2 época 10 | val_loss 1.00889 |    0.8 s
+      pliegue 3 | fijos | FFNN CV2 época 20 | val_loss 0.90540 |    1.1 s
+      pliegue 3 | fijos | FFNN CV2 época 30 | val_loss 0.89623 |    1.5 s
+      pliegue 3 | fijos | FFNN CV2 época 40 | val_loss 0.89520 |    1.8 s
+      pliegue 3 | fijos | FFNN CV2 época 50 | val_loss 0.89498 |    2.1 s
+[  63/142]  44.4% | pliegue 3 | fijos | FFNN | cfg 2/4 | CV 2/3 |    2.2 s | transcurrido 0:02:54 | faltan ~0:03:36
+      pliegue 3 | fijos | FFNN CV3 época 10 | val_loss 0.88609 |    0.8 s
+      pliegue 3 | fijos | FFNN CV3 época 20 | val_loss 0.88437 |    1.1 s
+      pliegue 3 | fijos | FFNN CV3 época 30 | val_loss 0.88129 |    1.5 s
+      pliegue 3 | fijos | FFNN CV3 época 40 | val_loss 0.87868 |    1.8 s
+      pliegue 3 | fijos | FFNN CV3 época 50 | val_loss 0.87729 |    2.1 s
+[  64/142]  45.1% | pliegue 3 | fijos | FFNN | cfg 2/4 | CV 3/3 |    2.2 s | transcurrido 0:02:56 | faltan ~0:03:33
+    cfg 1: sigmoid, capas=[18, 18, 18], batch=2200, dropout=0.012 -> F1 CV=0.2536
+      pliegue 3 | fijos | FFNN CV1 época 10 | val_loss 0.96969 |    0.8 s
+      pliegue 3 | fijos | FFNN CV1 época 20 | val_loss 0.90931 |    1.3 s
+      pliegue 3 | fijos | FFNN CV1 época 30 | val_loss 0.89583 |    1.7 s
+      pliegue 3 | fijos | FFNN CV1 época 40 | val_loss 0.89356 |    2.1 s
+      pliegue 3 | fijos | FFNN CV1 época 50 | val_loss 0.89318 |    2.5 s
+[  65/142]  45.8% | pliegue 3 | fijos | FFNN | cfg 3/4 | CV 1/3 |    2.6 s | transcurrido 0:02:59 | faltan ~0:03:30
+      pliegue 3 | fijos | FFNN CV2 época 10 | val_loss 0.99391 |    0.8 s
+      pliegue 3 | fijos | FFNN CV2 época 20 | val_loss 0.91941 |    1.3 s
+      pliegue 3 | fijos | FFNN CV2 época 30 | val_loss 0.90013 |    1.7 s
+      pliegue 3 | fijos | FFNN CV2 época 40 | val_loss 0.89575 |    2.1 s
+      pliegue 3 | fijos | FFNN CV2 época 50 | val_loss 0.89317 |    2.4 s
+[  66/142]  46.5% | pliegue 3 | fijos | FFNN | cfg 3/4 | CV 2/3 |    2.5 s | transcurrido 0:03:01 | faltan ~0:03:27
+      pliegue 3 | fijos | FFNN CV3 época 10 | val_loss 0.91660 |    0.8 s
+      pliegue 3 | fijos | FFNN CV3 época 20 | val_loss 0.89190 |    1.2 s
+      pliegue 3 | fijos | FFNN CV3 época 30 | val_loss 0.88778 |    1.6 s
+      pliegue 3 | fijos | FFNN CV3 época 40 | val_loss 0.88712 |    2.0 s
+      pliegue 3 | fijos | FFNN CV3 época 50 | val_loss 0.88658 |    2.4 s
+[  67/142]  47.2% | pliegue 3 | fijos | FFNN | cfg 3/4 | CV 3/3 |    2.5 s | transcurrido 0:03:04 | faltan ~0:03:24
+    cfg 2: softmax, capas=[13, 13, 13], batch=671, dropout=0.0131 -> F1 CV=0.2486
+      pliegue 3 | fijos | FFNN CV1 época 10 | val_loss 0.92334 |    0.8 s
+      pliegue 3 | fijos | FFNN CV1 época 20 | val_loss 0.89652 |    1.3 s
+      pliegue 3 | fijos | FFNN CV1 época 30 | val_loss 0.89352 |    1.8 s
+      pliegue 3 | fijos | FFNN CV1 época 40 | val_loss 0.89151 |    2.3 s
+      pliegue 3 | fijos | FFNN CV1 época 50 | val_loss 0.88713 |    2.7 s
+[  68/142]  47.9% | pliegue 3 | fijos | FFNN | cfg 4/4 | CV 1/3 |    2.8 s | transcurrido 0:03:06 | faltan ~0:03:21
+      pliegue 3 | fijos | FFNN CV2 época 10 | val_loss 0.92869 |    1.2 s
+      pliegue 3 | fijos | FFNN CV2 época 20 | val_loss 0.89898 |    1.7 s
+      pliegue 3 | fijos | FFNN CV2 época 30 | val_loss 0.89536 |    2.2 s
+      pliegue 3 | fijos | FFNN CV2 época 40 | val_loss 0.88873 |    2.7 s
+      pliegue 3 | fijos | FFNN CV2 época 50 | val_loss 0.88354 |    3.2 s
+[  69/142]  48.6% | pliegue 3 | fijos | FFNN | cfg 4/4 | CV 2/3 |    3.3 s | transcurrido 0:03:10 | faltan ~0:03:19
+      pliegue 3 | fijos | FFNN CV3 época 10 | val_loss 0.92760 |    0.9 s
+      pliegue 3 | fijos | FFNN CV3 época 20 | val_loss 0.89214 |    1.4 s
+      pliegue 3 | fijos | FFNN CV3 época 30 | val_loss 0.88758 |    1.9 s
+      pliegue 3 | fijos | FFNN CV3 época 40 | val_loss 0.88704 |    2.4 s
+      pliegue 3 | fijos | FFNN CV3 época 50 | val_loss 0.88116 |    2.9 s
+[  70/142]  49.3% | pliegue 3 | fijos | FFNN | cfg 4/4 | CV 3/3 |    2.9 s | transcurrido 0:03:13 | faltan ~0:03:16
+    cfg 3: softmax, capas=[43, 43], batch=525, dropout=0.0022 -> F1 CV=0.2486
+      pliegue 3 | fijos | FFNN final1 época 10 | val_loss 0.87597 |    0.6 s
+      pliegue 3 | fijos | FFNN final1 época 20 | val_loss 0.85260 |    1.0 s
+      pliegue 3 | fijos | FFNN final1 época 30 | val_loss 0.84753 |    1.3 s
+      pliegue 3 | fijos | FFNN final1 época 40 | val_loss 0.84550 |    1.7 s
+      pliegue 3 | fijos | FFNN final1 época 50 | val_loss 0.84521 |    2.0 s
+[  71/142]  50.0% | pliegue 3 | fijos | FFNN | entrenamiento final 1/1 |    2.1 s | transcurrido 0:03:15 | faltan ~0:03:13
+  jenks|GLM                    F1=0.2875  kappa=0.0000  bal_acc=0.3333
+  jenks|FFNN                   F1=0.2875  kappa=0.0000  bal_acc=0.3333
+  kmeans|GLM                   F1=0.2876  kappa=0.0000  bal_acc=0.3333
+  kmeans|FFNN                  F1=0.2886  kappa=0.0019  bal_acc=0.3334
+  regla_cola|GLM               F1=0.3312  kappa=0.0000  bal_acc=0.3333
+  regla_cola|FFNN              F1=0.3312  kappa=0.0000  bal_acc=0.3333
+  ancho_igual_log|GLM          F1=0.3139  kappa=0.0000  bal_acc=0.3333
+  ancho_igual_log|FFNN         F1=0.3139  kappa=0.0000  bal_acc=0.3333
+  fijos|GLM                    F1=0.2763  kappa=0.0193  bal_acc=0.3390
+  fijos|FFNN                   F1=0.2678  kappa=0.0069  bal_acc=0.3357
+  tiempo 194.8 s
+Pliegue externo 4 ...
+[  72/142]  50.7% | pliegue 4 | autoencoder |   35.3 s | transcurrido 0:03:51 | faltan ~0:03:42
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:175: RuntimeWarning: divide by zero encountered in matmul
+  lat = Z @ W + b
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:175: RuntimeWarning: overflow encountered in matmul
+  lat = Z @ W + b
+/Users/pctm/Downloads/Proyecto_Seminario_Siniestralidad/notebooks/nn_holvoet.py:175: RuntimeWarning: invalid value encountered in matmul
+  lat = Z @ W + b
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: divide by zero encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: overflow encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: invalid value encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+[  73/142]  51.4% | pliegue 4 | jenks | GLM |    0.1 s | transcurrido 0:03:51 | faltan ~0:03:36
+      pliegue 4 | jenks | FFNN CV1 época 10 | val_loss 0.74238 |    1.0 s
+      pliegue 4 | jenks | FFNN CV1 época 20 | val_loss 0.73910 |    1.4 s
+      pliegue 4 | jenks | FFNN CV1 época 30 | val_loss 0.73838 |    1.8 s
+      pliegue 4 | jenks | FFNN CV1 época 40 | val_loss 0.73759 |    2.2 s
+      pliegue 4 | jenks | FFNN CV1 época 50 | val_loss 0.73735 |    2.7 s
+[  74/142]  52.1% | pliegue 4 | jenks | FFNN | cfg 1/4 | CV 1/3 |    2.9 s | transcurrido 0:03:54 | faltan ~0:03:32
+      pliegue 4 | jenks | FFNN CV2 época 10 | val_loss 0.75964 |    1.0 s
+      pliegue 4 | jenks | FFNN CV2 época 20 | val_loss 0.75212 |    1.4 s
+      pliegue 4 | jenks | FFNN CV2 época 30 | val_loss 0.74911 |    1.8 s
+      pliegue 4 | jenks | FFNN CV2 época 40 | val_loss 0.74812 |    2.2 s
+      pliegue 4 | jenks | FFNN CV2 época 50 | val_loss 0.74664 |    2.6 s
+[  75/142]  52.8% | pliegue 4 | jenks | FFNN | cfg 1/4 | CV 2/3 |    2.8 s | transcurrido 0:03:57 | faltan ~0:03:29
+      pliegue 4 | jenks | FFNN CV3 época 10 | val_loss 0.75838 |    1.0 s
+      pliegue 4 | jenks | FFNN CV3 época 20 | val_loss 0.75285 |    1.4 s
+      pliegue 4 | jenks | FFNN CV3 época 30 | val_loss 0.74999 |    1.8 s
+      pliegue 4 | jenks | FFNN CV3 época 40 | val_loss 0.74839 |    2.2 s
+      pliegue 4 | jenks | FFNN CV3 época 50 | val_loss 0.74743 |    2.6 s
+[  76/142]  53.5% | pliegue 4 | jenks | FFNN | cfg 1/4 | CV 3/3 |    2.8 s | transcurrido 0:04:00 | faltan ~0:03:26
+    cfg 0: relu, capas=[11, 11, 11, 11], batch=581, dropout=0.0634 -> F1 CV=0.2836
+      pliegue 4 | jenks | FFNN CV1 época 10 | val_loss 0.75648 |    0.6 s
+      pliegue 4 | jenks | FFNN CV1 época 20 | val_loss 0.74512 |    0.8 s
+      pliegue 4 | jenks | FFNN CV1 época 30 | val_loss 0.74106 |    1.1 s
+      pliegue 4 | jenks | FFNN CV1 época 40 | val_loss 0.73868 |    1.4 s
+      pliegue 4 | jenks | FFNN CV1 época 50 | val_loss 0.73672 |    1.7 s
+[  77/142]  54.2% | pliegue 4 | jenks | FFNN | cfg 2/4 | CV 1/3 |    1.9 s | transcurrido 0:04:02 | faltan ~0:03:21
+      pliegue 4 | jenks | FFNN CV2 época 10 | val_loss 0.75543 |    0.6 s
+      pliegue 4 | jenks | FFNN CV2 época 20 | val_loss 0.75051 |    0.8 s
+      pliegue 4 | jenks | FFNN CV2 época 30 | val_loss 0.74930 |    1.1 s
+      pliegue 4 | jenks | FFNN CV2 época 40 | val_loss 0.74843 |    1.4 s
+      pliegue 4 | jenks | FFNN CV2 época 50 | val_loss 0.74767 |    1.7 s
+[  78/142]  54.9% | pliegue 4 | jenks | FFNN | cfg 2/4 | CV 2/3 |    1.8 s | transcurrido 0:04:03 | faltan ~0:03:17
+      pliegue 4 | jenks | FFNN CV3 época 10 | val_loss 0.77366 |    0.6 s
+      pliegue 4 | jenks | FFNN CV3 época 20 | val_loss 0.75801 |    0.9 s
+      pliegue 4 | jenks | FFNN CV3 época 30 | val_loss 0.75456 |    1.1 s
+      pliegue 4 | jenks | FFNN CV3 época 40 | val_loss 0.75258 |    1.4 s
+      pliegue 4 | jenks | FFNN CV3 época 50 | val_loss 0.75110 |    1.7 s
+[  79/142]  55.6% | pliegue 4 | jenks | FFNN | cfg 2/4 | CV 3/3 |    1.9 s | transcurrido 0:04:05 | faltan ~0:03:13
+    cfg 1: sigmoid, capas=[28], batch=4156, dropout=0.0034 -> F1 CV=0.2836
+      pliegue 4 | jenks | FFNN CV1 época 10 | val_loss 0.74473 |    0.8 s
+      pliegue 4 | jenks | FFNN CV1 época 20 | val_loss 0.74302 |    1.3 s
+      pliegue 4 | jenks | FFNN CV1 época 30 | val_loss 0.73945 |    1.7 s
+      pliegue 4 | jenks | FFNN CV1 época 40 | val_loss 0.73475 |    2.1 s
+      pliegue 4 | jenks | FFNN CV1 época 50 | val_loss 0.73207 |    2.5 s
+[  80/142]  56.3% | pliegue 4 | jenks | FFNN | cfg 3/4 | CV 1/3 |    2.7 s | transcurrido 0:04:08 | faltan ~0:03:10
+      pliegue 4 | jenks | FFNN CV2 época 10 | val_loss 0.75469 |    0.8 s
+      pliegue 4 | jenks | FFNN CV2 época 20 | val_loss 0.75367 |    1.2 s
+      pliegue 4 | jenks | FFNN CV2 época 30 | val_loss 0.75217 |    1.6 s
+      pliegue 4 | jenks | FFNN CV2 época 40 | val_loss 0.75003 |    2.0 s
+      pliegue 4 | jenks | FFNN CV2 época 50 | val_loss 0.74716 |    2.4 s
+[  81/142]  57.0% | pliegue 4 | jenks | FFNN | cfg 3/4 | CV 2/3 |    2.6 s | transcurrido 0:04:11 | faltan ~0:03:06
+      pliegue 4 | jenks | FFNN CV3 época 10 | val_loss 0.75600 |    0.8 s
+      pliegue 4 | jenks | FFNN CV3 época 20 | val_loss 0.75181 |    1.2 s
+      pliegue 4 | jenks | FFNN CV3 época 30 | val_loss 0.74713 |    1.6 s
+      pliegue 4 | jenks | FFNN CV3 época 40 | val_loss 0.74494 |    2.0 s
+      pliegue 4 | jenks | FFNN CV3 época 50 | val_loss 0.74390 |    2.4 s
+[  82/142]  57.7% | pliegue 4 | jenks | FFNN | cfg 3/4 | CV 3/3 |    2.6 s | transcurrido 0:04:13 | faltan ~0:03:03
+    cfg 2: sigmoid, capas=[41, 41, 41], batch=1410, dropout=0.0001 -> F1 CV=0.2836
+      pliegue 4 | jenks | FFNN CV1 época 10 | val_loss 0.75044 |    1.1 s
+      pliegue 4 | jenks | FFNN CV1 época 20 | val_loss 0.74518 |    1.7 s
+      pliegue 4 | jenks | FFNN CV1 época 30 | val_loss 0.74095 |    2.3 s
+      pliegue 4 | jenks | FFNN CV1 época 40 | val_loss 0.73676 |    2.9 s
+      pliegue 4 | jenks | FFNN CV1 época 50 | val_loss 0.73847 |    3.5 s
+[  83/142]  58.5% | pliegue 4 | jenks | FFNN | cfg 4/4 | CV 1/3 |    3.7 s | transcurrido 0:04:17 | faltan ~0:03:00
+      pliegue 4 | jenks | FFNN CV2 época 10 | val_loss 0.76036 |    1.1 s
+      pliegue 4 | jenks | FFNN CV2 época 20 | val_loss 0.75455 |    1.7 s
+      pliegue 4 | jenks | FFNN CV2 época 30 | val_loss 0.74979 |    2.3 s
+      pliegue 4 | jenks | FFNN CV2 época 40 | val_loss 0.74850 |    2.9 s
+      pliegue 4 | jenks | FFNN CV2 época 50 | val_loss 0.74916 |    3.5 s
+[  84/142]  59.2% | pliegue 4 | jenks | FFNN | cfg 4/4 | CV 2/3 |    3.7 s | transcurrido 0:04:21 | faltan ~0:02:58
+      pliegue 4 | jenks | FFNN CV3 época 10 | val_loss 0.76010 |    1.6 s
+      pliegue 4 | jenks | FFNN CV3 época 20 | val_loss 0.75639 |    2.2 s
+      pliegue 4 | jenks | FFNN CV3 época 30 | val_loss 0.75122 |    2.8 s
+      pliegue 4 | jenks | FFNN CV3 época 40 | val_loss 0.75258 |    3.5 s
+      pliegue 4 | jenks | FFNN CV3 época 50 | val_loss 0.75522 |    4.1 s
+[  85/142]  59.9% | pliegue 4 | jenks | FFNN | cfg 4/4 | CV 3/3 |    4.3 s | transcurrido 0:04:25 | faltan ~0:02:56
+    cfg 3: softmax, capas=[35, 35, 35], batch=259, dropout=0.0002 -> F1 CV=0.2836
+      pliegue 4 | jenks | FFNN final1 época 10 | val_loss 0.67988 |    0.9 s
+      pliegue 4 | jenks | FFNN final1 época 20 | val_loss 0.67051 |    1.4 s
+      pliegue 4 | jenks | FFNN final1 época 30 | val_loss 0.66623 |    1.8 s
+      pliegue 4 | jenks | FFNN final1 época 40 | val_loss 0.66468 |    2.3 s
+      pliegue 4 | jenks | FFNN final1 época 50 | val_loss 0.66270 |    2.7 s
+[  86/142]  60.6% | pliegue 4 | jenks | FFNN | entrenamiento final 1/1 |    2.8 s | transcurrido 0:04:28 | faltan ~0:02:52
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: divide by zero encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: overflow encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: invalid value encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+[  87/142]  61.3% | pliegue 4 | kmeans | GLM |    0.1 s | transcurrido 0:04:28 | faltan ~0:02:47
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 4 | kmeans | FFNN CV1 época 10 | val_loss 0.74935 |    0.8 s
+      pliegue 4 | kmeans | FFNN CV1 época 20 | val_loss 0.74159 |    1.2 s
+      pliegue 4 | kmeans | FFNN CV1 época 30 | val_loss 0.73961 |    1.6 s
+      pliegue 4 | kmeans | FFNN CV1 época 40 | val_loss 0.74010 |    2.0 s
+[  88/142]  62.0% | pliegue 4 | kmeans | FFNN | cfg 1/4 | CV 1/3 |    2.4 s | transcurrido 0:04:30 | faltan ~0:02:44
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 4 | kmeans | FFNN CV2 época 10 | val_loss 0.76033 |    0.8 s
+      pliegue 4 | kmeans | FFNN CV2 época 20 | val_loss 0.75317 |    1.2 s
+      pliegue 4 | kmeans | FFNN CV2 época 30 | val_loss 0.75144 |    1.6 s
+      pliegue 4 | kmeans | FFNN CV2 época 40 | val_loss 0.75242 |    2.0 s
+[  89/142]  62.7% | pliegue 4 | kmeans | FFNN | cfg 1/4 | CV 2/3 |    2.4 s | transcurrido 0:04:33 | faltan ~0:02:40
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 4 | kmeans | FFNN CV3 época 10 | val_loss 0.75893 |    0.8 s
+      pliegue 4 | kmeans | FFNN CV3 época 20 | val_loss 0.75321 |    1.2 s
+      pliegue 4 | kmeans | FFNN CV3 época 30 | val_loss 0.75111 |    1.6 s
+      pliegue 4 | kmeans | FFNN CV3 época 40 | val_loss 0.75136 |    2.0 s
+      pliegue 4 | kmeans | FFNN CV3 época 50 | val_loss 0.75204 |    2.4 s
+[  90/142]  63.4% | pliegue 4 | kmeans | FFNN | cfg 1/4 | CV 3/3 |    2.5 s | transcurrido 0:04:35 | faltan ~0:02:37
+    cfg 0: relu, capas=[17, 17], batch=535, dropout=0.0001 -> F1 CV=0.2835
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 4 | kmeans | FFNN CV1 época 10 | val_loss 0.83806 |    0.7 s
+      pliegue 4 | kmeans | FFNN CV1 época 20 | val_loss 0.76679 |    1.0 s
+      pliegue 4 | kmeans | FFNN CV1 época 30 | val_loss 0.75149 |    1.3 s
+      pliegue 4 | kmeans | FFNN CV1 época 40 | val_loss 0.74783 |    1.7 s
+      pliegue 4 | kmeans | FFNN CV1 época 50 | val_loss 0.74681 |    2.0 s
+[  91/142]  64.1% | pliegue 4 | kmeans | FFNN | cfg 2/4 | CV 1/3 |    2.1 s | transcurrido 0:04:37 | faltan ~0:02:33
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 4 | kmeans | FFNN CV2 época 10 | val_loss 0.82078 |    0.6 s
+      pliegue 4 | kmeans | FFNN CV2 época 20 | val_loss 0.76368 |    1.0 s
+      pliegue 4 | kmeans | FFNN CV2 época 30 | val_loss 0.75614 |    1.3 s
+      pliegue 4 | kmeans | FFNN CV2 época 40 | val_loss 0.75500 |    1.6 s
+      pliegue 4 | kmeans | FFNN CV2 época 50 | val_loss 0.75453 |    2.0 s
+[  92/142]  64.8% | pliegue 4 | kmeans | FFNN | cfg 2/4 | CV 2/3 |    2.1 s | transcurrido 0:04:39 | faltan ~0:02:30
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 4 | kmeans | FFNN CV3 época 10 | val_loss 0.82563 |    0.6 s
+      pliegue 4 | kmeans | FFNN CV3 época 20 | val_loss 0.76391 |    0.9 s
+      pliegue 4 | kmeans | FFNN CV3 época 30 | val_loss 0.75796 |    1.3 s
+      pliegue 4 | kmeans | FFNN CV3 época 40 | val_loss 0.75723 |    1.6 s
+      pliegue 4 | kmeans | FFNN CV3 época 50 | val_loss 0.75686 |    1.9 s
+[  93/142]  65.5% | pliegue 4 | kmeans | FFNN | cfg 2/4 | CV 3/3 |    2.0 s | transcurrido 0:04:41 | faltan ~0:02:26
+    cfg 1: softmax, capas=[28], batch=1301, dropout=0.0032 -> F1 CV=0.2835
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 4 | kmeans | FFNN CV1 época 10 | val_loss 1.32984 |    0.8 s
+      pliegue 4 | kmeans | FFNN CV1 época 20 | val_loss 1.04002 |    1.1 s
+      pliegue 4 | kmeans | FFNN CV1 época 30 | val_loss 0.88246 |    1.4 s
+      pliegue 4 | kmeans | FFNN CV1 época 40 | val_loss 0.80576 |    1.7 s
+      pliegue 4 | kmeans | FFNN CV1 época 50 | val_loss 0.77117 |    1.9 s
+[  94/142]  66.2% | pliegue 4 | kmeans | FFNN | cfg 3/4 | CV 1/3 |    2.0 s | transcurrido 0:04:43 | faltan ~0:02:23
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 4 | kmeans | FFNN CV2 época 10 | val_loss 1.84771 |    0.7 s
+      pliegue 4 | kmeans | FFNN CV2 época 20 | val_loss 1.32171 |    1.0 s
+      pliegue 4 | kmeans | FFNN CV2 época 30 | val_loss 1.01117 |    1.3 s
+      pliegue 4 | kmeans | FFNN CV2 época 40 | val_loss 0.86760 |    1.6 s
+      pliegue 4 | kmeans | FFNN CV2 época 50 | val_loss 0.80631 |    1.9 s
+[  95/142]  66.9% | pliegue 4 | kmeans | FFNN | cfg 3/4 | CV 2/3 |    2.0 s | transcurrido 0:04:45 | faltan ~0:02:19
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 4 | kmeans | FFNN CV3 época 10 | val_loss 0.76436 |    0.7 s
+      pliegue 4 | kmeans | FFNN CV3 época 20 | val_loss 0.75743 |    1.1 s
+      pliegue 4 | kmeans | FFNN CV3 época 30 | val_loss 0.75702 |    1.4 s
+      pliegue 4 | kmeans | FFNN CV3 época 40 | val_loss 0.75663 |    1.7 s
+      pliegue 4 | kmeans | FFNN CV3 época 50 | val_loss 0.75618 |    2.0 s
+[  96/142]  67.6% | pliegue 4 | kmeans | FFNN | cfg 3/4 | CV 3/3 |    2.1 s | transcurrido 0:04:47 | faltan ~0:02:16
+    cfg 2: sigmoid, capas=[11, 11, 11], batch=3530, dropout=0.0501 -> F1 CV=0.2835
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 4 | kmeans | FFNN CV1 época 10 | val_loss 0.74376 |    0.8 s
+      pliegue 4 | kmeans | FFNN CV1 época 20 | val_loss 0.73968 |    1.1 s
+      pliegue 4 | kmeans | FFNN CV1 época 30 | val_loss 0.73577 |    1.5 s
+      pliegue 4 | kmeans | FFNN CV1 época 40 | val_loss 0.73291 |    1.9 s
+      pliegue 4 | kmeans | FFNN CV1 época 50 | val_loss 0.73140 |    2.3 s
+[  97/142]  68.3% | pliegue 4 | kmeans | FFNN | cfg 4/4 | CV 1/3 |    2.4 s | transcurrido 0:04:50 | faltan ~0:02:13
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 4 | kmeans | FFNN CV2 época 10 | val_loss 0.75175 |    0.7 s
+      pliegue 4 | kmeans | FFNN CV2 época 20 | val_loss 0.74825 |    1.1 s
+      pliegue 4 | kmeans | FFNN CV2 época 30 | val_loss 0.74501 |    1.5 s
+      pliegue 4 | kmeans | FFNN CV2 época 40 | val_loss 0.74332 |    1.9 s
+      pliegue 4 | kmeans | FFNN CV2 época 50 | val_loss 0.74303 |    2.3 s
+[  98/142]  69.0% | pliegue 4 | kmeans | FFNN | cfg 4/4 | CV 2/3 |    2.4 s | transcurrido 0:04:52 | faltan ~0:02:10
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+      pliegue 4 | kmeans | FFNN CV3 época 10 | val_loss 0.75464 |    0.7 s
+      pliegue 4 | kmeans | FFNN CV3 época 20 | val_loss 0.75136 |    1.1 s
+      pliegue 4 | kmeans | FFNN CV3 época 30 | val_loss 0.74778 |    1.5 s
+      pliegue 4 | kmeans | FFNN CV3 época 40 | val_loss 0.74503 |    1.9 s
+      pliegue 4 | kmeans | FFNN CV3 época 50 | val_loss 0.74383 |    2.3 s
+[  99/142]  69.7% | pliegue 4 | kmeans | FFNN | cfg 4/4 | CV 3/3 |    2.4 s | transcurrido 0:04:55 | faltan ~0:02:06
+    cfg 3: sigmoid, capas=[49, 49], batch=1399, dropout=0.0145 -> F1 CV=0.2835
+      pliegue 4 | kmeans | FFNN final1 época 10 | val_loss 0.67624 |    0.8 s
+      pliegue 4 | kmeans | FFNN final1 época 20 | val_loss 0.66841 |    1.2 s
+      pliegue 4 | kmeans | FFNN final1 época 30 | val_loss 0.66667 |    1.6 s
+      pliegue 4 | kmeans | FFNN final1 época 40 | val_loss 0.66731 |    2.0 s
+      pliegue 4 | kmeans | FFNN final1 época 50 | val_loss 0.66853 |    2.4 s
+[ 100/142]  70.4% | pliegue 4 | kmeans | FFNN | entrenamiento final 1/1 |    2.4 s | transcurrido 0:04:57 | faltan ~0:02:03
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: divide by zero encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: overflow encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: invalid value encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+[ 101/142]  71.1% | pliegue 4 | regla_cola | GLM |    0.1 s | transcurrido 0:04:57 | faltan ~0:01:59
+      pliegue 4 | regla_cola | FFNN CV1 época 10 | val_loss 0.25708 |    0.7 s
+      pliegue 4 | regla_cola | FFNN CV1 época 20 | val_loss 0.15628 |    1.1 s
+      pliegue 4 | regla_cola | FFNN CV1 época 30 | val_loss 0.12261 |    1.5 s
+      pliegue 4 | regla_cola | FFNN CV1 época 40 | val_loss 0.10879 |    2.0 s
+      pliegue 4 | regla_cola | FFNN CV1 época 50 | val_loss 0.10255 |    2.4 s
+[ 102/142]  71.8% | pliegue 4 | regla_cola | FFNN | cfg 1/4 | CV 1/3 |    2.4 s | transcurrido 0:05:00 | faltan ~0:01:56
+      pliegue 4 | regla_cola | FFNN CV2 época 10 | val_loss 0.23112 |    0.7 s
+      pliegue 4 | regla_cola | FFNN CV2 época 20 | val_loss 0.14942 |    1.1 s
+      pliegue 4 | regla_cola | FFNN CV2 época 30 | val_loss 0.12248 |    1.5 s
+      pliegue 4 | regla_cola | FFNN CV2 época 40 | val_loss 0.11180 |    1.9 s
+      pliegue 4 | regla_cola | FFNN CV2 época 50 | val_loss 0.10723 |    2.3 s
+[ 103/142]  72.5% | pliegue 4 | regla_cola | FFNN | cfg 1/4 | CV 2/3 |    2.4 s | transcurrido 0:05:02 | faltan ~0:01:53
+      pliegue 4 | regla_cola | FFNN CV3 época 10 | val_loss 0.22924 |    0.7 s
+      pliegue 4 | regla_cola | FFNN CV3 época 20 | val_loss 0.14380 |    1.1 s
+      pliegue 4 | regla_cola | FFNN CV3 época 30 | val_loss 0.11732 |    1.5 s
+      pliegue 4 | regla_cola | FFNN CV3 época 40 | val_loss 0.10687 |    1.9 s
+      pliegue 4 | regla_cola | FFNN CV3 época 50 | val_loss 0.10235 |    2.3 s
+[ 104/142]  73.2% | pliegue 4 | regla_cola | FFNN | cfg 1/4 | CV 3/3 |    2.4 s | transcurrido 0:05:04 | faltan ~0:01:50
+    cfg 0: softmax, capas=[15], batch=394, dropout=0.0022 -> F1 CV=0.3304
+      pliegue 4 | regla_cola | FFNN CV1 época 10 | val_loss 0.09866 |    0.7 s
+      pliegue 4 | regla_cola | FFNN CV1 época 20 | val_loss 0.09788 |    1.1 s
+      pliegue 4 | regla_cola | FFNN CV1 época 30 | val_loss 0.09773 |    1.6 s
+      pliegue 4 | regla_cola | FFNN CV1 época 40 | val_loss 0.09780 |    2.0 s
+      pliegue 4 | regla_cola | FFNN CV1 época 50 | val_loss 0.09796 |    2.4 s
+[ 105/142]  73.9% | pliegue 4 | regla_cola | FFNN | cfg 2/4 | CV 1/3 |    2.5 s | transcurrido 0:05:07 | faltan ~0:01:47
+      pliegue 4 | regla_cola | FFNN CV2 época 10 | val_loss 0.10576 |    0.7 s
+      pliegue 4 | regla_cola | FFNN CV2 época 20 | val_loss 0.10488 |    1.1 s
+      pliegue 4 | regla_cola | FFNN CV2 época 30 | val_loss 0.10460 |    1.6 s
+      pliegue 4 | regla_cola | FFNN CV2 época 40 | val_loss 0.10489 |    2.0 s
+      pliegue 4 | regla_cola | FFNN CV2 época 50 | val_loss 0.10558 |    2.5 s
+[ 106/142]  74.6% | pliegue 4 | regla_cola | FFNN | cfg 2/4 | CV 2/3 |    2.5 s | transcurrido 0:05:09 | faltan ~0:01:44
+      pliegue 4 | regla_cola | FFNN CV3 época 10 | val_loss 0.09847 |    0.7 s
+      pliegue 4 | regla_cola | FFNN CV3 época 20 | val_loss 0.09834 |    1.2 s
+      pliegue 4 | regla_cola | FFNN CV3 época 30 | val_loss 0.09871 |    1.6 s
+[ 107/142]  75.4% | pliegue 4 | regla_cola | FFNN | cfg 2/4 | CV 3/3 |    1.9 s | transcurrido 0:05:11 | faltan ~0:01:40
+    cfg 1: sigmoid, capas=[21], batch=335, dropout=0.0023 -> F1 CV=0.3304
+      pliegue 4 | regla_cola | FFNN CV1 época 10 | val_loss 0.11013 |    0.9 s
+      pliegue 4 | regla_cola | FFNN CV1 época 20 | val_loss 0.09883 |    1.3 s
+      pliegue 4 | regla_cola | FFNN CV1 época 30 | val_loss 0.09781 |    1.8 s
+      pliegue 4 | regla_cola | FFNN CV1 época 40 | val_loss 0.09753 |    2.2 s
+      pliegue 4 | regla_cola | FFNN CV1 época 50 | val_loss 0.09742 |    2.6 s
+[ 108/142]  76.1% | pliegue 4 | regla_cola | FFNN | cfg 3/4 | CV 1/3 |    2.6 s | transcurrido 0:05:14 | faltan ~0:01:38
+      pliegue 4 | regla_cola | FFNN CV2 época 10 | val_loss 0.11551 |    1.6 s
+      pliegue 4 | regla_cola | FFNN CV2 época 20 | val_loss 0.10499 |    2.0 s
+      pliegue 4 | regla_cola | FFNN CV2 época 30 | val_loss 0.10433 |    2.4 s
+      pliegue 4 | regla_cola | FFNN CV2 época 40 | val_loss 0.10423 |    2.9 s
+      pliegue 4 | regla_cola | FFNN CV2 época 50 | val_loss 0.10420 |    3.4 s
+[ 109/142]  76.8% | pliegue 4 | regla_cola | FFNN | cfg 3/4 | CV 2/3 |    3.4 s | transcurrido 0:05:17 | faltan ~0:01:35
+      pliegue 4 | regla_cola | FFNN CV3 época 10 | val_loss 0.10665 |    1.0 s
+      pliegue 4 | regla_cola | FFNN CV3 época 20 | val_loss 0.10022 |    1.4 s
+      pliegue 4 | regla_cola | FFNN CV3 época 30 | val_loss 0.09903 |    1.8 s
+      pliegue 4 | regla_cola | FFNN CV3 época 40 | val_loss 0.09878 |    2.2 s
+      pliegue 4 | regla_cola | FFNN CV3 época 50 | val_loss 0.09871 |    2.6 s
+[ 110/142]  77.5% | pliegue 4 | regla_cola | FFNN | cfg 3/4 | CV 3/3 |    2.7 s | transcurrido 0:05:20 | faltan ~0:01:32
+    cfg 2: sigmoid, capas=[23, 23, 23, 23], batch=1160, dropout=0.0006 -> F1 CV=0.3304
+      pliegue 4 | regla_cola | FFNN CV1 época 10 | val_loss 0.10157 |    0.9 s
+      pliegue 4 | regla_cola | FFNN CV1 época 20 | val_loss 0.09793 |    1.3 s
+      pliegue 4 | regla_cola | FFNN CV1 época 30 | val_loss 0.09744 |    1.8 s
+      pliegue 4 | regla_cola | FFNN CV1 época 40 | val_loss 0.09731 |    2.3 s
+      pliegue 4 | regla_cola | FFNN CV1 época 50 | val_loss 0.09727 |    2.8 s
+[ 111/142]  78.2% | pliegue 4 | regla_cola | FFNN | cfg 4/4 | CV 1/3 |    2.8 s | transcurrido 0:05:23 | faltan ~0:01:29
+      pliegue 4 | regla_cola | FFNN CV2 época 10 | val_loss 0.10917 |    0.9 s
+      pliegue 4 | regla_cola | FFNN CV2 época 20 | val_loss 0.10426 |    1.3 s
+      pliegue 4 | regla_cola | FFNN CV2 época 30 | val_loss 0.10422 |    1.8 s
+      pliegue 4 | regla_cola | FFNN CV2 época 40 | val_loss 0.10423 |    2.3 s
+[ 112/142]  78.9% | pliegue 4 | regla_cola | FFNN | cfg 4/4 | CV 2/3 |    2.6 s | transcurrido 0:05:25 | faltan ~0:01:26
+      pliegue 4 | regla_cola | FFNN CV3 época 10 | val_loss 0.10155 |    0.9 s
+      pliegue 4 | regla_cola | FFNN CV3 época 20 | val_loss 0.09914 |    1.3 s
+      pliegue 4 | regla_cola | FFNN CV3 época 30 | val_loss 0.09881 |    1.9 s
+      pliegue 4 | regla_cola | FFNN CV3 época 40 | val_loss 0.09871 |    2.3 s
+      pliegue 4 | regla_cola | FFNN CV3 época 50 | val_loss 0.09885 |    2.8 s
+[ 113/142]  79.6% | pliegue 4 | regla_cola | FFNN | cfg 4/4 | CV 3/3 |    2.9 s | transcurrido 0:05:28 | faltan ~0:01:23
+    cfg 3: sigmoid, capas=[13, 13], batch=296, dropout=0.003 -> F1 CV=0.3304
+      pliegue 4 | regla_cola | FFNN final1 época 10 | val_loss 0.19194 |    0.7 s
+      pliegue 4 | regla_cola | FFNN final1 época 20 | val_loss 0.11014 |    1.1 s
+      pliegue 4 | regla_cola | FFNN final1 época 30 | val_loss 0.08340 |    1.6 s
+      pliegue 4 | regla_cola | FFNN final1 época 40 | val_loss 0.07233 |    2.0 s
+      pliegue 4 | regla_cola | FFNN final1 época 50 | val_loss 0.06713 |    2.4 s
+[ 114/142]  80.3% | pliegue 4 | regla_cola | FFNN | entrenamiento final 1/1 |    2.5 s | transcurrido 0:05:31 | faltan ~0:01:20
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: divide by zero encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: overflow encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: invalid value encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+[ 115/142]  81.0% | pliegue 4 | ancho_igual_log | GLM |    0.1 s | transcurrido 0:05:31 | faltan ~0:01:17
+      pliegue 4 | ancho_igual_log | FFNN CV1 época 10 | val_loss 0.41471 |    0.6 s
+      pliegue 4 | ancho_igual_log | FFNN CV1 época 20 | val_loss 0.38692 |    0.9 s
+      pliegue 4 | ancho_igual_log | FFNN CV1 época 30 | val_loss 0.38215 |    1.2 s
+      pliegue 4 | ancho_igual_log | FFNN CV1 época 40 | val_loss 0.37961 |    1.5 s
+      pliegue 4 | ancho_igual_log | FFNN CV1 época 50 | val_loss 0.37788 |    1.8 s
+[ 116/142]  81.7% | pliegue 4 | ancho_igual_log | FFNN | cfg 1/4 | CV 1/3 |    1.9 s | transcurrido 0:05:33 | faltan ~0:01:14
+      pliegue 4 | ancho_igual_log | FFNN CV2 época 10 | val_loss 0.43353 |    0.6 s
+      pliegue 4 | ancho_igual_log | FFNN CV2 época 20 | val_loss 0.38474 |    0.9 s
+      pliegue 4 | ancho_igual_log | FFNN CV2 época 30 | val_loss 0.37691 |    1.2 s
+      pliegue 4 | ancho_igual_log | FFNN CV2 época 40 | val_loss 0.37367 |    1.5 s
+      pliegue 4 | ancho_igual_log | FFNN CV2 época 50 | val_loss 0.37175 |    1.8 s
+[ 117/142]  82.4% | pliegue 4 | ancho_igual_log | FFNN | cfg 1/4 | CV 2/3 |    1.9 s | transcurrido 0:05:35 | faltan ~0:01:10
+      pliegue 4 | ancho_igual_log | FFNN CV3 época 10 | val_loss 0.43093 |    0.6 s
+      pliegue 4 | ancho_igual_log | FFNN CV3 época 20 | val_loss 0.39337 |    0.9 s
+      pliegue 4 | ancho_igual_log | FFNN CV3 época 30 | val_loss 0.38487 |    1.2 s
+      pliegue 4 | ancho_igual_log | FFNN CV3 época 40 | val_loss 0.38028 |    1.5 s
+      pliegue 4 | ancho_igual_log | FFNN CV3 época 50 | val_loss 0.37713 |    1.8 s
+[ 118/142]  83.1% | pliegue 4 | ancho_igual_log | FFNN | cfg 1/4 | CV 3/3 |    1.9 s | transcurrido 0:05:36 | faltan ~0:01:07
+    cfg 0: relu, capas=[30], batch=2225, dropout=0.0004 -> F1 CV=0.3152
+      pliegue 4 | ancho_igual_log | FFNN CV1 época 10 | val_loss 0.37635 |    0.7 s
+      pliegue 4 | ancho_igual_log | FFNN CV1 época 20 | val_loss 0.37303 |    1.1 s
+      pliegue 4 | ancho_igual_log | FFNN CV1 época 30 | val_loss 0.37215 |    1.5 s
+      pliegue 4 | ancho_igual_log | FFNN CV1 época 40 | val_loss 0.37124 |    1.8 s
+      pliegue 4 | ancho_igual_log | FFNN CV1 época 50 | val_loss 0.37029 |    2.2 s
+[ 119/142]  83.8% | pliegue 4 | ancho_igual_log | FFNN | cfg 2/4 | CV 1/3 |    2.2 s | transcurrido 0:05:39 | faltan ~0:01:04
+      pliegue 4 | ancho_igual_log | FFNN CV2 época 10 | val_loss 0.37675 |    0.7 s
+      pliegue 4 | ancho_igual_log | FFNN CV2 época 20 | val_loss 0.36535 |    1.1 s
+      pliegue 4 | ancho_igual_log | FFNN CV2 época 30 | val_loss 0.36299 |    1.4 s
+      pliegue 4 | ancho_igual_log | FFNN CV2 época 40 | val_loss 0.36163 |    1.7 s
+      pliegue 4 | ancho_igual_log | FFNN CV2 época 50 | val_loss 0.36053 |    2.1 s
+[ 120/142]  84.5% | pliegue 4 | ancho_igual_log | FFNN | cfg 2/4 | CV 2/3 |    2.1 s | transcurrido 0:05:41 | faltan ~0:01:02
+      pliegue 4 | ancho_igual_log | FFNN CV3 época 10 | val_loss 0.41532 |    0.7 s
+      pliegue 4 | ancho_igual_log | FFNN CV3 época 20 | val_loss 0.37794 |    1.1 s
+      pliegue 4 | ancho_igual_log | FFNN CV3 época 30 | val_loss 0.37314 |    1.4 s
+      pliegue 4 | ancho_igual_log | FFNN CV3 época 40 | val_loss 0.37181 |    1.7 s
+      pliegue 4 | ancho_igual_log | FFNN CV3 época 50 | val_loss 0.37100 |    2.1 s
+[ 121/142]  85.2% | pliegue 4 | ancho_igual_log | FFNN | cfg 2/4 | CV 3/3 |    2.1 s | transcurrido 0:05:43 | faltan ~0:00:59
+    cfg 1: sigmoid, capas=[46, 46], batch=2941, dropout=0.027 -> F1 CV=0.3152
+      pliegue 4 | ancho_igual_log | FFNN CV1 época 10 | val_loss 0.37757 |    0.6 s
+      pliegue 4 | ancho_igual_log | FFNN CV1 época 20 | val_loss 0.37357 |    1.0 s
+      pliegue 4 | ancho_igual_log | FFNN CV1 época 30 | val_loss 0.37268 |    1.4 s
+      pliegue 4 | ancho_igual_log | FFNN CV1 época 40 | val_loss 0.37286 |    1.7 s
+      pliegue 4 | ancho_igual_log | FFNN CV1 época 50 | val_loss 0.37397 |    2.1 s
+[ 122/142]  85.9% | pliegue 4 | ancho_igual_log | FFNN | cfg 3/4 | CV 1/3 |    2.1 s | transcurrido 0:05:45 | faltan ~0:00:56
+      pliegue 4 | ancho_igual_log | FFNN CV2 época 10 | val_loss 0.36902 |    0.6 s
+      pliegue 4 | ancho_igual_log | FFNN CV2 época 20 | val_loss 0.36478 |    1.0 s
+      pliegue 4 | ancho_igual_log | FFNN CV2 época 30 | val_loss 0.36352 |    1.3 s
+      pliegue 4 | ancho_igual_log | FFNN CV2 época 40 | val_loss 0.36329 |    1.7 s
+      pliegue 4 | ancho_igual_log | FFNN CV2 época 50 | val_loss 0.36354 |    2.0 s
+[ 123/142]  86.6% | pliegue 4 | ancho_igual_log | FFNN | cfg 3/4 | CV 2/3 |    2.1 s | transcurrido 0:05:47 | faltan ~0:00:53
+      pliegue 4 | ancho_igual_log | FFNN CV3 época 10 | val_loss 0.38099 |    0.6 s
+      pliegue 4 | ancho_igual_log | FFNN CV3 época 20 | val_loss 0.37365 |    1.0 s
+      pliegue 4 | ancho_igual_log | FFNN CV3 época 30 | val_loss 0.37114 |    1.3 s
+      pliegue 4 | ancho_igual_log | FFNN CV3 época 40 | val_loss 0.37055 |    1.7 s
+      pliegue 4 | ancho_igual_log | FFNN CV3 época 50 | val_loss 0.37080 |    2.0 s
+[ 124/142]  87.3% | pliegue 4 | ancho_igual_log | FFNN | cfg 3/4 | CV 3/3 |    2.1 s | transcurrido 0:05:49 | faltan ~0:00:50
+    cfg 2: relu, capas=[48], batch=824, dropout=0.0014 -> F1 CV=0.3152
+      pliegue 4 | ancho_igual_log | FFNN CV1 época 10 | val_loss 0.37166 |    0.7 s
+      pliegue 4 | ancho_igual_log | FFNN CV1 época 20 | val_loss 0.36847 |    1.0 s
+      pliegue 4 | ancho_igual_log | FFNN CV1 época 30 | val_loss 0.36681 |    1.4 s
+      pliegue 4 | ancho_igual_log | FFNN CV1 época 40 | val_loss 0.36628 |    1.8 s
+      pliegue 4 | ancho_igual_log | FFNN CV1 época 50 | val_loss 0.36619 |    2.2 s
+[ 125/142]  88.0% | pliegue 4 | ancho_igual_log | FFNN | cfg 4/4 | CV 1/3 |    2.2 s | transcurrido 0:05:52 | faltan ~0:00:47
+      pliegue 4 | ancho_igual_log | FFNN CV2 época 10 | val_loss 0.36226 |    0.7 s
+      pliegue 4 | ancho_igual_log | FFNN CV2 época 20 | val_loss 0.35910 |    1.0 s
+      pliegue 4 | ancho_igual_log | FFNN CV2 época 30 | val_loss 0.35809 |    1.4 s
+      pliegue 4 | ancho_igual_log | FFNN CV2 época 40 | val_loss 0.35786 |    1.8 s
+      pliegue 4 | ancho_igual_log | FFNN CV2 época 50 | val_loss 0.35785 |    2.2 s
+[ 126/142]  88.7% | pliegue 4 | ancho_igual_log | FFNN | cfg 4/4 | CV 2/3 |    2.2 s | transcurrido 0:05:54 | faltan ~0:00:44
+      pliegue 4 | ancho_igual_log | FFNN CV3 época 10 | val_loss 0.37047 |    0.7 s
+      pliegue 4 | ancho_igual_log | FFNN CV3 época 20 | val_loss 0.36780 |    1.0 s
+      pliegue 4 | ancho_igual_log | FFNN CV3 época 30 | val_loss 0.36648 |    1.4 s
+      pliegue 4 | ancho_igual_log | FFNN CV3 época 40 | val_loss 0.36611 |    1.8 s
+      pliegue 4 | ancho_igual_log | FFNN CV3 época 50 | val_loss 0.36599 |    2.2 s
+[ 127/142]  89.4% | pliegue 4 | ancho_igual_log | FFNN | cfg 4/4 | CV 3/3 |    2.2 s | transcurrido 0:05:56 | faltan ~0:00:41
+    cfg 3: sigmoid, capas=[33], batch=570, dropout=0.003 -> F1 CV=0.3152
+      pliegue 4 | ancho_igual_log | FFNN final1 época 10 | val_loss 0.32403 |    0.6 s
+      pliegue 4 | ancho_igual_log | FFNN final1 época 20 | val_loss 0.28436 |    0.9 s
+      pliegue 4 | ancho_igual_log | FFNN final1 época 30 | val_loss 0.27424 |    1.3 s
+      pliegue 4 | ancho_igual_log | FFNN final1 época 40 | val_loss 0.26952 |    1.6 s
+      pliegue 4 | ancho_igual_log | FFNN final1 época 50 | val_loss 0.26625 |    1.9 s
+[ 128/142]  90.1% | pliegue 4 | ancho_igual_log | FFNN | entrenamiento final 1/1 |    1.9 s | transcurrido 0:05:58 | faltan ~0:00:38
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:203: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights.T + intercept  # ndarray, likely C-contiguous
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: divide by zero encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: overflow encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:336: RuntimeWarning: invalid value encountered in matmul
+  grad[:, :n_features] = grad_pointwise.T @ X + l2_reg_strength * weights
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/opt/miniconda3/envs/seminario-seguros/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+[ 129/142]  90.8% | pliegue 4 | fijos | GLM |    0.1 s | transcurrido 0:05:58 | faltan ~0:00:35
+      pliegue 4 | fijos | FFNN CV1 época 10 | val_loss 0.88983 |    0.9 s
+      pliegue 4 | fijos | FFNN CV1 época 20 | val_loss 0.88696 |    1.2 s
+      pliegue 4 | fijos | FFNN CV1 época 30 | val_loss 0.88664 |    1.6 s
+      pliegue 4 | fijos | FFNN CV1 época 40 | val_loss 0.88648 |    1.9 s
+      pliegue 4 | fijos | FFNN CV1 época 50 | val_loss 0.88623 |    2.3 s
+[ 130/142]  91.5% | pliegue 4 | fijos | FFNN | cfg 1/4 | CV 1/3 |    2.3 s | transcurrido 0:06:00 | faltan ~0:00:33
+      pliegue 4 | fijos | FFNN CV2 época 10 | val_loss 0.91527 |    0.9 s
+      pliegue 4 | fijos | FFNN CV2 época 20 | val_loss 0.88690 |    1.3 s
+      pliegue 4 | fijos | FFNN CV2 época 30 | val_loss 0.88663 |    1.6 s
+      pliegue 4 | fijos | FFNN CV2 época 40 | val_loss 0.88657 |    1.9 s
+      pliegue 4 | fijos | FFNN CV2 época 50 | val_loss 0.88650 |    2.3 s
+[ 131/142]  92.3% | pliegue 4 | fijos | FFNN | cfg 1/4 | CV 2/3 |    2.4 s | transcurrido 0:06:03 | faltan ~0:00:30
+      pliegue 4 | fijos | FFNN CV3 época 10 | val_loss 0.95917 |    0.9 s
+      pliegue 4 | fijos | FFNN CV3 época 20 | val_loss 0.89659 |    1.2 s
+      pliegue 4 | fijos | FFNN CV3 época 30 | val_loss 0.89506 |    1.6 s
+      pliegue 4 | fijos | FFNN CV3 época 40 | val_loss 0.89497 |    1.9 s
+      pliegue 4 | fijos | FFNN CV3 época 50 | val_loss 0.89485 |    2.2 s
+[ 132/142]  93.0% | pliegue 4 | fijos | FFNN | cfg 1/4 | CV 3/3 |    2.3 s | transcurrido 0:06:05 | faltan ~0:00:27
+    cfg 0: sigmoid, capas=[27, 27, 27, 27], batch=6817, dropout=0.0019 -> F1 CV=0.2492
+      pliegue 4 | fijos | FFNN CV1 época 10 | val_loss 0.89942 |    0.8 s
+      pliegue 4 | fijos | FFNN CV1 época 20 | val_loss 0.88726 |    1.1 s
+      pliegue 4 | fijos | FFNN CV1 época 30 | val_loss 0.88362 |    1.4 s
+      pliegue 4 | fijos | FFNN CV1 época 40 | val_loss 0.88157 |    1.8 s
+      pliegue 4 | fijos | FFNN CV1 época 50 | val_loss 0.88010 |    2.1 s
+[ 133/142]  93.7% | pliegue 4 | fijos | FFNN | cfg 2/4 | CV 1/3 |    2.2 s | transcurrido 0:06:07 | faltan ~0:00:24
+      pliegue 4 | fijos | FFNN CV2 época 10 | val_loss 0.93218 |    0.8 s
+      pliegue 4 | fijos | FFNN CV2 época 20 | val_loss 0.89338 |    1.1 s
+      pliegue 4 | fijos | FFNN CV2 época 30 | val_loss 0.88626 |    1.4 s
+      pliegue 4 | fijos | FFNN CV2 época 40 | val_loss 0.88368 |    1.8 s
+      pliegue 4 | fijos | FFNN CV2 época 50 | val_loss 0.88281 |    2.1 s
+[ 134/142]  94.4% | pliegue 4 | fijos | FFNN | cfg 2/4 | CV 2/3 |    2.2 s | transcurrido 0:06:09 | faltan ~0:00:21
+      pliegue 4 | fijos | FFNN CV3 época 10 | val_loss 0.89957 |    0.8 s
+      pliegue 4 | fijos | FFNN CV3 época 20 | val_loss 0.89432 |    1.1 s
+      pliegue 4 | fijos | FFNN CV3 época 30 | val_loss 0.89262 |    1.4 s
+      pliegue 4 | fijos | FFNN CV3 época 40 | val_loss 0.89176 |    1.8 s
+      pliegue 4 | fijos | FFNN CV3 época 50 | val_loss 0.89179 |    2.1 s
+[ 135/142]  95.1% | pliegue 4 | fijos | FFNN | cfg 2/4 | CV 3/3 |    2.2 s | transcurrido 0:06:12 | faltan ~0:00:19
+    cfg 1: relu, capas=[17, 17, 17], batch=1546, dropout=0.0002 -> F1 CV=0.2589
+      pliegue 4 | fijos | FFNN CV1 época 10 | val_loss 1.03581 |    0.7 s
+      pliegue 4 | fijos | FFNN CV1 época 20 | val_loss 1.00691 |    1.0 s
+      pliegue 4 | fijos | FFNN CV1 época 30 | val_loss 0.98265 |    1.3 s
+      pliegue 4 | fijos | FFNN CV1 época 40 | val_loss 0.96308 |    1.6 s
+      pliegue 4 | fijos | FFNN CV1 época 50 | val_loss 0.94754 |    1.9 s
+[ 136/142]  95.8% | pliegue 4 | fijos | FFNN | cfg 3/4 | CV 1/3 |    2.0 s | transcurrido 0:06:14 | faltan ~0:00:16
+      pliegue 4 | fijos | FFNN CV2 época 10 | val_loss 1.06808 |    1.5 s
+      pliegue 4 | fijos | FFNN CV2 época 20 | val_loss 1.03826 |    1.8 s
+      pliegue 4 | fijos | FFNN CV2 época 30 | val_loss 1.01263 |    2.2 s
+      pliegue 4 | fijos | FFNN CV2 época 40 | val_loss 0.99032 |    2.5 s
+      pliegue 4 | fijos | FFNN CV2 época 50 | val_loss 0.97086 |    2.8 s
+[ 137/142]  96.5% | pliegue 4 | fijos | FFNN | cfg 3/4 | CV 2/3 |    2.9 s | transcurrido 0:06:16 | faltan ~0:00:13
+      pliegue 4 | fijos | FFNN CV3 época 10 | val_loss 1.08088 |    0.7 s
+      pliegue 4 | fijos | FFNN CV3 época 20 | val_loss 1.05043 |    1.0 s
+      pliegue 4 | fijos | FFNN CV3 época 30 | val_loss 1.02350 |    1.3 s
+      pliegue 4 | fijos | FFNN CV3 época 40 | val_loss 1.00000 |    1.7 s
+      pliegue 4 | fijos | FFNN CV3 época 50 | val_loss 0.98038 |    2.0 s
+[ 138/142]  97.2% | pliegue 4 | fijos | FFNN | cfg 3/4 | CV 3/3 |    2.1 s | transcurrido 0:06:18 | faltan ~0:00:10
+    cfg 2: softmax, capas=[21, 21], batch=6855, dropout=0.0038 -> F1 CV=0.2492
+      pliegue 4 | fijos | FFNN CV1 época 10 | val_loss 0.88221 |    0.8 s
+      pliegue 4 | fijos | FFNN CV1 época 20 | val_loss 0.87725 |    1.2 s
+      pliegue 4 | fijos | FFNN CV1 época 30 | val_loss 0.87401 |    1.6 s
+      pliegue 4 | fijos | FFNN CV1 época 40 | val_loss 0.87310 |    2.0 s
+      pliegue 4 | fijos | FFNN CV1 época 50 | val_loss 0.87272 |    2.5 s
+[ 139/142]  97.9% | pliegue 4 | fijos | FFNN | cfg 4/4 | CV 1/3 |    2.5 s | transcurrido 0:06:21 | faltan ~0:00:08
+      pliegue 4 | fijos | FFNN CV2 época 10 | val_loss 0.88168 |    0.8 s
+      pliegue 4 | fijos | FFNN CV2 época 20 | val_loss 0.87716 |    1.2 s
+      pliegue 4 | fijos | FFNN CV2 época 30 | val_loss 0.87508 |    1.6 s
+      pliegue 4 | fijos | FFNN CV2 época 40 | val_loss 0.87539 |    2.0 s
+      pliegue 4 | fijos | FFNN CV2 época 50 | val_loss 0.87587 |    2.4 s
+[ 140/142]  98.6% | pliegue 4 | fijos | FFNN | cfg 4/4 | CV 2/3 |    2.4 s | transcurrido 0:06:23 | faltan ~0:00:05
+      pliegue 4 | fijos | FFNN CV3 época 10 | val_loss 0.89145 |    0.8 s
+      pliegue 4 | fijos | FFNN CV3 época 20 | val_loss 0.88675 |    1.2 s
+      pliegue 4 | fijos | FFNN CV3 época 30 | val_loss 0.88345 |    1.6 s
+      pliegue 4 | fijos | FFNN CV3 época 40 | val_loss 0.88226 |    2.0 s
+      pliegue 4 | fijos | FFNN CV3 época 50 | val_loss 0.88189 |    2.4 s
+[ 141/142]  99.3% | pliegue 4 | fijos | FFNN | cfg 4/4 | CV 3/3 |    2.5 s | transcurrido 0:06:26 | faltan ~0:00:02
+    cfg 3: sigmoid, capas=[30, 30], batch=736, dropout=0.0064 -> F1 CV=0.2710
+      pliegue 4 | fijos | FFNN final1 época 10 | val_loss 0.85424 |    0.8 s
+      pliegue 4 | fijos | FFNN final1 época 20 | val_loss 0.84866 |    1.4 s
+      pliegue 4 | fijos | FFNN final1 época 30 | val_loss 0.84783 |    1.8 s
+      pliegue 4 | fijos | FFNN final1 época 40 | val_loss 0.84824 |    2.2 s
+[ 142/142] 100.0% | pliegue 4 | fijos | FFNN | entrenamiento final 1/1 |    2.5 s | transcurrido 0:06:28 | faltan ~0:00:00
+  jenks|GLM                    F1=0.2851  kappa=0.0000  bal_acc=0.3333
+  jenks|FFNN                   F1=0.2851  kappa=0.0000  bal_acc=0.3333
+  kmeans|GLM                   F1=0.2851  kappa=0.0000  bal_acc=0.3333
+  kmeans|FFNN                  F1=0.2851  kappa=0.0000  bal_acc=0.3333
+  regla_cola|GLM               F1=0.3303  kappa=0.0000  bal_acc=0.3333
+  regla_cola|FFNN              F1=0.3303  kappa=0.0000  bal_acc=0.3333
+  ancho_igual_log|GLM          F1=0.3166  kappa=0.0000  bal_acc=0.3333
+  ancho_igual_log|FFNN         F1=0.3166  kappa=0.0000  bal_acc=0.3333
+  fijos|GLM                    F1=0.2717  kappa=0.0202  bal_acc=0.3407
+  fijos|FFNN                   F1=0.2744  kappa=0.0200  bal_acc=0.3395
+  tiempo 193.7 s
+         metodo modelo  f1_macro  kappa_cuadratico  balanced_accuracy  mae_ordinal  accuracy  gvf_train
+ancho_igual_log   FFNN    0.3131            0.0000             0.3333       0.1142    0.8858     0.6343
+ancho_igual_log    GLM    0.3131            0.0000             0.3333       0.1142    0.8858     0.6343
+          fijos   FFNN    0.2739            0.0124             0.3385       0.4132    0.5907     0.6614
+          fijos    GLM    0.2727            0.0169             0.3400       0.4073    0.5956     0.6614
+          jenks   FFNN    0.2836            0.0000             0.3333       0.2596    0.7404     0.7938
+          jenks    GLM    0.2836            0.0000             0.3333       0.2596    0.7404     0.7938
+         kmeans   FFNN    0.2838            0.0004             0.3333       0.2597    0.7403     0.7938
+         kmeans    GLM    0.2836            0.0000             0.3333       0.2595    0.7405     0.7938
+     regla_cola   FFNN    0.3310            0.0000             0.3333       0.0141    0.9859     0.1943
+     regla_cola    GLM    0.3310            0.0000             0.3333       0.0141    0.9859     0.1943

@@ -1,0 +1,542 @@
+{
+  "jenks|GLM": {
+    "metodo": "jenks",
+    "modelo": "GLM",
+    "balanceo": "weights",
+    "config_id": 2,
+    "hiperparametros": {
+      "C": 0.01
+    },
+    "cortes_monto": [
+      337.6600000000001,
+      2305.0300000000007
+    ],
+    "etiquetas": [
+      "barato",
+      "intermedio",
+      "caro"
+    ],
+    "gvf_train": 0.7940399517242493,
+    "metricas_cv": {
+      "f1_macro_media": 0.3183351358613238,
+      "f1_macro_std": 0.0017166865270864542,
+      "kappa_media": 0.06744908844763671
+    },
+    "metricas_test": {
+      "accuracy": 0.37048917401764236,
+      "balanced_accuracy": 0.40761327861648433,
+      "f1_macro": 0.3196705583943199,
+      "kappa_cuadratico": 0.06592208917605624,
+      "mae_ordinal": 0.7115076182838813
+    },
+    "ruta_modelo": "models_clasificacion/modelos/jenks__GLM.joblib",
+    "fecha": "2026-11-02T20:04:56"
+  },
+  "jenks|XGBoost": {
+    "metodo": "jenks",
+    "modelo": "XGBoost",
+    "balanceo": "weights",
+    "config_id": 0,
+    "hiperparametros": {
+      "subsample": 0.7,
+      "n_estimators": 300,
+      "max_depth": 6,
+      "learning_rate": 0.05,
+      "colsample_bytree": 0.7
+    },
+    "cortes_monto": [
+      337.6600000000001,
+      2305.0300000000007
+    ],
+    "etiquetas": [
+      "barato",
+      "intermedio",
+      "caro"
+    ],
+    "gvf_train": 0.7940399517242493,
+    "metricas_cv": {
+      "f1_macro_media": 0.3578995784698891,
+      "f1_macro_std": 0.003785452345420635,
+      "kappa_media": 0.059930753397913795
+    },
+    "metricas_test": {
+      "accuracy": 0.4494787489975942,
+      "balanced_accuracy": 0.39973282397951465,
+      "f1_macro": 0.35022420370515656,
+      "kappa_cuadratico": 0.07423085006075258,
+      "mae_ordinal": 0.6134723336006416
+    },
+    "ruta_modelo": "models_clasificacion/modelos/jenks__XGBoost.joblib",
+    "fecha": "2026-11-02T20:05:11"
+  },
+  "jenks|LightGBM": {
+    "metodo": "jenks",
+    "modelo": "LightGBM",
+    "balanceo": "weights",
+    "config_id": 0,
+    "hiperparametros": {
+      "subsample": 0.7,
+      "num_leaves": 31,
+      "n_estimators": 300,
+      "min_child_samples": 10,
+      "learning_rate": 0.1,
+      "colsample_bytree": 0.7
+    },
+    "cortes_monto": [
+      337.6600000000001,
+      2305.0300000000007
+    ],
+    "etiquetas": [
+      "barato",
+      "intermedio",
+      "caro"
+    ],
+    "gvf_train": 0.7940399517242493,
+    "metricas_cv": {
+      "f1_macro_media": 0.36402497253917904,
+      "f1_macro_std": 0.00041455211079565336,
+      "kappa_media": 0.04443630044352679
+    },
+    "metricas_test": {
+      "accuracy": 0.4901764234161989,
+      "balanced_accuracy": 0.37654381355514305,
+      "f1_macro": 0.35138433380920525,
+      "kappa_cuadratico": 0.042497607937530324,
+      "mae_ordinal": 0.5679631114675221
+    },
+    "ruta_modelo": "models_clasificacion/modelos/jenks__LightGBM.joblib",
+    "fecha": "2026-11-02T20:05:57"
+  },
+  "kmeans|GLM": {
+    "metodo": "kmeans",
+    "modelo": "GLM",
+    "balanceo": "weights",
+    "config_id": 0,
+    "hiperparametros": {
+      "C": 0.1
+    },
+    "cortes_monto": [
+      338.9714196692365,
+      2311.8792377936074
+    ],
+    "etiquetas": [
+      "barato",
+      "intermedio",
+      "caro"
+    ],
+    "gvf_train": 0.79403888476949,
+    "metricas_cv": {
+      "f1_macro_media": 0.3187533559156643,
+      "f1_macro_std": 0.002196380761570552,
+      "kappa_media": 0.06458574706516722
+    },
+    "metricas_test": {
+      "accuracy": 0.3686848436246993,
+      "balanced_accuracy": 0.4032275659402698,
+      "f1_macro": 0.317463349230097,
+      "kappa_cuadratico": 0.06227214723707397,
+      "mae_ordinal": 0.7137129109863672
+    },
+    "ruta_modelo": "models_clasificacion/modelos/kmeans__GLM.joblib",
+    "fecha": "2026-11-02T20:06:22"
+  },
+  "kmeans|XGBoost": {
+    "metodo": "kmeans",
+    "modelo": "XGBoost",
+    "balanceo": "weights",
+    "config_id": 0,
+    "hiperparametros": {
+      "subsample": 0.7,
+      "n_estimators": 300,
+      "max_depth": 6,
+      "learning_rate": 0.05,
+      "colsample_bytree": 0.7
+    },
+    "cortes_monto": [
+      338.9714196692365,
+      2311.8792377936074
+    ],
+    "etiquetas": [
+      "barato",
+      "intermedio",
+      "caro"
+    ],
+    "gvf_train": 0.79403888476949,
+    "metricas_cv": {
+      "f1_macro_media": 0.35706289956819687,
+      "f1_macro_std": 0.0026625550884412613,
+      "kappa_media": 0.05668019945306846
+    },
+    "metricas_test": {
+      "accuracy": 0.45008019246190856,
+      "balanced_accuracy": 0.4030945725590341,
+      "f1_macro": 0.35246531933109243,
+      "kappa_cuadratico": 0.07349192319024378,
+      "mae_ordinal": 0.6146752205292703
+    },
+    "ruta_modelo": "models_clasificacion/modelos/kmeans__XGBoost.joblib",
+    "fecha": "2026-11-02T20:06:37"
+  },
+  "kmeans|LightGBM": {
+    "metodo": "kmeans",
+    "modelo": "LightGBM",
+    "balanceo": "weights",
+    "config_id": 0,
+    "hiperparametros": {
+      "subsample": 0.7,
+      "num_leaves": 31,
+      "n_estimators": 300,
+      "min_child_samples": 10,
+      "learning_rate": 0.1,
+      "colsample_bytree": 0.7
+    },
+    "cortes_monto": [
+      338.9714196692365,
+      2311.8792377936074
+    ],
+    "etiquetas": [
+      "barato",
+      "intermedio",
+      "caro"
+    ],
+    "gvf_train": 0.79403888476949,
+    "metricas_cv": {
+      "f1_macro_media": 0.36224530063962596,
+      "f1_macro_std": 0.0037288658022969884,
+      "kappa_media": 0.04674733732409279
+    },
+    "metricas_test": {
+      "accuracy": 0.4963913392141139,
+      "balanced_accuracy": 0.3806736180635472,
+      "f1_macro": 0.3560408114716099,
+      "kappa_cuadratico": 0.0424814879335037,
+      "mae_ordinal": 0.5625501202886929
+    },
+    "ruta_modelo": "models_clasificacion/modelos/kmeans__LightGBM.joblib",
+    "fecha": "2026-11-02T20:07:14"
+  },
+  "regla_cola|GLM": {
+    "metodo": "regla_cola",
+    "modelo": "GLM",
+    "balanceo": "sin_balanceo",
+    "config_id": 0,
+    "hiperparametros": {
+      "C": 0.1
+    },
+    "cortes_monto": [
+      30.24,
+      22567.209999999977
+    ],
+    "etiquetas": [
+      "barato",
+      "intermedio",
+      "caro"
+    ],
+    "gvf_train": 0.1967193721785585,
+    "metricas_cv": {
+      "f1_macro_media": 0.3304344478043852,
+      "f1_macro_std": 0.00011841401879647899,
+      "kappa_media": 0.0
+    },
+    "metricas_test": {
+      "accuracy": 0.9863672814755413,
+      "balanced_accuracy": 0.3333333333333333,
+      "f1_macro": 0.3310456197012515,
+      "kappa_cuadratico": 0.0,
+      "mae_ordinal": 0.0136327185244587
+    },
+    "ruta_modelo": "models_clasificacion/modelos/regla_cola__GLM.joblib",
+    "fecha": "2026-11-02T20:07:28"
+  },
+  "regla_cola|XGBoost": {
+    "metodo": "regla_cola",
+    "modelo": "XGBoost",
+    "balanceo": "weights",
+    "config_id": 2,
+    "hiperparametros": {
+      "subsample": 1.0,
+      "n_estimators": 300,
+      "max_depth": 4,
+      "learning_rate": 0.2,
+      "colsample_bytree": 0.8
+    },
+    "cortes_monto": [
+      30.24,
+      22567.209999999977
+    ],
+    "etiquetas": [
+      "barato",
+      "intermedio",
+      "caro"
+    ],
+    "gvf_train": 0.1967193721785585,
+    "metricas_cv": {
+      "f1_macro_media": 0.33216670691613337,
+      "f1_macro_std": 0.0038369562232922383,
+      "kappa_media": 0.0035093565896001655
+    },
+    "metricas_test": {
+      "accuracy": 0.9224137931034483,
+      "balanced_accuracy": 0.33126129177958447,
+      "f1_macro": 0.32674471248711606,
+      "kappa_cuadratico": -0.005084324892024261,
+      "mae_ordinal": 0.07818765036086608
+    },
+    "ruta_modelo": "models_clasificacion/modelos/regla_cola__XGBoost.joblib",
+    "fecha": "2026-11-02T20:08:28"
+  },
+  "regla_cola|LightGBM": {
+    "metodo": "regla_cola",
+    "modelo": "LightGBM",
+    "balanceo": "adasyn",
+    "config_id": 1,
+    "hiperparametros": {
+      "subsample": 0.7,
+      "num_leaves": 31,
+      "n_estimators": 100,
+      "min_child_samples": 20,
+      "learning_rate": 0.2,
+      "colsample_bytree": 0.8
+    },
+    "cortes_monto": [
+      30.24,
+      22567.209999999977
+    ],
+    "etiquetas": [
+      "barato",
+      "intermedio",
+      "caro"
+    ],
+    "gvf_train": 0.1967193721785585,
+    "metricas_cv": {
+      "f1_macro_media": 0.33397643715832137,
+      "f1_macro_std": 0.005292269204268182,
+      "kappa_media": 0.005560561935725923
+    },
+    "metricas_test": {
+      "accuracy": 0.9855653568564555,
+      "balanced_accuracy": 0.3330623306233062,
+      "f1_macro": 0.330910070005385,
+      "kappa_cuadratico": 4.4549382991032616e-05,
+      "mae_ordinal": 0.014434643143544507
+    },
+    "ruta_modelo": "models_clasificacion/modelos/regla_cola__LightGBM.joblib",
+    "fecha": "2026-11-02T20:09:15"
+  },
+  "ancho_igual_log|GLM": {
+    "metodo": "ancho_igual_log",
+    "modelo": "GLM",
+    "balanceo": "adasyn",
+    "config_id": 0,
+    "hiperparametros": {
+      "C": 0.1
+    },
+    "cortes_monto": [
+      260.108489976123,
+      32619.882075411973
+    ],
+    "etiquetas": [
+      "barato",
+      "intermedio",
+      "caro"
+    ],
+    "gvf_train": 0.639369609993223,
+    "metricas_cv": {
+      "f1_macro_media": 0.3162731711595274,
+      "f1_macro_std": 0.00525820723544658,
+      "kappa_media": 0.004474921689138545
+    },
+    "metricas_test": {
+      "accuracy": 0.8839214113873296,
+      "balanced_accuracy": 0.3332577475434618,
+      "f1_macro": 0.3127948636089532,
+      "kappa_cuadratico": 0.0003627427226470248,
+      "mae_ordinal": 0.11607858861267041
+    },
+    "ruta_modelo": "models_clasificacion/modelos/ancho_igual_log__GLM.joblib",
+    "fecha": "2026-11-02T20:09:25"
+  },
+  "ancho_igual_log|XGBoost": {
+    "metodo": "ancho_igual_log",
+    "modelo": "XGBoost",
+    "balanceo": "weights",
+    "config_id": 0,
+    "hiperparametros": {
+      "subsample": 0.7,
+      "n_estimators": 300,
+      "max_depth": 6,
+      "learning_rate": 0.05,
+      "colsample_bytree": 0.7
+    },
+    "cortes_monto": [
+      260.108489976123,
+      32619.882075411973
+    ],
+    "etiquetas": [
+      "barato",
+      "intermedio",
+      "caro"
+    ],
+    "gvf_train": 0.639369609993223,
+    "metricas_cv": {
+      "f1_macro_media": 0.34288762291745306,
+      "f1_macro_std": 0.0032891799693682364,
+      "kappa_media": 0.0822797076666238
+    },
+    "metricas_test": {
+      "accuracy": 0.6281074578989575,
+      "balanced_accuracy": 0.38512971902480153,
+      "f1_macro": 0.33404656096728114,
+      "kappa_cuadratico": 0.06441612545074038,
+      "mae_ordinal": 0.3755012028869286
+    },
+    "ruta_modelo": "models_clasificacion/modelos/ancho_igual_log__XGBoost.joblib",
+    "fecha": "2026-11-02T20:09:42"
+  },
+  "ancho_igual_log|LightGBM": {
+    "metodo": "ancho_igual_log",
+    "modelo": "LightGBM",
+    "balanceo": "weights",
+    "config_id": 0,
+    "hiperparametros": {
+      "subsample": 0.7,
+      "num_leaves": 31,
+      "n_estimators": 300,
+      "min_child_samples": 10,
+      "learning_rate": 0.1,
+      "colsample_bytree": 0.7
+    },
+    "cortes_monto": [
+      260.108489976123,
+      32619.882075411973
+    ],
+    "etiquetas": [
+      "barato",
+      "intermedio",
+      "caro"
+    ],
+    "gvf_train": 0.639369609993223,
+    "metricas_cv": {
+      "f1_macro_media": 0.3537496645757015,
+      "f1_macro_std": 0.0035989507502806432,
+      "kappa_media": 0.0712563175968753
+    },
+    "metricas_test": {
+      "accuracy": 0.7227345629510826,
+      "balanced_accuracy": 0.365127377831552,
+      "f1_macro": 0.34612380394454206,
+      "kappa_cuadratico": 0.05802244419359459,
+      "mae_ordinal": 0.27947072975140336
+    },
+    "ruta_modelo": "models_clasificacion/modelos/ancho_igual_log__LightGBM.joblib",
+    "fecha": "2026-11-02T20:10:44"
+  },
+  "fijos|GLM": {
+    "metodo": "fijos",
+    "modelo": "GLM",
+    "balanceo": "weights",
+    "config_id": 2,
+    "hiperparametros": {
+      "C": 0.01
+    },
+    "cortes_monto": [
+      999.9999999999999,
+      2999.9999999999995
+    ],
+    "etiquetas": [
+      "barato",
+      "intermedio",
+      "caro"
+    ],
+    "gvf_train": 0.6596086559172226,
+    "metricas_cv": {
+      "f1_macro_media": 0.3594501174371359,
+      "f1_macro_std": 0.005130459770495764,
+      "kappa_media": 0.06139486044867167
+    },
+    "metricas_test": {
+      "accuracy": 0.4029671210906175,
+      "balanced_accuracy": 0.3933224935663689,
+      "f1_macro": 0.3551390522241408,
+      "kappa_cuadratico": 0.06117535751788272,
+      "mae_ordinal": 0.7133119486768243
+    },
+    "ruta_modelo": "models_clasificacion/modelos/fijos__GLM.joblib",
+    "fecha": "2026-11-02T20:11:18"
+  },
+  "fijos|XGBoost": {
+    "metodo": "fijos",
+    "modelo": "XGBoost",
+    "balanceo": "weights",
+    "config_id": 0,
+    "hiperparametros": {
+      "subsample": 0.7,
+      "n_estimators": 300,
+      "max_depth": 6,
+      "learning_rate": 0.05,
+      "colsample_bytree": 0.7
+    },
+    "cortes_monto": [
+      999.9999999999999,
+      2999.9999999999995
+    ],
+    "etiquetas": [
+      "barato",
+      "intermedio",
+      "caro"
+    ],
+    "gvf_train": 0.6596086559172226,
+    "metricas_cv": {
+      "f1_macro_media": 0.37530324023751865,
+      "f1_macro_std": 0.0013833656463466645,
+      "kappa_media": 0.05709966308811224
+    },
+    "metricas_test": {
+      "accuracy": 0.4380513231756215,
+      "balanced_accuracy": 0.3847581876520915,
+      "f1_macro": 0.3660568431911509,
+      "kappa_cuadratico": 0.05444392242909346,
+      "mae_ordinal": 0.6587810745789896
+    },
+    "ruta_modelo": "models_clasificacion/modelos/fijos__XGBoost.joblib",
+    "fecha": "2026-11-02T20:11:30"
+  },
+  "fijos|LightGBM": {
+    "metodo": "fijos",
+    "modelo": "LightGBM",
+    "balanceo": "weights",
+    "config_id": 2,
+    "hiperparametros": {
+      "subsample": 0.7,
+      "num_leaves": 15,
+      "n_estimators": 100,
+      "min_child_samples": 20,
+      "learning_rate": 0.05,
+      "colsample_bytree": 0.8
+    },
+    "cortes_monto": [
+      999.9999999999999,
+      2999.9999999999995
+    ],
+    "etiquetas": [
+      "barato",
+      "intermedio",
+      "caro"
+    ],
+    "gvf_train": 0.6596086559172226,
+    "metricas_cv": {
+      "f1_macro_media": 0.37430616004248357,
+      "f1_macro_std": 0.0034026648288367108,
+      "kappa_media": 0.07466211357596564
+    },
+    "metricas_test": {
+      "accuracy": 0.423616680032077,
+      "balanced_accuracy": 0.4107469107592943,
+      "f1_macro": 0.3722413265423668,
+      "kappa_cuadratico": 0.08320593287800515,
+      "mae_ordinal": 0.6862469927826784
+    },
+    "ruta_modelo": "models_clasificacion/modelos/fijos__LightGBM.joblib",
+    "fecha": "2026-11-02T20:12:15"
+  }
+}
